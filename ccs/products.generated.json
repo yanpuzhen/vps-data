@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-02T11:57:35.713Z",
+  "generatedAt": "2026-06-02T21:47:19.077Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -28,26 +28,432 @@
     "extraPids": [],
     "stats": {
       "categoryProducts": 9,
-      "pidTargets": 0,
+      "pidTargets": 190,
       "pidParsed": 0,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 0,
-      "pidUnparsed": 0,
+      "pidOutOfStockOnly": 42,
+      "pidUnparsed": 148,
       "pidScrapeErrors": 0,
-      "pidScanEnabled": 0,
-      "pidScanMin": 0,
-      "pidScanMax": 0,
-      "pidScanConcurrency": 0,
+      "pidScanEnabled": 1,
+      "pidScanMin": 1,
+      "pidScanMax": 10000,
+      "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
       "pidScanCacheHits": 0,
-      "pidScanRequests": 0,
-      "pidScanValid": 0,
-      "pidScanInvalid": 0,
+      "pidScanRequests": 10000,
+      "pidScanValid": 190,
+      "pidScanInvalid": 9810,
       "pidScanErrors": 0
     }
   },
   "warnings": [],
   "products": [
+    {
+      "id": "3",
+      "title": "CCS PID 3",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/starter-2-cpu4gb-ram",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/starter-2-cpu4gb-ram"
+        }
+      ],
+      "baseSpecsText": "CCS PID 3\nPID: 3\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/starter-2-cpu4gb-ram"
+    },
+    {
+      "id": "4",
+      "title": "CCS PID 4",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/standard-4-cpu8gb-ram",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/standard-4-cpu8gb-ram"
+        }
+      ],
+      "baseSpecsText": "CCS PID 4\nPID: 4\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/standard-4-cpu8gb-ram"
+    },
+    {
+      "id": "5",
+      "title": "CCS PID 5",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/standard-8-cpu16gb-ram",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/standard-8-cpu16gb-ram"
+        }
+      ],
+      "baseSpecsText": "CCS PID 5\nPID: 5\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/standard-8-cpu16gb-ram"
+    },
+    {
+      "id": "6",
+      "title": "CCS PID 6",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/professional-16-cpu32gb-ram",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/professional-16-cpu32gb-ram"
+        }
+      ],
+      "baseSpecsText": "CCS PID 6\nPID: 6\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/professional-16-cpu32gb-ram"
+    },
+    {
+      "id": "7",
+      "title": "CCS PID 7",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/enterprise-24-cpu64gb-ram",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/enterprise-24-cpu64gb-ram"
+        }
+      ],
+      "baseSpecsText": "CCS PID 7\nPID: 7\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/old-cloud-vps/enterprise-24-cpu64gb-ram"
+    },
+    {
+      "id": "8",
+      "title": "CCS PID 8",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/cart.php?a=view",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/cart.php?a=view"
+        }
+      ],
+      "baseSpecsText": "CCS PID 8\nPID: 8\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/cart.php?a=view"
+    },
+    {
+      "id": "9",
+      "title": "CCS PID 9",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/private-cloud/my-private-cloud",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/private-cloud/my-private-cloud"
+        }
+      ],
+      "baseSpecsText": "CCS PID 9\nPID: 9\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/private-cloud/my-private-cloud"
+    },
+    {
+      "id": "11",
+      "title": "CCS PID 11",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/2vcpu",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/2vcpu"
+        }
+      ],
+      "baseSpecsText": "CCS PID 11\nPID: 11\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/2vcpu"
+    },
+    {
+      "id": "12",
+      "title": "CCS PID 12",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/4vcpu",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/4vcpu"
+        }
+      ],
+      "baseSpecsText": "CCS PID 12\nPID: 12\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/4vcpu"
+    },
+    {
+      "id": "14",
+      "title": "CCS PID 14",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/8vcpu",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/8vcpu"
+        }
+      ],
+      "baseSpecsText": "CCS PID 14\nPID: 14\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/8vcpu"
+    },
+    {
+      "id": "15",
+      "title": "CCS PID 15",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/16vcpu",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/16vcpu"
+        }
+      ],
+      "baseSpecsText": "CCS PID 15\nPID: 15\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/16vcpu"
+    },
+    {
+      "id": "16",
+      "title": "CCS PID 16",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/24vcpu",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/24vcpu"
+        }
+      ],
+      "baseSpecsText": "CCS PID 16\nPID: 16\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/24vcpu"
+    },
+    {
+      "id": "17",
+      "title": "CCS PID 17",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/32vcpu",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/32vcpu"
+        }
+      ],
+      "baseSpecsText": "CCS PID 17\nPID: 17\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/32vcpu"
+    },
+    {
+      "id": "18",
+      "title": "CCS PID 18",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/testing/wptest",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/testing/wptest"
+        }
+      ],
+      "baseSpecsText": "CCS PID 18\nPID: 18\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/testing/wptest"
+    },
     {
       "id": "19",
       "title": "1GB RAM",
@@ -211,6 +617,122 @@
         }
       ],
       "baseSpecsText": "8GB RAM\nStarting from\n$24.95 USD\nMonthly\n4 vCPU\n8GB RAM\n165GB SSD Space\n1 x IPv4\n20TB Bandwidth\n1Gbps Port Speed\nStarting from\n$24.95 USD\nMonthly\nGET STARTED"
+    },
+    {
+      "id": "23",
+      "title": "CCS PID 23",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/1gb-ram-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/1gb-ram-1"
+        }
+      ],
+      "baseSpecsText": "CCS PID 23\nPID: 23\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/1gb-ram-1"
+    },
+    {
+      "id": "24",
+      "title": "CCS PID 24",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/2gb-ram-2",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/2gb-ram-2"
+        }
+      ],
+      "baseSpecsText": "CCS PID 24\nPID: 24\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/2gb-ram-2"
+    },
+    {
+      "id": "25",
+      "title": "CCS PID 25",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/4gb-ram-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/4gb-ram-1"
+        }
+      ],
+      "baseSpecsText": "CCS PID 25\nPID: 25\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/4gb-ram-1"
+    },
+    {
+      "id": "26",
+      "title": "CCS PID 26",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/4gb-ram-2",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/4gb-ram-2"
+        }
+      ],
+      "baseSpecsText": "CCS PID 26\nPID: 26\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/4gb-ram-2"
     },
     {
       "id": "27",
@@ -416,6 +938,4733 @@
         }
       ],
       "baseSpecsText": "Cloud Metal Server - 32GB\nStarting from\n$78.00 USD\nMonthly\n8 Dedicated CPU Cores\n500GB SSD\n32GB RAM\n1 IPv4\n20TB Bandwidth\n1Gbps Port Speed\nStarting from\n$78.00 USD\nMonthly\nGET STARTED\n0 Available\nAdded to Cart\nBased on your order, we recommend:\nContinue\nFREE!\nSetup Fee\nAdd to Cart\nA description (tagline) is not available for this product.\nCopyright &copy; 2026 ColoCrossing Cloud. All Rights Reserved.\nEnglish\nالعربية\nAzerbaijani\nCatalà\n中文\nHrvatski\nČeština\nDansk\nNederlands\nEnglish\nEstonian\nPersian\nFrançais\nDeutsch\nעברית\nMagyar\nItaliano\nMacedonian\nNorwegian\nPortuguês\nPortuguês\nRomână\nРусский\nEspañol\nSvenska\nTürkçe\nУкраїнська\nNo Records Found\nSubmit\nClose\nGenerate Password\nPlease enter a number between 8 and 64 for the password length\nPassword Length\nGenerated Password\nGenerate new password\nCopy\nClose\nCopy to clipboard and Insert"
+    },
+    {
+      "id": "33",
+      "title": "CCS PID 33",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-valentines-kvm-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-valentines-kvm-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 33\nPID: 33\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-valentines-kvm-vps"
+    },
+    {
+      "id": "34",
+      "title": "CCS PID 34",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-valentines-kvm-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-valentines-kvm-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 34\nPID: 34\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-valentines-kvm-vps"
+    },
+    {
+      "id": "35",
+      "title": "CCS PID 35",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/3gb-valentines-kvm-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/3gb-valentines-kvm-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 35\nPID: 35\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/3gb-valentines-kvm-vps"
+    },
+    {
+      "id": "36",
+      "title": "CCS PID 36",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-valentines-kvm-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-valentines-kvm-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 36\nPID: 36\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-valentines-kvm-vps"
+    },
+    {
+      "id": "37",
+      "title": "CCS PID 37",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-leb-best-lakvm-vps-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-leb-best-lakvm-vps-1"
+        }
+      ],
+      "baseSpecsText": "CCS PID 37\nPID: 37\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-leb-best-lakvm-vps-1"
+    },
+    {
+      "id": "38",
+      "title": "CCS PID 38",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Los Angeles",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-leb-best-la-kvm-vps-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-leb-best-la-kvm-vps-1"
+        }
+      ],
+      "baseSpecsText": "CCS PID 38\nPID: 38\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-leb-best-la-kvm-vps-1"
+    },
+    {
+      "id": "39",
+      "title": "CCS PID 39",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Los Angeles",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-leb-best-la-kvm-vps-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-leb-best-la-kvm-vps-1"
+        }
+      ],
+      "baseSpecsText": "CCS PID 39\nPID: 39\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-leb-best-la-kvm-vps-1"
+    },
+    {
+      "id": "40",
+      "title": "CCS PID 40",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/customer-4761-16gb-plan",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/customer-4761-16gb-plan"
+        }
+      ],
+      "baseSpecsText": "CCS PID 40\nPID: 40\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/customer-4761-16gb-plan"
+    },
+    {
+      "id": "41",
+      "title": "CCS PID 41",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-spring-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-spring-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 41\nPID: 41\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-spring-special"
+    },
+    {
+      "id": "42",
+      "title": "CCS PID 42",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-spring-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-spring-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 42\nPID: 42\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-spring-special"
+    },
+    {
+      "id": "43",
+      "title": "CCS PID 43",
+      "category": "Dedicated Server",
+      "family": "Dedicated Server",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/testing/dedicated-server",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/testing/dedicated-server"
+        }
+      ],
+      "baseSpecsText": "CCS PID 43\nPID: 43\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/testing/dedicated-server"
+    },
+    {
+      "id": "44",
+      "title": "CCS PID 44",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-summer-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-summer-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 44\nPID: 44\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-summer-special"
+    },
+    {
+      "id": "45",
+      "title": "CCS PID 45",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-summer-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-summer-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 45\nPID: 45\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-summer-special"
+    },
+    {
+      "id": "46",
+      "title": "CCS PID 46",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-summer-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-summer-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 46\nPID: 46\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-summer-special"
+    },
+    {
+      "id": "48",
+      "title": "CCS PID 48",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/shared/shared-hosting-plan",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/shared/shared-hosting-plan"
+        }
+      ],
+      "baseSpecsText": "CCS PID 48\nPID: 48\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/shared/shared-hosting-plan"
+    },
+    {
+      "id": "49",
+      "title": "CCS PID 49",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/1gb-leb-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/1gb-leb-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 49\nPID: 49\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/1gb-leb-special"
+    },
+    {
+      "id": "50",
+      "title": "CCS PID 50",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-black-friday-vps-2024",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-black-friday-vps-2024"
+        }
+      ],
+      "baseSpecsText": "CCS PID 50\nPID: 50\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-black-friday-vps-2024"
+    },
+    {
+      "id": "51",
+      "title": "CCS PID 51",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-black-friday-vps-2024",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-black-friday-vps-2024"
+        }
+      ],
+      "baseSpecsText": "CCS PID 51\nPID: 51\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-black-friday-vps-2024"
+    },
+    {
+      "id": "52",
+      "title": "CCS PID 52",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/3gb-black-friday-kvm-vps-2024",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/3gb-black-friday-kvm-vps-2024"
+        }
+      ],
+      "baseSpecsText": "CCS PID 52\nPID: 52\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/3gb-black-friday-kvm-vps-2024"
+    },
+    {
+      "id": "53",
+      "title": "CCS PID 53",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-black-friday-kvm-vps-2024",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-black-friday-kvm-vps-2024"
+        }
+      ],
+      "baseSpecsText": "CCS PID 53\nPID: 53\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-black-friday-kvm-vps-2024"
+    },
+    {
+      "id": "54",
+      "title": "CCS PID 54",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/custom-iron-pillar-global-servers",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/custom-iron-pillar-global-servers"
+        }
+      ],
+      "baseSpecsText": "CCS PID 54\nPID: 54\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/custom-iron-pillar-global-servers"
+    },
+    {
+      "id": "55",
+      "title": "CCS PID 55",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-black-friday-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-black-friday-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 55\nPID: 55\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-black-friday-special"
+    },
+    {
+      "id": "57",
+      "title": "CCS PID 57",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/cny-1gb-ram-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/cny-1gb-ram-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 57\nPID: 57\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/cny-1gb-ram-vps"
+    },
+    {
+      "id": "58",
+      "title": "CCS PID 58",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/cny-3gb-ram-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/cny-3gb-ram-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 58\nPID: 58\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/cny-3gb-ram-vps"
+    },
+    {
+      "id": "59",
+      "title": "CCS PID 59",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/cny-8gb-ram-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/cny-8gb-ram-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 59\nPID: 59\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/cny-8gb-ram-vps"
+    },
+    {
+      "id": "60",
+      "title": "CCS PID 60",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/cny-12gb-ram-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/cny-12gb-ram-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 60\nPID: 60\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/cny-12gb-ram-vps"
+    },
+    {
+      "id": "61",
+      "title": "CCS PID 61",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-spring-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-spring-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 61\nPID: 61\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-spring-special"
+    },
+    {
+      "id": "62",
+      "title": "CCS PID 62",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-spring-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-spring-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 62\nPID: 62\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-spring-special"
+    },
+    {
+      "id": "63",
+      "title": "CCS PID 63",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-spring-special-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-spring-special-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 63\nPID: 63\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-spring-special-2025"
+    },
+    {
+      "id": "64",
+      "title": "CCS PID 64",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-spring-special-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-spring-special-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 64\nPID: 64\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-spring-special-2025"
+    },
+    {
+      "id": "65",
+      "title": "CCS PID 65",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-spring-special-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-spring-special-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 65\nPID: 65\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-spring-special-2025"
+    },
+    {
+      "id": "66",
+      "title": "CCS PID 66",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-spring-special-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-spring-special-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 66\nPID: 66\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-spring-special-2025"
+    },
+    {
+      "id": "67",
+      "title": "CCS PID 67",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-spring-special-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-spring-special-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 67\nPID: 67\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-spring-special-2025"
+    },
+    {
+      "id": "68",
+      "title": "CCS PID 68",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/16gb-ram-spring-special-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/16gb-ram-spring-special-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 68\nPID: 68\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/16gb-ram-spring-special-2025"
+    },
+    {
+      "id": "69",
+      "title": "CCS PID 69",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-1gb-ram-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-1gb-ram-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 69\nPID: 69\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-1gb-ram-vps"
+    },
+    {
+      "id": "70",
+      "title": "CCS PID 70",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-1gb-ram-vps-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-1gb-ram-vps-1"
+        }
+      ],
+      "baseSpecsText": "CCS PID 70\nPID: 70\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-1gb-ram-vps-1"
+    },
+    {
+      "id": "71",
+      "title": "CCS PID 71",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-4gb-ram-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-4gb-ram-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 71\nPID: 71\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-4gb-ram-vps"
+    },
+    {
+      "id": "72",
+      "title": "CCS PID 72",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-4gb-ram-vps-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-4gb-ram-vps-1"
+        }
+      ],
+      "baseSpecsText": "CCS PID 72\nPID: 72\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-4gb-ram-vps-1"
+    },
+    {
+      "id": "73",
+      "title": "CCS PID 73",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-jp-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-jp-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 73\nPID: 73\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-jp-special"
+    },
+    {
+      "id": "74",
+      "title": "CCS PID 74",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1-gb-ram-zp-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1-gb-ram-zp-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 74\nPID: 74\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1-gb-ram-zp-special"
+    },
+    {
+      "id": "75",
+      "title": "CCS PID 75",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-vpsxxs-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-vpsxxs-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 75\nPID: 75\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-vpsxxs-special"
+    },
+    {
+      "id": "76",
+      "title": "CCS PID 76",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-zp-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-zp-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 76\nPID: 76\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-zp-special"
+    },
+    {
+      "id": "77",
+      "title": "CCS PID 77",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsxxs-2gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsxxs-2gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 77\nPID: 77\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsxxs-2gb-ram-special"
+    },
+    {
+      "id": "78",
+      "title": "CCS PID 78",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-2gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-2gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 78\nPID: 78\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-2gb-ram-special"
+    },
+    {
+      "id": "79",
+      "title": "CCS PID 79",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/zp-4gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/zp-4gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 79\nPID: 79\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/zp-4gb-ram-special"
+    },
+    {
+      "id": "80",
+      "title": "CCS PID 80",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsxxs-4gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsxxs-4gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 80\nPID: 80\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsxxs-4gb-ram-special"
+    },
+    {
+      "id": "81",
+      "title": "CCS PID 81",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-4gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-4gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 81\nPID: 81\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-4gb-ram-special"
+    },
+    {
+      "id": "82",
+      "title": "CCS PID 82",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-4gb-ram-special-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-4gb-ram-special-1"
+        }
+      ],
+      "baseSpecsText": "CCS PID 82\nPID: 82\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-4gb-ram-special-1"
+    },
+    {
+      "id": "83",
+      "title": "CCS PID 83",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/zp-8gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/zp-8gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 83\nPID: 83\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/zp-8gb-ram-special"
+    },
+    {
+      "id": "84",
+      "title": "CCS PID 84",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsxxs-8gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsxxs-8gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 84\nPID: 84\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsxxs-8gb-ram-special"
+    },
+    {
+      "id": "85",
+      "title": "CCS PID 85",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-8gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-8gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 85\nPID: 85\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-8gb-ram-special"
+    },
+    {
+      "id": "86",
+      "title": "CCS PID 86",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-zhujiceping-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-zhujiceping-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 86\nPID: 86\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-zhujiceping-special"
+    },
+    {
+      "id": "87",
+      "title": "CCS PID 87",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/"
+        }
+      ],
+      "baseSpecsText": "CCS PID 87\nPID: 87\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/"
+    },
+    {
+      "id": "88",
+      "title": "CCS PID 88",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-1gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-1gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 88\nPID: 88\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsjyz-1gb-ram-special"
+    },
+    {
+      "id": "89",
+      "title": "CCS PID 89",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsxxs-1gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsxxs-1gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 89\nPID: 89\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/vpsxxs-1gb-ram-special"
+    },
+    {
+      "id": "90",
+      "title": "CCS PID 90",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-memorial-day-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-memorial-day-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 90\nPID: 90\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-memorial-day-special"
+    },
+    {
+      "id": "91",
+      "title": "CCS PID 91",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 91\nPID: 91\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-special"
+    },
+    {
+      "id": "92",
+      "title": "CCS PID 92",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-memorial-day-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-memorial-day-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 92\nPID: 92\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-memorial-day-special"
+    },
+    {
+      "id": "93",
+      "title": "CCS PID 93",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-memorial-day-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-memorial-day-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 93\nPID: 93\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-memorial-day-special"
+    },
+    {
+      "id": "94",
+      "title": "CCS PID 94",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-memorial-day-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-memorial-day-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 94\nPID: 94\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-memorial-day-special"
+    },
+    {
+      "id": "95",
+      "title": "CCS PID 95",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/2gb-ram-black-friday-cvps-custom",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/2gb-ram-black-friday-cvps-custom"
+        }
+      ],
+      "baseSpecsText": "CCS PID 95\nPID: 95\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/2gb-ram-black-friday-cvps-custom"
+    },
+    {
+      "id": "96",
+      "title": "CCS PID 96",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-linkedin-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-linkedin-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 96\nPID: 96\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-linkedin-special"
+    },
+    {
+      "id": "97",
+      "title": "CCS PID 97",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-linkedin-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-linkedin-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 97\nPID: 97\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-linkedin-special"
+    },
+    {
+      "id": "98",
+      "title": "CCS PID 98",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-linkedin-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-linkedin-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 98\nPID: 98\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-linkedin-special"
+    },
+    {
+      "id": "99",
+      "title": "CCS PID 99",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-linkedin-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-linkedin-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 99\nPID: 99\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-linkedin-special"
+    },
+    {
+      "id": "100",
+      "title": "CCS PID 100",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-linkedin-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-linkedin-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 100\nPID: 100\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-linkedin-special"
+    },
+    {
+      "id": "101",
+      "title": "CCS PID 101",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-summer-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-summer-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 101\nPID: 101\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-summer-special"
+    },
+    {
+      "id": "102",
+      "title": "CCS PID 102",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-summer-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-summer-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 102\nPID: 102\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-summer-special"
+    },
+    {
+      "id": "103",
+      "title": "CCS PID 103",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/customer-13530-1gb-ram-10gb-disk-plan",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/customer-13530-1gb-ram-10gb-disk-plan"
+        }
+      ],
+      "baseSpecsText": "CCS PID 103\nPID: 103\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/customer-13530-1gb-ram-10gb-disk-plan"
+    },
+    {
+      "id": "104",
+      "title": "CCS PID 104",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-fall-special-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-fall-special-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 104\nPID: 104\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-fall-special-2025"
+    },
+    {
+      "id": "105",
+      "title": "CCS PID 105",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-fall-special-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-fall-special-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 105\nPID: 105\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-fall-special-2025"
+    },
+    {
+      "id": "106",
+      "title": "CCS PID 106",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-fall-special-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-fall-special-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 106\nPID: 106\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-fall-special-2025"
+    },
+    {
+      "id": "107",
+      "title": "CCS PID 107",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-fall-special-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-fall-special-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 107\nPID: 107\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-fall-special-2025"
+    },
+    {
+      "id": "108",
+      "title": "CCS PID 108",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/fall-1gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/fall-1gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 108\nPID: 108\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/fall-1gb-ram-special"
+    },
+    {
+      "id": "109",
+      "title": "CCS PID 109",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/fall-2gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/fall-2gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 109\nPID: 109\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/fall-2gb-ram-special"
+    },
+    {
+      "id": "110",
+      "title": "CCS PID 110",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/fall-4gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/fall-4gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 110\nPID: 110\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/fall-4gb-ram-special"
+    },
+    {
+      "id": "111",
+      "title": "CCS PID 111",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/fall-8gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/fall-8gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 111\nPID: 111\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/fall-8gb-ram-special"
+    },
+    {
+      "id": "112",
+      "title": "CCS PID 112",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 112\nPID: 112\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special"
+    },
+    {
+      "id": "114",
+      "title": "CCS PID 114",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/singles-day-2gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/singles-day-2gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 114\nPID: 114\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/singles-day-2gb-ram-special"
+    },
+    {
+      "id": "115",
+      "title": "CCS PID 115",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-4gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-4gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 115\nPID: 115\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-4gb-ram-special"
+    },
+    {
+      "id": "116",
+      "title": "CCS PID 116",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 116\nPID: 116\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special"
+    },
+    {
+      "id": "117",
+      "title": "CCS PID 117",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/singles-day-12gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/singles-day-12gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 117\nPID: 117\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/singles-day-12gb-ram-special"
+    },
+    {
+      "id": "118",
+      "title": "CCS PID 118",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 118\nPID: 118\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-zp"
+    },
+    {
+      "id": "119",
+      "title": "CCS PID 119",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 119\nPID: 119\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsxxs"
+    },
+    {
+      "id": "120",
+      "title": "CCS PID 120",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsjyz30",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsjyz30"
+        }
+      ],
+      "baseSpecsText": "CCS PID 120\nPID: 120\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsjyz30"
+    },
+    {
+      "id": "121",
+      "title": "CCS PID 121",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-2gb-ram-special-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-2gb-ram-special-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 121\nPID: 121\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-2gb-ram-special-zp"
+    },
+    {
+      "id": "122",
+      "title": "CCS PID 122",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-2gb-ram-special-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-2gb-ram-special-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 122\nPID: 122\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-2gb-ram-special-vpsxxs"
+    },
+    {
+      "id": "123",
+      "title": "CCS PID 123",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-2gb-ram-special-vpsjyz30",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-2gb-ram-special-vpsjyz30"
+        }
+      ],
+      "baseSpecsText": "CCS PID 123\nPID: 123\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-2gb-ram-special-vpsjyz30"
+    },
+    {
+      "id": "124",
+      "title": "CCS PID 124",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-4gb-ram-special-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-4gb-ram-special-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 124\nPID: 124\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-4gb-ram-special-vpsxxs"
+    },
+    {
+      "id": "125",
+      "title": "CCS PID 125",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-4gb-ram-special-vpsjyz30",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-4gb-ram-special-vpsjyz30"
+        }
+      ],
+      "baseSpecsText": "CCS PID 125\nPID: 125\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-4gb-ram-special-vpsjyz30"
+    },
+    {
+      "id": "126",
+      "title": "CCS PID 126",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-4gb-ram-special-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-4gb-ram-special-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 126\nPID: 126\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-4gb-ram-special-zp"
+    },
+    {
+      "id": "127",
+      "title": "CCS PID 127",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 127\nPID: 127\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-vpsxxs"
+    },
+    {
+      "id": "128",
+      "title": "CCS PID 128",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-vpsjyz30",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-vpsjyz30"
+        }
+      ],
+      "baseSpecsText": "CCS PID 128\nPID: 128\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-vpsjyz30"
+    },
+    {
+      "id": "129",
+      "title": "CCS PID 129",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 129\nPID: 129\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-zp"
+    },
+    {
+      "id": "130",
+      "title": "CCS PID 130",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-12gb-ram-special-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-12gb-ram-special-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 130\nPID: 130\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-12gb-ram-special-vpsxxs"
+    },
+    {
+      "id": "131",
+      "title": "CCS PID 131",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-12gb-ram-special-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-12gb-ram-special-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 131\nPID: 131\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-12gb-ram-special-zp"
+    },
+    {
+      "id": "132",
+      "title": "CCS PID 132",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-12gb-ram-special-vpsjyz30",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-12gb-ram-special-vpsjyz30"
+        }
+      ],
+      "baseSpecsText": "CCS PID 132\nPID: 132\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-12gb-ram-special-vpsjyz30"
+    },
+    {
+      "id": "133",
+      "title": "CCS PID 133",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-1gb-ram-vps-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-1gb-ram-vps-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 133\nPID: 133\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-1gb-ram-vps-2025"
+    },
+    {
+      "id": "134",
+      "title": "CCS PID 134",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-2gb-ram-vps-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-2gb-ram-vps-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 134\nPID: 134\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-2gb-ram-vps-2025"
+    },
+    {
+      "id": "135",
+      "title": "CCS PID 135",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-4gb-ram-vps-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-4gb-ram-vps-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 135\nPID: 135\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-4gb-ram-vps-2025"
+    },
+    {
+      "id": "136",
+      "title": "CCS PID 136",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-8gb-ram-vps-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-8gb-ram-vps-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 136\nPID: 136\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-8gb-ram-vps-2025"
+    },
+    {
+      "id": "137",
+      "title": "CCS PID 137",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-12gb-ram-vps-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-12gb-ram-vps-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 137\nPID: 137\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-12gb-ram-vps-2025"
+    },
+    {
+      "id": "138",
+      "title": "CCS PID 138",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-16gb-ram-vps-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-16gb-ram-vps-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 138\nPID: 138\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/black-friday-16gb-ram-vps-2025"
+    },
+    {
+      "id": "139",
+      "title": "CCS PID 139",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-3gb-ram-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-3gb-ram-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 139\nPID: 139\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-3gb-ram-vps"
+    },
+    {
+      "id": "140",
+      "title": "CCS PID 140",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-6gb-ram-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-6gb-ram-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 140\nPID: 140\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-6gb-ram-vps"
+    },
+    {
+      "id": "141",
+      "title": "CCS PID 141",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 141\nPID: 141\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-2025"
+    },
+    {
+      "id": "142",
+      "title": "CCS PID 142",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-2025-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-2025-1"
+        }
+      ],
+      "baseSpecsText": "CCS PID 142\nPID: 142\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-2025-1"
+    },
+    {
+      "id": "143",
+      "title": "CCS PID 143",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-2gb-ram-vps-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-2gb-ram-vps-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 143\nPID: 143\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-2gb-ram-vps-2025"
+    },
+    {
+      "id": "144",
+      "title": "CCS PID 144",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-40tb-bw-2025",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-40tb-bw-2025"
+        }
+      ],
+      "baseSpecsText": "CCS PID 144\nPID: 144\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-40tb-bw-2025"
+    },
+    {
+      "id": "145",
+      "title": "CCS PID 145",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-40tb-bw-2025-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-40tb-bw-2025-1"
+        }
+      ],
+      "baseSpecsText": "CCS PID 145\nPID: 145\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-40tb-bw-2025-1"
+    },
+    {
+      "id": "146",
+      "title": "CCS PID 146",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-8gb-ram",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-8gb-ram"
+        }
+      ],
+      "baseSpecsText": "CCS PID 146\nPID: 146\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-8gb-ram"
+    },
+    {
+      "id": "147",
+      "title": "CCS PID 147",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-1gb-ram",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-1gb-ram"
+        }
+      ],
+      "baseSpecsText": "CCS PID 147\nPID: 147\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-1gb-ram"
+    },
+    {
+      "id": "148",
+      "title": "CCS PID 148",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-2gb-ram",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-2gb-ram"
+        }
+      ],
+      "baseSpecsText": "CCS PID 148\nPID: 148\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-2gb-ram"
+    },
+    {
+      "id": "149",
+      "title": "CCS PID 149",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-4gb-ram",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-4gb-ram"
+        }
+      ],
+      "baseSpecsText": "CCS PID 149\nPID: 149\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-4gb-ram"
+    },
+    {
+      "id": "150",
+      "title": "CCS PID 150",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-8gb-ram-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-8gb-ram-1"
+        }
+      ],
+      "baseSpecsText": "CCS PID 150\nPID: 150\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-8gb-ram-1"
+    },
+    {
+      "id": "151",
+      "title": "CCS PID 151",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-12gb-ram",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-12gb-ram"
+        }
+      ],
+      "baseSpecsText": "CCS PID 151\nPID: 151\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-12gb-ram"
+    },
+    {
+      "id": "152",
+      "title": "CCS PID 152",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-1gb-ram-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-1gb-ram-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 152\nPID: 152\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-1gb-ram-zp"
+    },
+    {
+      "id": "153",
+      "title": "CCS PID 153",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-1gb-ram-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-1gb-ram-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 153\nPID: 153\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-1gb-ram-vpsxxs"
+    },
+    {
+      "id": "154",
+      "title": "CCS PID 154",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-1gb-ram-vpsjyz30",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-1gb-ram-vpsjyz30"
+        }
+      ],
+      "baseSpecsText": "CCS PID 154\nPID: 154\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-1gb-ram-vpsjyz30"
+    },
+    {
+      "id": "155",
+      "title": "CCS PID 155",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-2gb-ram-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-2gb-ram-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 155\nPID: 155\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-2gb-ram-zp"
+    },
+    {
+      "id": "156",
+      "title": "CCS PID 156",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-2gb-ram-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-2gb-ram-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 156\nPID: 156\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-2gb-ram-vpsxxs"
+    },
+    {
+      "id": "157",
+      "title": "CCS PID 157",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-2gb-ram-vpsjyz30",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-2gb-ram-vpsjyz30"
+        }
+      ],
+      "baseSpecsText": "CCS PID 157\nPID: 157\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-2gb-ram-vpsjyz30"
+    },
+    {
+      "id": "158",
+      "title": "CCS PID 158",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-4gb-ram-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-4gb-ram-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 158\nPID: 158\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-4gb-ram-zp"
+    },
+    {
+      "id": "159",
+      "title": "CCS PID 159",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-4gb-ram-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-4gb-ram-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 159\nPID: 159\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/holiday-special-4gb-ram-vpsxxs"
+    },
+    {
+      "id": "160",
+      "title": "CCS PID 160",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-4gb-ram-vpsjyz30",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-4gb-ram-vpsjyz30"
+        }
+      ],
+      "baseSpecsText": "CCS PID 160\nPID: 160\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-4gb-ram-vpsjyz30"
+    },
+    {
+      "id": "161",
+      "title": "CCS PID 161",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-8gb-ram-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-8gb-ram-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 161\nPID: 161\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-8gb-ram-zp"
+    },
+    {
+      "id": "162",
+      "title": "CCS PID 162",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-8gb-ram-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-8gb-ram-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 162\nPID: 162\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-8gb-ram-vpsxxs"
+    },
+    {
+      "id": "163",
+      "title": "CCS PID 163",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-8gb-ram-vpsjyz30",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-8gb-ram-vpsjyz30"
+        }
+      ],
+      "baseSpecsText": "CCS PID 163\nPID: 163\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-8gb-ram-vpsjyz30"
+    },
+    {
+      "id": "164",
+      "title": "CCS PID 164",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-12gb-ram-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-12gb-ram-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 164\nPID: 164\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-12gb-ram-zp"
+    },
+    {
+      "id": "165",
+      "title": "CCS PID 165",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-12gb-ram-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-12gb-ram-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 165\nPID: 165\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-12gb-ram-vpsxxs"
+    },
+    {
+      "id": "166",
+      "title": "CCS PID 166",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-12gb-ram-vpsjyz30",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-12gb-ram-vpsjyz30"
+        }
+      ],
+      "baseSpecsText": "CCS PID 166\nPID: 166\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/holiday-special-12gb-ram-vpsjyz30"
+    },
+    {
+      "id": "167",
+      "title": "CCS PID 167",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-1gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-1gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 167\nPID: 167\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-1gb-ram-special"
+    },
+    {
+      "id": "168",
+      "title": "CCS PID 168",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-2gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-2gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 168\nPID: 168\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-2gb-ram-special"
+    },
+    {
+      "id": "169",
+      "title": "CCS PID 169",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/leblet-4gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/leblet-4gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 169\nPID: 169\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/leblet-4gb-ram-special"
+    },
+    {
+      "id": "170",
+      "title": "CCS PID 170",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/leblet-8gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/leblet-8gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 170\nPID: 170\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/leblet-8gb-ram-special"
+    },
+    {
+      "id": "171",
+      "title": "CCS PID 171",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/leblet-12gb-ram-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/leblet-12gb-ram-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 171\nPID: 171\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/leblet-12gb-ram-special"
+    },
+    {
+      "id": "172",
+      "title": "CCS PID 172",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/specials-1gb-ram-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/specials-1gb-ram-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 172\nPID: 172\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/specials-1gb-ram-zp"
+    },
+    {
+      "id": "173",
+      "title": "CCS PID 173",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-vps-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-vps-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 173\nPID: 173\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-vps-zp"
+    },
+    {
+      "id": "174",
+      "title": "CCS PID 174",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-vps-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-vps-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 174\nPID: 174\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-vps-zp"
+    },
+    {
+      "id": "175",
+      "title": "CCS PID 175",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-vps-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-vps-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 175\nPID: 175\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-vps-zp"
+    },
+    {
+      "id": "176",
+      "title": "CCS PID 176",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-vps-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-vps-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 176\nPID: 176\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-vps-zp"
+    },
+    {
+      "id": "177",
+      "title": "CCS PID 177",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-zp",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-zp"
+        }
+      ],
+      "baseSpecsText": "CCS PID 177\nPID: 177\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-zp"
+    },
+    {
+      "id": "178",
+      "title": "CCS PID 178",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-vps-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-vps-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 178\nPID: 178\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-vps-vpsxxs"
+    },
+    {
+      "id": "179",
+      "title": "CCS PID 179",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-vps-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-vps-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 179\nPID: 179\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-vps-vpsxxs"
+    },
+    {
+      "id": "180",
+      "title": "CCS PID 180",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-vps-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-vps-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 180\nPID: 180\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-vps-vpsxxs"
+    },
+    {
+      "id": "181",
+      "title": "CCS PID 181",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-vps-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-vps-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 181\nPID: 181\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-vps-vpsxxs"
+    },
+    {
+      "id": "182",
+      "title": "CCS PID 182",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsxxs",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsxxs"
+        }
+      ],
+      "baseSpecsText": "CCS PID 182\nPID: 182\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsxxs"
+    },
+    {
+      "id": "183",
+      "title": "CCS PID 183",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-vps-vpsjyz",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-vps-vpsjyz"
+        }
+      ],
+      "baseSpecsText": "CCS PID 183\nPID: 183\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-vps-vpsjyz"
+    },
+    {
+      "id": "184",
+      "title": "CCS PID 184",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-vps-vpsjyz",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-vps-vpsjyz"
+        }
+      ],
+      "baseSpecsText": "CCS PID 184\nPID: 184\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-vps-vpsjyz"
+    },
+    {
+      "id": "185",
+      "title": "CCS PID 185",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-vps-vpsjyz",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-vps-vpsjyz"
+        }
+      ],
+      "baseSpecsText": "CCS PID 185\nPID: 185\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-vps-vpsjyz"
+    },
+    {
+      "id": "186",
+      "title": "CCS PID 186",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-vps-vpsjyz",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-vps-vpsjyz"
+        }
+      ],
+      "baseSpecsText": "CCS PID 186\nPID: 186\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/8gb-ram-vps-vpsjyz"
+    },
+    {
+      "id": "187",
+      "title": "CCS PID 187",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsjyz",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsjyz"
+        }
+      ],
+      "baseSpecsText": "CCS PID 187\nPID: 187\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsjyz"
+    },
+    {
+      "id": "188",
+      "title": "CCS PID 188",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-1gb-ram-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-1gb-ram-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 188\nPID: 188\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-1gb-ram-vps"
+    },
+    {
+      "id": "189",
+      "title": "CCS PID 189",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-2gb-ram-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-2gb-ram-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 189\nPID: 189\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-2gb-ram-vps"
+    },
+    {
+      "id": "190",
+      "title": "CCS PID 190",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-4gb-ram-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-4gb-ram-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 190\nPID: 190\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-4gb-ram-vps"
+    },
+    {
+      "id": "191",
+      "title": "CCS PID 191",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-8gb-ram-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-8gb-ram-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 191\nPID: 191\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-8gb-ram-vps"
+    },
+    {
+      "id": "192",
+      "title": "CCS PID 192",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-12gb-ram-vps",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-12gb-ram-vps"
+        }
+      ],
+      "baseSpecsText": "CCS PID 192\nPID: 192\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/spring-12gb-ram-vps"
+    },
+    {
+      "id": "194",
+      "title": "CCS PID 194",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/testing/server-push-fee",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/testing/server-push-fee"
+        }
+      ],
+      "baseSpecsText": "CCS PID 194\nPID: 194\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/testing/server-push-fee"
+    },
+    {
+      "id": "195",
+      "title": "CCS PID 195",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-1gb-ram-vps-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-1gb-ram-vps-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 195\nPID: 195\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-1gb-ram-vps-special"
+    },
+    {
+      "id": "196",
+      "title": "CCS PID 196",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-4gb-ram-vps-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-4gb-ram-vps-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 196\nPID: 196\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-4gb-ram-vps-special"
+    },
+    {
+      "id": "197",
+      "title": "CCS PID 197",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-8gb-ram-vps-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-8gb-ram-vps-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 197\nPID: 197\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-8gb-ram-vps-special"
+    },
+    {
+      "id": "198",
+      "title": "CCS PID 198",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-2gb-ram-vps-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-2gb-ram-vps-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 198\nPID: 198\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-2gb-ram-vps-special"
+    },
+    {
+      "id": "199",
+      "title": "CCS PID 199",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "Unknown",
+      "stock": "Unparsed",
+      "availableCount": null,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-12gb-ram-vps-special",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-12gb-ram-vps-special"
+        }
+      ],
+      "baseSpecsText": "CCS PID 199\nPID: 199\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-12gb-ram-vps-special"
     }
   ]
 }

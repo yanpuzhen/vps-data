@@ -50,7 +50,4 @@ jobs:
         run: npm run validate:ccs
 
       - name: Commit updated data
-        uses: stefanzweifel/git-auto-commit-action@v6
-        with:
-          commit_message: "Update CCS product data"
-          file_pattern: ccs/products.generated.json ccs/ccs-extra-pids.json
+        run: bash scripts/commit-data-changes.sh "Update CCS product data" ccs/products.generated.json ccs/ccs-extra-pids.json

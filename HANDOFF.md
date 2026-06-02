@@ -116,4 +116,12 @@ npm run validate:racknerd
 - 本次推送范围包含 CCS 数据目录、CCS 独立 workflow、RackNerd workflow setup 修复、通用 WHMCS 抓取核心兼容项，以及 README/HANDOFF 交接说明。
 - 推送后先手动触发 `Scrape RackNerd Data`，确认它能越过 `Setup Node.js` 并进入 `Scrape RackNerd products` 步骤。
 - 再手动触发 `Scrape CCS Data`，确认 Actions 列表出现新 workflow，且 `WHMCS_PID_SCAN_MAX=10000` 生效。
-- 如果后续还要发布 CCS 前端，需在 CCS 前端自己的 git 仓库里提交 `src/data/remote.ts` 和构建 workflow 的 CCS raw JSON 地址变更；当前本地 `E:\affman\ccs` 目录不是 git 仓库。
+- CCS 前端仓库位于 `E:\affman\ccs`，静态构建产物已单独推送到该仓库的 `pages` 分支。
+
+## 2026-06-02 Actions 提交冲突修复
+
+- 远端 `Scrape CCS Data` run `26824227863` 的抓取和校验步骤均成功，失败点是最后的 `Commit updated data`。
+- 同一时间手动触发的 `Scrape RackNerd Data` run `26824240207` 先完成并提交了 `0d69620`，导致 CCS run 基于旧的 `88386fc` checkout 推送时落后远端。
+- 已新增 `scripts/commit-data-changes.sh`，三个数据 workflow 都改为调用该脚本提交数据。
+- 新提交脚本会在无变更时正常退出；有变更时先提交，若 push 因远端已有新提交而失败，会 `fetch + rebase` 后重试，默认最多 3 次。
+- 后续如需同时手动触发多个数据 workflow，可以直接并行触发；若仍失败，优先查看 `Commit ... data` 步骤是否出现 rebase 冲突。

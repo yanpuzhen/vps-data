@@ -1,0 +1,37 @@
+name: Scrape DMIT Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-dmit-data
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    env:
+      DMIT_OUTPUT_FILE: dmit/products.generated.json
+      DMIT_FETCH_TIMEOUT_MS: 30000
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Scrape DMIT products
+        run: npm run scrape:dmit
+
+      - name: Validate dataset
+        run: npm run validate:dmit
+
+      - name: Commit updated data
+        run: bash scripts/commit-data-changes.sh "Update DMIT product data" dmit/products.generated.json

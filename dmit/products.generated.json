@@ -1,0 +1,4099 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-02T15:36:20.980Z",
+  "source": {
+    "name": "DMIT Pricing",
+    "origin": "https://www.dmit.io",
+    "siteName": "DMIT",
+    "siteTitle": "DMIT VPS Filter",
+    "searchPlaceholder": "LAX / HKG / TYO / Premium / Eyeball",
+    "currency": "USD",
+    "affiliate": {
+      "id": "22739",
+      "param": "aff",
+      "baseUrl": "https://www.dmit.io/aff.php"
+    },
+    "categories": [
+      {
+        "id": "lax-an4-pro",
+        "name": "Los Angeles Premium",
+        "url": "https://www.dmit.io/pages/pricing"
+      },
+      {
+        "id": "lax-an5-pro",
+        "name": "Los Angeles Premium",
+        "url": "https://www.dmit.io/pages/pricing"
+      },
+      {
+        "id": "lax-an4-eb",
+        "name": "Los Angeles Eyeball",
+        "url": "https://www.dmit.io/pages/pricing"
+      },
+      {
+        "id": "lax-an5-eb",
+        "name": "Los Angeles Eyeball",
+        "url": "https://www.dmit.io/pages/pricing"
+      },
+      {
+        "id": "lax-an5-t1-volume",
+        "name": "Los Angeles Tier 1",
+        "url": "https://www.dmit.io/pages/pricing"
+      },
+      {
+        "id": "lax-an4-t1",
+        "name": "Los Angeles Tier 1",
+        "url": "https://www.dmit.io/pages/pricing"
+      },
+      {
+        "id": "hkg-as3-pro",
+        "name": "Hong Kong Premium",
+        "url": "https://www.dmit.io/pages/pricing"
+      },
+      {
+        "id": "hkg-as3-eb",
+        "name": "Hong Kong Eyeball",
+        "url": "https://www.dmit.io/pages/pricing"
+      },
+      {
+        "id": "hkg-as3-t1",
+        "name": "Hong Kong Tier 1",
+        "url": "https://www.dmit.io/pages/pricing"
+      },
+      {
+        "id": "tyo-as3-pro",
+        "name": "Tokyo Premium",
+        "url": "https://www.dmit.io/pages/pricing"
+      },
+      {
+        "id": "tyo-as3-eb",
+        "name": "Tokyo Eyeball",
+        "url": "https://www.dmit.io/pages/pricing"
+      },
+      {
+        "id": "tyo-as3-t1",
+        "name": "Tokyo Tier 1",
+        "url": "https://www.dmit.io/pages/pricing"
+      }
+    ],
+    "stats": {
+      "pricingSourceUrl": "https://dmit.vpssk.com/",
+      "parsedProducts": 92,
+      "directOfficialFetch": false
+    }
+  },
+  "warnings": [
+    "DMIT protects the official pricing and cart pages with Cloudflare challenges; this scraper falls back to a public pricing mirror when direct official fetch fails.",
+    "Order URLs are rewritten to use affiliate id 22739. Always confirm stock, final price, billing cycle, and add-ons on DMIT checkout before purchase.",
+    "Fetch https://www.dmit.io/pages/pricing returned HTTP 403; trying next source."
+  ],
+  "products": [
+    {
+      "id": "210",
+      "title": "HKG.AS3.EB TINYv2",
+      "category": "Hong Kong Eyeball",
+      "family": "Eyeball Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 1,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 1000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 29.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=210",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=210"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.EB TINYv2\nHong Kong Eyeball\n1 虛擬核心\n1GB\n20GB SSD\n1000GB\n1Gbps\n$29.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "211",
+      "title": "HKG.AS3.EB STARTERv2",
+      "category": "Hong Kong Eyeball",
+      "family": "Eyeball Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 2000,
+        "portMbps": 2000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 59.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=211",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=211"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.EB STARTERv2\nHong Kong Eyeball\n1 虛擬核心\n2GB\n40GB SSD\n2000GB\n2Gbps\n$59.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "212",
+      "title": "HKG.AS3.EB MINIv2",
+      "category": "Hong Kong Eyeball",
+      "family": "Eyeball Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 60,
+        "storageType": "SSD",
+        "bandwidthGb": 3000,
+        "portMbps": 2000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 89.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=212",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=212"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.EB MINIv2\nHong Kong Eyeball\n2 虛擬核心\n2GB\n60GB SSD\n3000GB\n2Gbps\n$89.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "213",
+      "title": "HKG.AS3.EB MICROv2",
+      "category": "Hong Kong Eyeball",
+      "family": "Eyeball Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 4000,
+        "portMbps": 4000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 129.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=213",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=213"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.EB MICROv2\nHong Kong Eyeball\n4 虛擬核心\n4GB\n80GB SSD\n4000GB\n4Gbps\n$129.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "214",
+      "title": "HKG.AS3.EB MEDIUMv2",
+      "category": "Hong Kong Eyeball",
+      "family": "Eyeball Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 8,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 6000,
+        "portMbps": 4000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 199.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=214",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=214"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.EB MEDIUMv2\nHong Kong Eyeball\n4 虛擬核心\n8GB\n160GB SSD\n6000GB\n4Gbps\n$199.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "215",
+      "title": "HKG.AS3.EB LARGEv2",
+      "category": "Hong Kong Eyeball",
+      "family": "Eyeball Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 16,
+        "storageGb": 320,
+        "storageType": "SSD",
+        "bandwidthGb": 12000,
+        "portMbps": 4000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 389.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=215",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=215"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.EB LARGEv2\nHong Kong Eyeball\n8 虛擬核心\n16GB\n320GB SSD\n12000GB\n4Gbps\n$389.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "216",
+      "title": "HKG.AS3.EB GIANTv2",
+      "category": "Hong Kong Eyeball",
+      "family": "Eyeball Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 24,
+        "storageGb": 640,
+        "storageType": "SSD",
+        "bandwidthGb": 24000,
+        "portMbps": 4000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 789.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=216",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=216"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.EB GIANTv2\nHong Kong Eyeball\n8 虛擬核心\n24GB\n640GB SSD\n24000GB\n4Gbps\n$789.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "123",
+      "title": "HKG.AS3.Pro TINY",
+      "category": "Hong Kong Premium",
+      "family": "Premium Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 1,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 500,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 39.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=123",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=123"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.Pro TINY\nHong Kong Premium\n1 虛擬核心\n1GB\n20GB SSD\n500GB\n1Gbps\n$39.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "124",
+      "title": "HKG.AS3.Pro STARTER",
+      "category": "Hong Kong Premium",
+      "family": "Premium Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 1000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 79.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=124",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=124"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.Pro STARTER\nHong Kong Premium\n1 虛擬核心\n2GB\n40GB SSD\n1000GB\n1Gbps\n$79.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "125",
+      "title": "HKG.AS3.Pro MINI",
+      "category": "Hong Kong Premium",
+      "family": "Premium Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 60,
+        "storageType": "SSD",
+        "bandwidthGb": 1500,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 119.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=125",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=125"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.Pro MINI\nHong Kong Premium\n2 虛擬核心\n2GB\n60GB SSD\n1500GB\n1Gbps\n$119.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "126",
+      "title": "HKG.AS3.Pro MICRO",
+      "category": "Hong Kong Premium",
+      "family": "Premium Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 2000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 159.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=126",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=126"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.Pro MICRO\nHong Kong Premium\n4 虛擬核心\n4GB\n80GB SSD\n2000GB\n1Gbps\n$159.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "127",
+      "title": "HKG.AS3.Pro MEDIUM",
+      "category": "Hong Kong Premium",
+      "family": "Premium Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 8,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 2500,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 179.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=127",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=127"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.Pro MEDIUM\nHong Kong Premium\n4 虛擬核心\n8GB\n160GB SSD\n2500GB\n1Gbps\n$179.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "128",
+      "title": "HKG.AS3.Pro LARGE",
+      "category": "Hong Kong Premium",
+      "family": "Premium Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 16,
+        "storageGb": 320,
+        "storageType": "SSD",
+        "bandwidthGb": 3000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 239.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=128",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=128"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.Pro LARGE\nHong Kong Premium\n8 虛擬核心\n16GB\n320GB SSD\n3000GB\n1Gbps\n$239.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "129",
+      "title": "HKG.AS3.Pro GIANT",
+      "category": "Hong Kong Premium",
+      "family": "Premium Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 24,
+        "storageGb": 640,
+        "storageType": "SSD",
+        "bandwidthGb": 6000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 499.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=129",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=129"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.Pro GIANT\nHong Kong Premium\n8 虛擬核心\n24GB\n640GB SSD\n6000GB\n1Gbps\n$499.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "953269",
+      "title": "HKG.AS3.T1 WEE",
+      "category": "Hong Kong Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 1,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 1000,
+        "portMbps": 36.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.T1 WEE\nHong Kong Tier 1\n1 虛擬核心\n1GB\n20GB SSD\n1000GB\n$36.90/年\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "969492",
+      "title": "HKG.AS3.T1 TINY",
+      "category": "Hong Kong Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 1,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 2000,
+        "portMbps": 6.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.T1 TINY\nHong Kong Tier 1\n1 虛擬核心\n1GB\n20GB SSD\n2000GB\n$6.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "975622",
+      "title": "HKG.AS3.T1 STARTER",
+      "category": "Hong Kong Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 4000,
+        "portMbps": 12.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.T1 STARTER\nHong Kong Tier 1\n1 虛擬核心\n2GB\n40GB SSD\n4000GB\n$12.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "972117",
+      "title": "HKG.AS3.T1 MINI",
+      "category": "Hong Kong Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 60,
+        "storageType": "SSD",
+        "bandwidthGb": 8000,
+        "portMbps": 21.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.T1 MINI\nHong Kong Tier 1\n2 虛擬核心\n2GB\n60GB SSD\n8000GB\n$21.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "904383",
+      "title": "HKG.AS3.T1 MICRO",
+      "category": "Hong Kong Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 16000,
+        "portMbps": 32.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.T1 MICRO\nHong Kong Tier 1\n4 虛擬核心\n4GB\n80GB SSD\n16000GB\n$32.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "940030",
+      "title": "HKG.AS3.T1 MEDIUM",
+      "category": "Hong Kong Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 8,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 32000,
+        "portMbps": 49.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.T1 MEDIUM\nHong Kong Tier 1\n4 虛擬核心\n8GB\n160GB SSD\n32000GB\n$49.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "974418",
+      "title": "HKG.AS3.T1 LARGE",
+      "category": "Hong Kong Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 16,
+        "storageGb": 320,
+        "storageType": "SSD",
+        "bandwidthGb": 64000,
+        "portMbps": 99.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.T1 LARGE\nHong Kong Tier 1\n8 虛擬核心\n16GB\n320GB SSD\n64000GB\n$99.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "942105",
+      "title": "HKG.AS3.T1 GIANT",
+      "category": "Hong Kong Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Hong Kong",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "HKG",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 24,
+        "storageGb": 640,
+        "storageType": "SSD",
+        "bandwidthGb": 128000,
+        "portMbps": 199.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "HKG.AS3.T1 GIANT\nHong Kong Tier 1\n8 虛擬核心\n24GB\n640GB SSD\n128000GB\n$199.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "247",
+      "title": "LAX.AN4.EB STARTER",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 5000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 29.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=247",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=247"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.EB STARTER\nLos Angeles Eyeball\n2 虛擬核心\n2GB\n80GB SSD\n5000GB\n10Gbps\n$29.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "191",
+      "title": "LAX.AN5.EB STARTER",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 5000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 38.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=191",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=191"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.EB STARTER\nLos Angeles Eyeball\n2 虛擬核心\n2GB\n80GB SSD\n5000GB\n10Gbps\n$38.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "248",
+      "title": "LAX.AN4.EB MINI",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 10000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 58.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=248",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=248"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.EB MINI\nLos Angeles Eyeball\n4 虛擬核心\n4GB\n80GB SSD\n10000GB\n10Gbps\n$58.88/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "249",
+      "title": "LAX.AN4.EB MICRO",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 14000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 74.99,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=249",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=249"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.EB MICRO\nLos Angeles Eyeball\n4 虛擬核心\n4GB\n160GB SSD\n14000GB\n10Gbps\n$74.99/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "192",
+      "title": "LAX.AN5.EB MINI",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 10000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 76.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=192",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=192"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.EB MINI\nLos Angeles Eyeball\n4 虛擬核心\n4GB\n80GB SSD\n10000GB\n10Gbps\n$76.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "245",
+      "title": "LAX.AN4.EB TINY",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 1500,
+        "portMbps": 2000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annual",
+          "amount": 88.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=245",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=245"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.EB TINY\nLos Angeles Eyeball\n1 虛擬核心\n2GB\n20GB SSD\n1500GB\n2Gbps\n$88.88/年\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "193",
+      "title": "LAX.AN5.EB MICRO",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 14000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 99.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=193",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=193"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.EB MICRO\nLos Angeles Eyeball\n4 虛擬核心\n4GB\n160GB SSD\n14000GB\n10Gbps\n$99.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "189",
+      "title": "LAX.AN5.EB TINY",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 1500,
+        "portMbps": 2000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annual",
+          "amount": 119.99,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=189",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=189"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.EB TINY\nLos Angeles Eyeball\n1 虛擬核心\n2GB\n20GB SSD\n1500GB\n2Gbps\n$119.99/年\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "246",
+      "title": "LAX.AN4.EB Pocket",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 3000,
+        "portMbps": 4000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annual",
+          "amount": 159.98,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=246",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=246"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.EB Pocket\nLos Angeles Eyeball\n2 虛擬核心\n2GB\n40GB SSD\n3000GB\n4Gbps\n$159.98/年\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "250",
+      "title": "LAX.AN4.EB MEDIUM",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 6,
+        "cpuLabel": "6 虛擬核心",
+        "ramGb": 8,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 30000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 168.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=250",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=250"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.EB MEDIUM\nLos Angeles Eyeball\n6 虛擬核心\n8GB\n160GB SSD\n30000GB\n10Gbps\n$168.88/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "190",
+      "title": "LAX.AN5.EB Pocket",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 3000,
+        "portMbps": 4000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annual",
+          "amount": 203.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=190",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=190"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.EB Pocket\nLos Angeles Eyeball\n2 虛擬核心\n2GB\n40GB SSD\n3000GB\n4Gbps\n$203.90/年\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "194",
+      "title": "LAX.AN5.EB MEDIUM",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 6,
+        "cpuLabel": "6 虛擬核心",
+        "ramGb": 8,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 30000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 219.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=194",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=194"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.EB MEDIUM\nLos Angeles Eyeball\n6 虛擬核心\n8GB\n160GB SSD\n30000GB\n10Gbps\n$219.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "251",
+      "title": "LAX.AN4.EB LARGE",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 16,
+        "storageGb": 320,
+        "storageType": "SSD",
+        "bandwidthGb": 50000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 338.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=251",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=251"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.EB LARGE\nLos Angeles Eyeball\n8 虛擬核心\n16GB\n320GB SSD\n50000GB\n10Gbps\n$338.88/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "252",
+      "title": "LAX.AN4.EB GIANT",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 12,
+        "cpuLabel": "12 虛擬核心",
+        "ramGb": 24,
+        "storageGb": 640,
+        "storageType": "SSD",
+        "bandwidthGb": 100000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 619.99,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=252",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=252"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.EB GIANT\nLos Angeles Eyeball\n12 虛擬核心\n24GB\n640GB SSD\n100000GB\n10Gbps\n$619.99/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "196",
+      "title": "LAX.AN5.EB GIANT",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 12,
+        "cpuLabel": "12 虛擬核心",
+        "ramGb": 24,
+        "storageGb": 640,
+        "storageType": "SSD",
+        "bandwidthGb": 100000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 839.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=196",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=196"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.EB GIANT\nLos Angeles Eyeball\n12 虛擬核心\n24GB\n640GB SSD\n100000GB\n10Gbps\n$839.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "195",
+      "title": "LAX.AN5.EB LARGE",
+      "category": "Los Angeles Eyeball",
+      "family": "Eyeball Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 16,
+        "storageGb": 320,
+        "storageType": "SSD",
+        "bandwidthGb": 50000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 2759.4,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=195",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=195"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.EB LARGE\nLos Angeles Eyeball\n8 虛擬核心\n16GB\n320GB SSD\n50000GB\n10Gbps\n$2759.40/半年\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "239",
+      "title": "LAX.AN4.Pro STARTER",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 3000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 29.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=239",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=239"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.Pro STARTER\nLos Angeles Premium\n2 虛擬核心\n2GB\n80GB SSD\n3000GB\n10Gbps\n$29.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "56",
+      "title": "LAX.AN5.Pro STARTER",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 3000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 38.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=56",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=56"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.Pro STARTER\nLos Angeles Premium\n2 虛擬核心\n2GB\n80GB SSD\n3000GB\n10Gbps\n$38.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "240",
+      "title": "LAX.AN4.Pro MINI",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 5000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 58.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=240",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=240"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.Pro MINI\nLos Angeles Premium\n4 虛擬核心\n4GB\n80GB SSD\n5000GB\n10Gbps\n$58.88/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "241",
+      "title": "LAX.AN4.Pro MICRO",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 7000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 74.99,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=241",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=241"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.Pro MICRO\nLos Angeles Premium\n4 虛擬核心\n4GB\n160GB SSD\n7000GB\n10Gbps\n$74.99/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "58",
+      "title": "LAX.AN5.Pro MINI",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 5000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 76.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=58",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=58"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.Pro MINI\nLos Angeles Premium\n4 虛擬核心\n4GB\n80GB SSD\n5000GB\n10Gbps\n$76.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "237",
+      "title": "LAX.AN4.Pro TINY",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 1000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annual",
+          "amount": 88.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=237",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=237"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.Pro TINY\nLos Angeles Premium\n1 虛擬核心\n2GB\n20GB SSD\n1000GB\n1Gbps\n$88.88/年\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "81",
+      "title": "LAX.AN5.Pro MICRO",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 7000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 99.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=81",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=81"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.Pro MICRO\nLos Angeles Premium\n4 虛擬核心\n4GB\n160GB SSD\n7000GB\n10Gbps\n$99.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "100",
+      "title": "LAX.AN5.Pro TINY",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 1000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annual",
+          "amount": 119.99,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=100",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=100"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.Pro TINY\nLos Angeles Premium\n1 虛擬核心\n2GB\n20GB SSD\n1000GB\n1Gbps\n$119.99/年\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "238",
+      "title": "LAX.AN4.Pro Pocket",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 1500,
+        "portMbps": 4000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annual",
+          "amount": 159.98,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=238",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=238"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.Pro Pocket\nLos Angeles Premium\n2 虛擬核心\n2GB\n40GB SSD\n1500GB\n4Gbps\n$159.98/年\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "242",
+      "title": "LAX.AN4.Pro MEDIUM",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 6,
+        "cpuLabel": "6 虛擬核心",
+        "ramGb": 8,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 15000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 168.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=242",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=242"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.Pro MEDIUM\nLos Angeles Premium\n6 虛擬核心\n8GB\n160GB SSD\n15000GB\n10Gbps\n$168.88/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "137",
+      "title": "LAX.AN5.Pro Pocket",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 1500,
+        "portMbps": 4000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annual",
+          "amount": 203.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=137",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=137"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.Pro Pocket\nLos Angeles Premium\n2 虛擬核心\n2GB\n40GB SSD\n1500GB\n4Gbps\n$203.90/年\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "82",
+      "title": "LAX.AN5.Pro MEDIUM",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 6,
+        "cpuLabel": "6 虛擬核心",
+        "ramGb": 8,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 15000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 219.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=82",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=82"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.Pro MEDIUM\nLos Angeles Premium\n6 虛擬核心\n8GB\n160GB SSD\n15000GB\n10Gbps\n$219.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "243",
+      "title": "LAX.AN4.Pro LARGE",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 16,
+        "storageGb": 320,
+        "storageType": "SSD",
+        "bandwidthGb": 25000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 338.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=243",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=243"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.Pro LARGE\nLos Angeles Premium\n8 虛擬核心\n16GB\n320GB SSD\n25000GB\n10Gbps\n$338.88/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "244",
+      "title": "LAX.AN4.Pro GIANT",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 12,
+        "cpuLabel": "12 虛擬核心",
+        "ramGb": 24,
+        "storageGb": 640,
+        "storageType": "SSD",
+        "bandwidthGb": 50000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 619.99,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=244",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=244"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.Pro GIANT\nLos Angeles Premium\n12 虛擬核心\n24GB\n640GB SSD\n50000GB\n10Gbps\n$619.99/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "98",
+      "title": "LAX.AN5.Pro GIANT",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 12,
+        "cpuLabel": "12 虛擬核心",
+        "ramGb": 24,
+        "storageGb": 640,
+        "storageType": "SSD",
+        "bandwidthGb": 50000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 839.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=98",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=98"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.Pro GIANT\nLos Angeles Premium\n12 虛擬核心\n24GB\n640GB SSD\n50000GB\n10Gbps\n$839.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "61",
+      "title": "LAX.AN5.Pro LARGE",
+      "category": "Los Angeles Premium",
+      "family": "Premium Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 16,
+        "storageGb": 320,
+        "storageType": "SSD",
+        "bandwidthGb": 25000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 2759.4,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=61",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=61"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.Pro LARGE\nLos Angeles Premium\n8 虛擬核心\n16GB\n320GB SSD\n25000GB\n10Gbps\n$2759.40/半年\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "949442",
+      "title": "LAX.AN4.T1 WEE",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 1,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 1000,
+        "portMbps": 36.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.T1 WEE\nLos Angeles Tier 1\n1 虛擬核心\n1GB\n20GB SSD\n1000GB\n$36.90/年\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "913907",
+      "title": "LAX.AN4.T1 TINY",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 1,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 2000,
+        "portMbps": 6.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.T1 TINY\nLos Angeles Tier 1\n1 虛擬核心\n1GB\n20GB SSD\n2000GB\n$6.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "998673",
+      "title": "LAX.AN4.T1 STARTER",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 4000,
+        "portMbps": 12.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.T1 STARTER\nLos Angeles Tier 1\n2 虛擬核心\n2GB\n40GB SSD\n4000GB\n$12.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "927085",
+      "title": "LAX.AN4.T1 MINI",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 8000,
+        "portMbps": 21.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.T1 MINI\nLos Angeles Tier 1\n2 虛擬核心\n4GB\n80GB SSD\n8000GB\n$21.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "986604",
+      "title": "LAX.AN4.T1 MICRO",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 120,
+        "storageType": "SSD",
+        "bandwidthGb": 16000,
+        "portMbps": 32.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.T1 MICRO\nLos Angeles Tier 1\n4 虛擬核心\n4GB\n120GB SSD\n16000GB\n$32.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "169",
+      "title": "LAX.AN5.T1 V2C2G",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1",
+        "Volume"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 5000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 14.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=169",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=169"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.T1 V2C2G\nLos Angeles Tier 1\n2 虛擬核心\n2GB\n40GB SSD\n5000GB\n10Gbps\n$14.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "234",
+      "title": "LAX.AN4.T1 G2C4G",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 4000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 16.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=234",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=234"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.T1 G2C4G\nLos Angeles Tier 1\n2 虛擬核心\n4GB\n80GB SSD\n4000GB\n10Gbps\n$16.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "170",
+      "title": "LAX.AN5.T1 V2C4G",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1",
+        "Volume"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 10000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 23.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=170",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=170"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.T1 V2C4G\nLos Angeles Tier 1\n2 虛擬核心\n4GB\n80GB SSD\n10000GB\n10Gbps\n$23.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "171",
+      "title": "LAX.AN5.T1 V4C4G",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1",
+        "Volume"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 120,
+        "storageType": "SSD",
+        "bandwidthGb": 20000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 36.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=171",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=171"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.T1 V4C4G\nLos Angeles Tier 1\n4 虛擬核心\n4GB\n120GB SSD\n20000GB\n10Gbps\n$36.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "235",
+      "title": "LAX.AN4.T1 G4C8G",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 8,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 8000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 36.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=235",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=235"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.T1 G4C8G\nLos Angeles Tier 1\n4 虛擬核心\n8GB\n160GB SSD\n8000GB\n10Gbps\n$36.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "180",
+      "title": "LAX.AN5.T1 V4C8G",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1",
+        "Volume"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 8,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 40000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 52.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=180",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=180"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.T1 V4C8G\nLos Angeles Tier 1\n4 虛擬核心\n8GB\n160GB SSD\n40000GB\n10Gbps\n$52.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "236",
+      "title": "LAX.AN4.T1 G8C16G",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 16,
+        "storageGb": 320,
+        "storageType": "SSD",
+        "bandwidthGb": 12000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 79.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=236",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=236"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.T1 G8C16G\nLos Angeles Tier 1\n8 虛擬核心\n16GB\n320GB SSD\n12000GB\n10Gbps\n$79.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "172",
+      "title": "LAX.AN5.T1 V8C16G",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1",
+        "Volume"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 16,
+        "storageGb": 240,
+        "storageType": "SSD",
+        "bandwidthGb": 80000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 119.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=172",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=172"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.T1 V8C16G\nLos Angeles Tier 1\n8 虛擬核心\n16GB\n240GB SSD\n80000GB\n10Gbps\n$119.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "174",
+      "title": "LAX.AN4.T1 G12C24G",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 12,
+        "cpuLabel": "12 虛擬核心",
+        "ramGb": 24,
+        "storageGb": 480,
+        "storageType": "SSD",
+        "bandwidthGb": 240000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 119.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=174",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=174"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.T1 G12C24G\nLos Angeles Tier 1\n12 虛擬核心\n24GB\n480GB SSD\n240000GB\n10Gbps\n$119.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "173",
+      "title": "LAX.AN5.T1 V12C24G",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1",
+        "Volume"
+      ],
+      "specs": {
+        "cpuCores": 12,
+        "cpuLabel": "12 虛擬核心",
+        "ramGb": 24,
+        "storageGb": 320,
+        "storageType": "SSD",
+        "bandwidthGb": 160000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 199.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=173",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=173"
+        }
+      ],
+      "baseSpecsText": "LAX.AN5.T1 V12C24G\nLos Angeles Tier 1\n12 虛擬核心\n24GB\n320GB SSD\n160000GB\n10Gbps\n$199.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "175",
+      "title": "LAX.AN4.T1 G16C32G",
+      "category": "Los Angeles Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Los Angeles",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "LAX",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 16,
+        "cpuLabel": "16 虛擬核心",
+        "ramGb": 32,
+        "storageGb": 640,
+        "storageType": "SSD",
+        "bandwidthGb": 320000,
+        "portMbps": 10000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 199.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=175",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=175"
+        }
+      ],
+      "baseSpecsText": "LAX.AN4.T1 G16C32G\nLos Angeles Tier 1\n16 虛擬核心\n32GB\n640GB SSD\n320000GB\n10Gbps\n$199.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "221",
+      "title": "TYO.AS3.EB TINY",
+      "category": "Tokyo Eyeball",
+      "family": "Eyeball Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 1,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 1000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 25.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=221",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=221"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.EB TINY\nTokyo Eyeball\n1 虛擬核心\n1GB\n20GB SSD\n1000GB\n1Gbps\n$25.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "222",
+      "title": "TYO.AS3.EB STARTER",
+      "category": "Tokyo Eyeball",
+      "family": "Eyeball Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 2000,
+        "portMbps": 2000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 55.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=222",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=222"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.EB STARTER\nTokyo Eyeball\n1 虛擬核心\n2GB\n40GB SSD\n2000GB\n2Gbps\n$55.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "223",
+      "title": "TYO.AS3.EB MINI",
+      "category": "Tokyo Eyeball",
+      "family": "Eyeball Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 60,
+        "storageType": "SSD",
+        "bandwidthGb": 3000,
+        "portMbps": 2000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 85.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=223",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=223"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.EB MINI\nTokyo Eyeball\n2 虛擬核心\n2GB\n60GB SSD\n3000GB\n2Gbps\n$85.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "224",
+      "title": "TYO.AS3.EB MICRO",
+      "category": "Tokyo Eyeball",
+      "family": "Eyeball Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 4000,
+        "portMbps": 4000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 119.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=224",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=224"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.EB MICRO\nTokyo Eyeball\n4 虛擬核心\n4GB\n80GB SSD\n4000GB\n4Gbps\n$119.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "225",
+      "title": "TYO.AS3.EB MEDIUM",
+      "category": "Tokyo Eyeball",
+      "family": "Eyeball Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 8,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 6000,
+        "portMbps": 4000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 179.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=225",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=225"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.EB MEDIUM\nTokyo Eyeball\n4 虛擬核心\n8GB\n160GB SSD\n6000GB\n4Gbps\n$179.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "226",
+      "title": "TYO.AS3.EB LARGE",
+      "category": "Tokyo Eyeball",
+      "family": "Eyeball Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 16,
+        "storageGb": 320,
+        "storageType": "SSD",
+        "bandwidthGb": 12000,
+        "portMbps": 4000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 369.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=226",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=226"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.EB LARGE\nTokyo Eyeball\n8 虛擬核心\n16GB\n320GB SSD\n12000GB\n4Gbps\n$369.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "227",
+      "title": "TYO.AS3.EB GIANT",
+      "category": "Tokyo Eyeball",
+      "family": "Eyeball Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Eyeball"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 24,
+        "storageGb": 640,
+        "storageType": "SSD",
+        "bandwidthGb": 24000,
+        "portMbps": 4000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 749.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=227",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=227"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.EB GIANT\nTokyo Eyeball\n8 虛擬核心\n24GB\n640GB SSD\n24000GB\n4Gbps\n$749.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "138",
+      "title": "TYO.AS3.Pro TINY",
+      "category": "Tokyo Premium",
+      "family": "Premium Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 1,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 500,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 21.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=138",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=138"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.Pro TINY\nTokyo Premium\n1 虛擬核心\n1GB\n20GB SSD\n500GB\n1Gbps\n$21.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "139",
+      "title": "TYO.AS3.Pro STARTER",
+      "category": "Tokyo Premium",
+      "family": "Premium Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 1000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 39.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=139",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=139"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.Pro STARTER\nTokyo Premium\n1 虛擬核心\n2GB\n40GB SSD\n1000GB\n1Gbps\n$39.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "140",
+      "title": "TYO.AS3.Pro MINI",
+      "category": "Tokyo Premium",
+      "family": "Premium Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 60,
+        "storageType": "SSD",
+        "bandwidthGb": 2000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 79.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=140",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=140"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.Pro MINI\nTokyo Premium\n2 虛擬核心\n2GB\n60GB SSD\n2000GB\n1Gbps\n$79.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "141",
+      "title": "TYO.AS3.Pro MICRO",
+      "category": "Tokyo Premium",
+      "family": "Premium Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 4000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 159.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=141",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=141"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.Pro MICRO\nTokyo Premium\n4 虛擬核心\n4GB\n80GB SSD\n4000GB\n1Gbps\n$159.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "142",
+      "title": "TYO.AS3.Pro MEDIUM",
+      "category": "Tokyo Premium",
+      "family": "Premium Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 8,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 5000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 259.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=142",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=142"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.Pro MEDIUM\nTokyo Premium\n4 虛擬核心\n8GB\n160GB SSD\n5000GB\n1Gbps\n$259.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "143",
+      "title": "TYO.AS3.Pro LARGE",
+      "category": "Tokyo Premium",
+      "family": "Premium Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 16,
+        "storageGb": 320,
+        "storageType": "SSD",
+        "bandwidthGb": 8000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 429.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=143",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=143"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.Pro LARGE\nTokyo Premium\n8 虛擬核心\n16GB\n320GB SSD\n8000GB\n1Gbps\n$429.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "144",
+      "title": "TYO.AS3.Pro GIANT",
+      "category": "Tokyo Premium",
+      "family": "Premium Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Premium",
+        "CN2 GIA"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 24,
+        "storageGb": 640,
+        "storageType": "SSD",
+        "bandwidthGb": 15000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 799.9,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739&pid=144",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739&pid=144"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.Pro GIANT\nTokyo Premium\n8 虛擬核心\n24GB\n640GB SSD\n15000GB\n1Gbps\n$799.90/月\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "994006",
+      "title": "TYO.AS3.T1 WEE",
+      "category": "Tokyo Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 1,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 1000,
+        "portMbps": 36.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.T1 WEE\nTokyo Tier 1\n1 虛擬核心\n1GB\n20GB SSD\n1000GB\n$36.90/年\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "953524",
+      "title": "TYO.AS3.T1 TINY",
+      "category": "Tokyo Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 1,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 2000,
+        "portMbps": 6.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.T1 TINY\nTokyo Tier 1\n1 虛擬核心\n1GB\n20GB SSD\n2000GB\n$6.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "914103",
+      "title": "TYO.AS3.T1 STARTER",
+      "category": "Tokyo Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 4000,
+        "portMbps": 12.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.T1 STARTER\nTokyo Tier 1\n1 虛擬核心\n2GB\n40GB SSD\n4000GB\n$12.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "990673",
+      "title": "TYO.AS3.T1 MINI",
+      "category": "Tokyo Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 虛擬核心",
+        "ramGb": 2,
+        "storageGb": 60,
+        "storageType": "SSD",
+        "bandwidthGb": 8000,
+        "portMbps": 21.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.T1 MINI\nTokyo Tier 1\n2 虛擬核心\n2GB\n60GB SSD\n8000GB\n$21.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "977936",
+      "title": "TYO.AS3.T1 MICRO",
+      "category": "Tokyo Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 4,
+        "storageGb": 80,
+        "storageType": "SSD",
+        "bandwidthGb": 16000,
+        "portMbps": 32.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.T1 MICRO\nTokyo Tier 1\n4 虛擬核心\n4GB\n80GB SSD\n16000GB\n$32.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "908186",
+      "title": "TYO.AS3.T1 MEDIUM",
+      "category": "Tokyo Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 虛擬核心",
+        "ramGb": 8,
+        "storageGb": 160,
+        "storageType": "SSD",
+        "bandwidthGb": 32000,
+        "portMbps": 49.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.T1 MEDIUM\nTokyo Tier 1\n4 虛擬核心\n8GB\n160GB SSD\n32000GB\n$49.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "980966",
+      "title": "TYO.AS3.T1 LARGE",
+      "category": "Tokyo Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 16,
+        "storageGb": 320,
+        "storageType": "SSD",
+        "bandwidthGb": 64000,
+        "portMbps": 99.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.T1 LARGE\nTokyo Tier 1\n8 虛擬核心\n16GB\n320GB SSD\n64000GB\n$99.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    },
+    {
+      "id": "982091",
+      "title": "TYO.AS3.T1 GIANT",
+      "category": "Tokyo Tier 1",
+      "family": "Tier 1 Network",
+      "location": "Tokyo",
+      "stock": "Check DMIT checkout",
+      "availableCount": null,
+      "inStock": true,
+      "tags": [
+        "TYO",
+        "Tier 1"
+      ],
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 虛擬核心",
+        "ramGb": 24,
+        "storageGb": 640,
+        "storageType": "SSD",
+        "bandwidthGb": 128000,
+        "portMbps": 199.9,
+        "ipv4": 1
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://www.dmit.io/aff.php?aff=22739",
+      "sources": [
+        {
+          "type": "pricing",
+          "url": "https://dmit.vpssk.com/"
+        },
+        {
+          "type": "affiliate",
+          "url": "https://www.dmit.io/aff.php?aff=22739"
+        }
+      ],
+      "baseSpecsText": "TYO.AS3.T1 GIANT\nTokyo Tier 1\n8 虛擬核心\n24GB\n640GB SSD\n128000GB\n$199.90/月\n立即订购\nSource: https://dmit.vpssk.com/"
+    }
+  ]
+}

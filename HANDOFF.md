@@ -10,13 +10,14 @@
 https://raw.githubusercontent.com/yanpuzhen/vps-data/main/dedirock/products.generated.json
 https://raw.githubusercontent.com/yanpuzhen/vps-data/main/racknerd/products.generated.json
 https://raw.githubusercontent.com/yanpuzhen/vps-data/main/ccs/products.generated.json
+https://raw.githubusercontent.com/yanpuzhen/vps-data/main/dmit/products.generated.json
 ```
 
 ## 当前数据流
 
 1. GitHub Actions 定时运行对应商家的抓取 workflow。
-2. workflow 调用 `npm run scrape:dedirock`、`npm run scrape:racknerd` 或 `npm run scrape:ccs`。
-3. 抓取脚本读取对应目录的 `whmcs.config.json`。
+2. workflow 调用 `npm run scrape:dedirock`、`npm run scrape:racknerd`、`npm run scrape:ccs` 或 `npm run scrape:dmit`。
+3. WHMCS 抓取脚本读取对应目录的 `whmcs.config.json`；DMIT 使用独立 pricing 抓取器。
 4. 产物写入对应目录的 `products.generated.json`。
 5. 对应的 `validate:*` 脚本校验数据结构。
 6. 数据变化时由 `github-actions[bot]` 提交回 `main`。
@@ -62,6 +63,7 @@ npm run validate
 npm run refresh:dedirock
 npm run refresh:racknerd
 npm run refresh:ccs
+npm run refresh:dmit
 ```
 
 本地快速冒烟，不扫完整 PID 区间：
@@ -125,3 +127,11 @@ npm run validate:racknerd
 - 已新增 `scripts/commit-data-changes.sh`，三个数据 workflow 都改为调用该脚本提交数据。
 - 新提交脚本会在无变更时正常退出；有变更时先提交，若 push 因远端已有新提交而失败，会 `fetch + rebase` 后重试，默认最多 3 次。
 - 后续如需同时手动触发多个数据 workflow，可以直接并行触发；若仍失败，优先查看 `Commit ... data` 步骤是否出现 rebase 冲突。
+
+## 2026-06-02 DMIT 数据仓库补充
+
+- DMIT 抓数据仍放在 `vps-data`，公开数据地址为 `https://raw.githubusercontent.com/yanpuzhen/vps-data/main/dmit/products.generated.json`。
+- 已新增 `scripts/scrape-dmit.mjs`、`npm run scrape:dmit`、`npm run validate:dmit`、`npm run refresh:dmit` 和独立 workflow `.github/workflows/scrape-dmit.yml`。
+- DMIT 官方 pricing/cart 页面会返回 Cloudflare challenge，因此 DMIT 不使用 WHMCS `1..10000` PID 盲扫。脚本会先尝试 `https://www.dmit.io/pages/pricing`，失败后解析公开 pricing 镜像 `https://dmit.vpssk.com/`；若两者都失败，会使用内置保守快照并在 JSON `warnings` 中标明。
+- 抓到的镜像订单链接可能带其他 AFF，脚本只提取 `pid`，统一重写为 `https://www.dmit.io/aff.php?aff=22739&pid=...`，避免 AFF 串号。
+- DMIT 前端仓库位于 `E:\affman\DMIT`，前端只消费上述 raw JSON；不要把 DMIT 抓取 workflow 放回前端仓库。

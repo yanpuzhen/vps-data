@@ -4,12 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "scrape:ccs": "node scripts/scrape-ccs.mjs",
     "scrape:dedirock": "node scripts/scrape-dedirock.mjs",
     "scrape:racknerd": "node scripts/scrape-racknerd.mjs",
-    "validate": "npm run validate:dedirock && npm run validate:racknerd",
+    "validate": "npm run validate:dedirock && npm run validate:racknerd && npm run validate:ccs",
+    "validate:ccs": "node scripts/validate-products.mjs ccs/products.generated.json",
     "validate:dedirock": "node scripts/validate-products.mjs dedirock/products.generated.json",
     "validate:racknerd": "node scripts/validate-products.mjs racknerd/products.generated.json",
-    "refresh": "npm run refresh:dedirock && npm run refresh:racknerd",
+    "refresh": "npm run refresh:dedirock && npm run refresh:racknerd && npm run refresh:ccs",
+    "refresh:ccs": "npm run scrape:ccs && npm run validate:ccs",
     "refresh:dedirock": "npm run scrape:dedirock && npm run validate:dedirock",
     "refresh:racknerd": "npm run scrape:racknerd && npm run validate:racknerd"
   }

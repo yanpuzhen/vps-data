@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-02T11:57:35.713Z",
+  "source": {
+    "name": "ColoCrossing Cloud WHMCS",
+    "origin": "https://cloud.colocrossing.com",
+    "siteName": "CCS",
+    "siteTitle": "CCS VPS 筛选",
+    "searchPlaceholder": "VPS / Cloud Metal / RAM / SSD",
+    "currency": "USD",
+    "affiliate": {
+      "id": "1295",
+      "param": "aff",
+      "baseUrl": "https://cloud.colocrossing.com/aff.php"
+    },
+    "categories": [
+      {
+        "id": "cloud-virtual-private-servers",
+        "name": "Cloud Virtual Private Servers",
+        "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers"
+      },
+      {
+        "id": "cloud-metal-servers",
+        "name": "Cloud Metal Servers",
+        "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-metal-servers"
+      }
+    ],
+    "extraPids": [],
+    "stats": {
+      "categoryProducts": 9,
+      "pidTargets": 0,
+      "pidParsed": 0,
+      "pidInvalid": 0,
+      "pidOutOfStockOnly": 0,
+      "pidUnparsed": 0,
+      "pidScrapeErrors": 0,
+      "pidScanEnabled": 0,
+      "pidScanMin": 0,
+      "pidScanMax": 0,
+      "pidScanConcurrency": 0,
+      "pidScrapeConcurrency": 12,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 0,
+      "pidScanValid": 0,
+      "pidScanInvalid": 0,
+      "pidScanErrors": 0
+    }
+  },
+  "warnings": [],
+  "products": [
+    {
+      "id": "19",
+      "title": "1GB RAM",
+      "category": "Cloud Virtual Private Servers",
+      "family": "Cloud VPS",
+      "location": "United States",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 vCPU",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 3.95,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/1gb-ram",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/1gb-ram"
+        }
+      ],
+      "baseSpecsText": "1GB RAM\nStarting from\n$3.95 USD\nMonthly\n1 vCPU\n1GB RAM\n25GB SSD Space\n1 x IPv4\n20TB Bandwidth\n1Gbps Port Speed\nStarting from\n$3.95 USD\nMonthly\nGET STARTED"
+    },
+    {
+      "id": "20",
+      "title": "2GB RAM",
+      "category": "Cloud Virtual Private Servers",
+      "family": "Cloud VPS",
+      "location": "United States",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 vCPU",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 6.95,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/2gb-ram",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/2gb-ram"
+        }
+      ],
+      "baseSpecsText": "2GB RAM\nStarting from\n$6.95 USD\nMonthly\n2 vCPU\n2GB RAM\n50GB SSD Space\n1 x IPv4\n20TB Bandwidth\n1Gbps Port Speed\nStarting from\n$6.95 USD\nMonthly\nGET STARTED"
+    },
+    {
+      "id": "21",
+      "title": "4GB RAM",
+      "category": "Cloud Virtual Private Servers",
+      "family": "Cloud VPS",
+      "location": "United States",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 3,
+        "cpuLabel": "3 vCPU",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 13.95,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/4gb-ram",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/4gb-ram"
+        }
+      ],
+      "baseSpecsText": "4GB RAM\nStarting from\n$13.95 USD\nMonthly\n3 vCPU\n4GB RAM\n100GB SSD Space\n1 x IPv4\n20TB Bandwidth\n1Gbps Port Speed\nStarting from\n$13.95 USD\nMonthly\nGET STARTED"
+    },
+    {
+      "id": "22",
+      "title": "8GB RAM",
+      "category": "Cloud Virtual Private Servers",
+      "family": "Cloud VPS",
+      "location": "United States",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 vCPU",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 24.95,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/2gb-ram-1",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/2gb-ram-1"
+        }
+      ],
+      "baseSpecsText": "8GB RAM\nStarting from\n$24.95 USD\nMonthly\n4 vCPU\n8GB RAM\n165GB SSD Space\n1 x IPv4\n20TB Bandwidth\n1Gbps Port Speed\nStarting from\n$24.95 USD\nMonthly\nGET STARTED"
+    },
+    {
+      "id": "27",
+      "title": "12GB RAM",
+      "category": "Cloud Virtual Private Servers",
+      "family": "Cloud VPS",
+      "location": "United States",
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 6,
+        "cpuLabel": "6 vCPU",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 39,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/12gb-ram",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/12gb-ram"
+        }
+      ],
+      "baseSpecsText": "12GB RAM\nStarting from\n$39.00 USD\nMonthly\n6 vCPU\n12GB RAM\n200GB SSD Space\n1 x IPv4\n20TB Bandwidth\n1Gbps Port Speed\nStarting from\n$39.00 USD\nMonthly\nGET STARTED\n0 Available"
+    },
+    {
+      "id": "28",
+      "title": "16GB RAM",
+      "category": "Cloud Virtual Private Servers",
+      "family": "Cloud VPS",
+      "location": "United States",
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 CPU",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 45,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/1gb-ram-2",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/1gb-ram-2"
+        }
+      ],
+      "baseSpecsText": "16GB RAM\nStarting from\n$45.00 USD\nMonthly\n8 CPU\n16GB RAM\n330GB SSD Storage\n20TB Bandwidth\n1Gbps Port Speed\n1 x IPv4\nStarting from\n$45.00 USD\nMonthly\nGET STARTED\n0 Available\nAdded to Cart\nBased on your order, we recommend:\nContinue\nFREE!\nSetup Fee\nAdd to Cart\nA description (tagline) is not available for this product.\nCopyright &copy; 2026 ColoCrossing Cloud. All Rights Reserved.\nEnglish\nالعربية\nAzerbaijani\nCatalà\n中文\nHrvatski\nČeština\nDansk\nNederlands\nEnglish\nEstonian\nPersian\nFrançais\nDeutsch\nעברית\nMagyar\nItaliano\nMacedonian\nNorwegian\nPortuguês\nPortuguês\nRomână\nРусский\nEspañol\nSvenska\nTürkçe\nУкраїнська\nNo Records Found\nSubmit\nClose\nGenerate Password\nPlease enter a number between 8 and 64 for the password length\nPassword Length\nGenerated Password\nGenerate new password\nCopy\nClose\nCopy to clipboard and Insert"
+    },
+    {
+      "id": "29",
+      "title": "Cloud Metal Server - 8GB",
+      "category": "Cloud Metal Servers",
+      "family": "Cloud Metal",
+      "location": "United States",
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4 Dedicated CPU Cores",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 20,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-metal-servers/1gb-ram-3",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-metal-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-metal-servers/1gb-ram-3"
+        }
+      ],
+      "baseSpecsText": "Cloud Metal Server - 8GB\nStarting from\n$20.00 USD\nMonthly\n4 Dedicated CPU Cores\n120GB SSD\n8GB RAM\n1 IPv4\n20TB Bandwidth\n1Gbps Port Speed\nStarting from\n$20.00 USD\nMonthly\nGET STARTED\n0 Available"
+    },
+    {
+      "id": "30",
+      "title": "Cloud Metal Server - 16GB",
+      "category": "Cloud Metal Servers",
+      "family": "Cloud Metal",
+      "location": "United States",
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 Dedicated CPU Cores",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 38,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-metal-servers/1gb-ram-4",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-metal-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-metal-servers/1gb-ram-4"
+        }
+      ],
+      "baseSpecsText": "Cloud Metal Server - 16GB\nStarting from\n$38.00 USD\nMonthly\n8 Dedicated CPU Cores\n250GB SSD\n16GB RAM\n1 IPv4\n20TB Bandwidth\n1Gbps Port Speed\nStarting from\n$38.00 USD\nMonthly\nGET STARTED\n0 Available"
+    },
+    {
+      "id": "31",
+      "title": "Cloud Metal Server - 32GB",
+      "category": "Cloud Metal Servers",
+      "family": "Cloud Metal",
+      "location": "United States",
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 8,
+        "cpuLabel": "8 Dedicated CPU Cores",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 78,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-metal-servers/bare-metal-cloud-16-gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-metal-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://cloud.colocrossing.com/index.php?rp=/store/cloud-metal-servers/bare-metal-cloud-16-gb"
+        }
+      ],
+      "baseSpecsText": "Cloud Metal Server - 32GB\nStarting from\n$78.00 USD\nMonthly\n8 Dedicated CPU Cores\n500GB SSD\n32GB RAM\n1 IPv4\n20TB Bandwidth\n1Gbps Port Speed\nStarting from\n$78.00 USD\nMonthly\nGET STARTED\n0 Available\nAdded to Cart\nBased on your order, we recommend:\nContinue\nFREE!\nSetup Fee\nAdd to Cart\nA description (tagline) is not available for this product.\nCopyright &copy; 2026 ColoCrossing Cloud. All Rights Reserved.\nEnglish\nالعربية\nAzerbaijani\nCatalà\n中文\nHrvatski\nČeština\nDansk\nNederlands\nEnglish\nEstonian\nPersian\nFrançais\nDeutsch\nעברית\nMagyar\nItaliano\nMacedonian\nNorwegian\nPortuguês\nPortuguês\nRomână\nРусский\nEspañol\nSvenska\nTürkçe\nУкраїнська\nNo Records Found\nSubmit\nClose\nGenerate Password\nPlease enter a number between 8 and 64 for the password length\nPassword Length\nGenerated Password\nGenerate new password\nCopy\nClose\nCopy to clipboard and Insert"
+    }
+  ]
+}

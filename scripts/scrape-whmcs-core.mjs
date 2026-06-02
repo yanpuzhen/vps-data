@@ -50,6 +50,7 @@ async function loadWhmcsConfig() {
     productCardPattern: rawConfig.productCardPattern,
     minExpectedProducts: Math.max(1, readInteger(firstEnv("WHMCS_MIN_EXPECTED_PRODUCTS") ?? rawConfig.minExpectedProducts, MIN_EXPECTED_PRODUCTS)),
     productRedirectHops: Math.max(0, readInteger(firstEnv("WHMCS_PRODUCT_REDIRECT_HOPS") ?? rawConfig.productRedirectHops, DEFAULT_PRODUCT_REDIRECT_HOPS)),
+    scrapeProductDetails: readBoolean(firstEnv("WHMCS_SCRAPE_PRODUCT_DETAILS") ?? rawConfig.scrapeProductDetails, true),
     affiliate: normalizeAffiliate(rawConfig.affiliate, origin),
     storeIndexPaths: normalizeStoreIndexPaths(rawConfig.storeIndexPaths),
     outputFile: resolve(ROOT, firstEnv("WHMCS_OUTPUT_FILE") ?? rawConfig.outputFile ?? "src/data/products.generated.json"),
@@ -137,7 +138,9 @@ async function main() {
     : { targets: [], stats: {} };
   Object.assign(stats, scanResult.stats);
 
-  const pidTargets = buildPidTargets(productMap, [...scanResult.targets, ...extraPidTargets]);
+  const pidTargets = activeConfig.scrapeProductDetails
+    ? buildPidTargets(productMap, [...scanResult.targets, ...extraPidTargets])
+    : buildPidTargets(new Map(), [...scanResult.targets, ...extraPidTargets]);
   stats.pidTargets = pidTargets.length;
   stats.pidScrapeConcurrency = scanOptions.scrapeConcurrency;
 
@@ -336,6 +339,21 @@ function readIntegerEnv(names, fallback) {
 function readInteger(value, fallback) {
   const parsed = Number(value);
   return Number.isInteger(parsed) ? parsed : fallback;
+}
+
+function readBoolean(value, fallback) {
+  if (typeof value === "boolean") {
+    return value;
+  }
+  if (typeof value === "string") {
+    if (/^(1|true|yes)$/i.test(value)) {
+      return true;
+    }
+    if (/^(0|false|no)$/i.test(value)) {
+      return false;
+    }
+  }
+  return fallback;
 }
 
 function firstEnv(names) {
@@ -906,7 +924,8 @@ function mergeSources(existingSources, nextSources) {
 }
 
 function extractOrderHref(block) {
-  return block.match(/<a\s+href="([^"]+)"[^>]*btn-order-now/i)?.[1] ?? null;
+  const orderAnchor = block.match(/<a\b[^>]*btn-order-now[^>]*>/i)?.[0];
+  return orderAnchor?.match(/\bhref=["']([^"']+)["']/i)?.[1] ?? null;
 }
 
 function stripHtmlToLines(html) {

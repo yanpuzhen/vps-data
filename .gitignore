@@ -1,5 +1,6 @@
 node_modules/
 *.tmp
 .DS_Store
+ccs/*pid-scan-cache.json
 dedirock/*pid-scan-cache.json
 racknerd/*pid-scan-cache.json

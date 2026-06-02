@@ -1,24 +1,24 @@
-name: Scrape RackNerd Data
+name: Scrape CCS Data
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "37 */6 * * *"
+    - cron: "57 */6 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: scrape-racknerd-data
+  group: scrape-ccs-data
   cancel-in-progress: false
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     env:
-      WHMCS_CONFIG_FILE: racknerd/whmcs.config.json
-      WHMCS_EXTRA_PID_FILE: racknerd/racknerd-extra-pids.json
-      WHMCS_OUTPUT_FILE: racknerd/products.generated.json
+      WHMCS_CONFIG_FILE: ccs/whmcs.config.json
+      WHMCS_EXTRA_PID_FILE: ccs/ccs-extra-pids.json
+      WHMCS_OUTPUT_FILE: ccs/products.generated.json
       WHMCS_PID_SCAN_MIN: 1
       WHMCS_PID_SCAN_MAX: 10000
       WHMCS_PID_SCAN_CONCURRENCY: 32
@@ -38,19 +38,19 @@ jobs:
       - name: Restore PID scan cache
         uses: actions/cache@v4
         with:
-          path: racknerd/*pid-scan-cache.json
-          key: racknerd-pid-scan-${{ github.run_id }}
+          path: ccs/*pid-scan-cache.json
+          key: ccs-pid-scan-${{ github.run_id }}
           restore-keys: |
-            racknerd-pid-scan-
+            ccs-pid-scan-
 
-      - name: Scrape RackNerd products
-        run: npm run scrape:racknerd
+      - name: Scrape CCS products
+        run: npm run scrape:ccs
 
       - name: Validate dataset
-        run: npm run validate:racknerd
+        run: npm run validate:ccs
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          commit_message: "Update RackNerd product data"
-          file_pattern: racknerd/products.generated.json racknerd/racknerd-extra-pids.json
+          commit_message: "Update CCS product data"
+          file_pattern: ccs/products.generated.json ccs/ccs-extra-pids.json

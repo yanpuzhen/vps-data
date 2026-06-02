@@ -1,0 +1,40 @@
+{
+  "siteName": "CCS",
+  "siteTitle": "CCS VPS 筛选",
+  "sourceName": "ColoCrossing Cloud WHMCS",
+  "origin": "https://cloud.colocrossing.com",
+  "searchPlaceholder": "VPS / Cloud Metal / RAM / SSD",
+  "currency": "USD",
+  "minExpectedProducts": 5,
+  "scrapeProductDetails": false,
+  "productCardPattern": "<div class=\"package\" id=\"product(\\d+)\">([\\s\\S]*?)(?=\\s*<\\/div>\\s*<div class=\"col\">\\s*<div class=\"package\" id=\"product\\d+\"|\\s*<\\/div>\\s*<\\/div>\\s*<div class=\"clearfix\">|\\s*<script)",
+  "affiliate": {
+    "id": "1295",
+    "param": "aff",
+    "basePath": "/aff.php"
+  },
+  "storeIndexPaths": [
+    "/index.php?rp=/store",
+    "/index.php?rp=/store/cloud-virtual-private-servers",
+    "/index.php?rp=/store/cloud-metal-servers"
+  ],
+  "extraPidFile": "ccs/ccs-extra-pids.json",
+  "pidScanCacheFile": "ccs/whmcs-pid-scan-cache.json",
+  "outputFile": "ccs/products.generated.json",
+  "categories": [
+    {
+      "id": "cloud-virtual-private-servers",
+      "name": "Cloud Virtual Private Servers",
+      "family": "Cloud VPS",
+      "location": "United States",
+      "path": "/index.php?rp=/store/cloud-virtual-private-servers"
+    },
+    {
+      "id": "cloud-metal-servers",
+      "name": "Cloud Metal Servers",
+      "family": "Cloud Metal",
+      "location": "United States",
+      "path": "/index.php?rp=/store/cloud-metal-servers"
+    }
+  ]
+}

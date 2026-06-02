@@ -1,0 +1,62 @@
+{
+  "siteName": "DediRock",
+  "siteTitle": "DediRock VPS 筛选",
+  "sourceName": "DediRock WHMCS",
+  "origin": "https://billing.dedirock.com",
+  "searchPlaceholder": "LA / NY / Storage / Promo",
+  "currency": "USD",
+  "productCardPattern": "<div class=\"product clearfix\" id=\"product(\\d+)\">([\\s\\S]*?)<\\/footer>\\s*<\\/div>",
+  "affiliate": {
+    "id": "166",
+    "param": "aff",
+    "basePath": "/aff.php"
+  },
+  "storeIndexPaths": ["/index.php/store"],
+  "extraPidFile": "dedirock/dedirock-extra-pids.json",
+  "pidScanCacheFile": "dedirock/whmcs-pid-scan-cache.json",
+  "outputFile": "dedirock/products.generated.json",
+  "categories": [
+    {
+      "id": "la-kvm-vps",
+      "name": "LA KVM VPS",
+      "family": "KVM VPS",
+      "location": "Los Angeles",
+      "path": "/index.php/store/kvm-vps-hosting"
+    },
+    {
+      "id": "ny-kvm-vps",
+      "name": "NY KVM VPS",
+      "family": "KVM VPS",
+      "location": "New York",
+      "path": "/index.php/store/buffalo-kvm-vps"
+    },
+    {
+      "id": "vps-storage",
+      "name": "VPS Storage",
+      "family": "Storage VPS",
+      "location": "New York",
+      "path": "/index.php/store/vps-storage"
+    },
+    {
+      "id": "promo-vps-la",
+      "name": "PROMO VPS LA",
+      "family": "Promo VPS",
+      "location": "Los Angeles",
+      "path": "/index.php/store/promo-vps-los-angeles"
+    },
+    {
+      "id": "promo-vps-ny",
+      "name": "PROMO VPS NY",
+      "family": "Promo VPS",
+      "location": "New York",
+      "path": "/index.php/store/promo-vp"
+    },
+    {
+      "id": "promo-storage-ny",
+      "name": "PROMO Storage NY BF LET 2025",
+      "family": "Promo Storage VPS",
+      "location": "New York",
+      "path": "/index.php/store/promo-storage-new-york-hidden"
+    }
+  ]
+}

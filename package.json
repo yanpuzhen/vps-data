@@ -1,0 +1,11 @@
+{
+  "name": "vps-data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape:dedirock": "node scripts/scrape-dedirock.mjs",
+    "validate:dedirock": "node scripts/validate-products.mjs dedirock/products.generated.json",
+    "refresh:dedirock": "npm run scrape:dedirock && npm run validate:dedirock"
+  }
+}

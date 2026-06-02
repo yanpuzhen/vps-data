@@ -1,0 +1,60 @@
+name: Scrape DediRock Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-dedirock-data
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    env:
+      WHMCS_PID_SCAN_MIN: 1
+      WHMCS_PID_SCAN_MAX: 10000
+      WHMCS_PID_SCAN_CONCURRENCY: 32
+      WHMCS_PID_SCRAPE_CONCURRENCY: 12
+      WHMCS_PID_SCAN_CACHE_TTL_HOURS: 24
+      WHMCS_PID_SCAN_RETRIES: 2
+      WHMCS_PID_REQUEST_TIMEOUT_MS: 15000
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Restore PID scan cache
+        uses: actions/cache@v4
+        with:
+          path: dedirock/whmcs-pid-scan-cache.json
+          key: dedirock-pid-scan-${{ github.run_id }}
+          restore-keys: |
+            dedirock-pid-scan-
+
+      - name: Scrape DediRock products
+        run: npm run scrape:dedirock
+
+      - name: Validate dataset
+        run: npm run validate:dedirock
+
+      - name: Commit dataset changes
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dedirock/products.generated.json dedirock/dedirock-extra-pids.json
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git commit -m "Update DediRock dataset"
+          git push

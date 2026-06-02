@@ -1,0 +1,3900 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-02T11:41:15.238Z",
+  "source": {
+    "name": "RackNerd WHMCS",
+    "origin": "https://my.racknerd.com",
+    "siteName": "RackNerd",
+    "siteTitle": "RackNerd VPS 筛选",
+    "searchPlaceholder": "KVM / Ryzen / Windows / Dedicated",
+    "currency": "USD",
+    "affiliate": {
+      "id": "17189",
+      "param": "aff",
+      "baseUrl": "https://my.racknerd.com/aff.php"
+    },
+    "categories": [
+      {
+        "id": "shared-hosting",
+        "name": "Shared Hosting",
+        "url": "https://my.racknerd.com/index.php?rp=/store/shared-hosting"
+      },
+      {
+        "id": "reseller-hosting",
+        "name": "Reseller Hosting",
+        "url": "https://my.racknerd.com/index.php?rp=/store/reseller-hosting"
+      },
+      {
+        "id": "kvm-vps",
+        "name": "KVM VPS",
+        "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps"
+      },
+      {
+        "id": "hybrid-dedicated-servers",
+        "name": "Hybrid Dedicated Servers",
+        "url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers"
+      },
+      {
+        "id": "colocation",
+        "name": "Colocation",
+        "url": "https://my.racknerd.com/index.php?rp=/store/colocation"
+      },
+      {
+        "id": "dedicated-servers",
+        "name": "Dedicated Servers",
+        "url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers"
+      },
+      {
+        "id": "special-promos",
+        "name": "Special Promos",
+        "url": "https://my.racknerd.com/index.php?rp=/store/special-promos"
+      },
+      {
+        "id": "high-bandwidth-unmetered-dedicated-servers",
+        "name": "High Bandwidth Unmetered Dedicated Servers",
+        "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+      },
+      {
+        "id": "amd-ryzen-epyc-dedicated-servers",
+        "name": "AMD Ryzen/EPYC Dedicated Servers",
+        "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers"
+      },
+      {
+        "id": "seo-dedicated-servers",
+        "name": "SEO Dedicated Servers",
+        "url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers"
+      },
+      {
+        "id": "windows-vps-with-nvme-ssd",
+        "name": "Windows VPS with NVMe SSD",
+        "url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd"
+      },
+      {
+        "id": "amd-ryzen-vps-linux",
+        "name": "AMD Ryzen VPS Linux",
+        "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux"
+      }
+    ],
+    "extraPids": [],
+    "stats": {
+      "categoryProducts": 73,
+      "pidTargets": 73,
+      "pidParsed": 60,
+      "pidInvalid": 0,
+      "pidOutOfStockOnly": 7,
+      "pidUnparsed": 6,
+      "pidScrapeErrors": 0,
+      "pidScanEnabled": 0,
+      "pidScanMin": 0,
+      "pidScanMax": 0,
+      "pidScanConcurrency": 0,
+      "pidScrapeConcurrency": 12,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 0,
+      "pidScanValid": 0,
+      "pidScanInvalid": 0,
+      "pidScanErrors": 0
+    }
+  },
+  "warnings": [
+    "PID 81 exists at https://my.racknerd.com/index.php?rp=/store/shared-hosting/racknerd-shared-hosting-30gb, but the product configuration page could not be parsed.",
+    "PID 82 exists at https://my.racknerd.com/index.php?rp=/store/shared-hosting/racknerd-shared-hosting-100gb, but the product configuration page could not be parsed.",
+    "PID 83 exists at https://my.racknerd.com/index.php?rp=/store/shared-hosting/racknerd-shared-hosting-200gb, but the product configuration page could not be parsed.",
+    "PID 659 exists at https://my.racknerd.com/index.php?rp=/store/reseller-hosting/cpanel-reseller-hosting-40gb, but the product configuration page could not be parsed.",
+    "PID 660 exists at https://my.racknerd.com/index.php?rp=/store/reseller-hosting/cpanel-reseller-hosting-100gb, but the product configuration page could not be parsed.",
+    "PID 661 exists at https://my.racknerd.com/index.php?rp=/store/reseller-hosting/cpanel-reseller-hosting-200gb, but the product configuration page could not be parsed."
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "KVM-512MB",
+      "category": "KVM VPS",
+      "family": "KVM VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1x vCPU Core",
+        "ramGb": 0,
+        "storageGb": 30,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 26.99,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-512mb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-512mb"
+        }
+      ],
+      "baseSpecsText": "KVM-512MB\n1x vCPU Core\n30 GB SSD RAID-10 Storage\n512MB RAM\n500GB Premium Bandwidth\n1Gbps Network Port\nFull Root Admin Access\n1 Dedicated IP\nKVM / SolusVM Control Panel\n\nBilling Cycles\nAnnually: $26.99 USD"
+    },
+    {
+      "id": "4",
+      "title": "Dual E5-2690 | 4 GB RAM",
+      "category": "Hybrid Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 4,
+        "storageGb": 120,
+        "storageType": "HDD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 39,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 117,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 234,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 468,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-4-gb-ram",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-4-gb-ram"
+        }
+      ],
+      "baseSpecsText": "Dual E5-2690 | 4 GB RAM\nDual Xeon E5-2690 2x 2.90 GHz\n4 GB RAM\n120 GB HDD\n5TB Monthly Transfer\n1Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nMonthly: $39 USD\nQuarterly: $117 USD\nSemi-Annually: $234 USD\nAnnually: $468 USD"
+    },
+    {
+      "id": "5",
+      "title": "Dual E5-2690 | 8 GB RAM",
+      "category": "Hybrid Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 8,
+        "storageGb": 250,
+        "storageType": "HDD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 177,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 354,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 708,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-8-gb-ram",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-8-gb-ram"
+        }
+      ],
+      "baseSpecsText": "Dual E5-2690 | 8 GB RAM\nDual Xeon E5-2690 4x 2.90 GHz\n8 GB RAM\n250 GB HDD\n5TB Monthly Transfer\n1Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nMonthly: $59 USD\nQuarterly: $177 USD\nSemi-Annually: $354 USD\nAnnually: $708 USD"
+    },
+    {
+      "id": "6",
+      "title": "Dual E5-2690 | 16 GB RAM",
+      "category": "Hybrid Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 16,
+        "storageGb": 500,
+        "storageType": "HDD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 79,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 237,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 474,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 948,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-16-gb-ram",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-16-gb-ram"
+        }
+      ],
+      "baseSpecsText": "Dual E5-2690 | 16 GB RAM\nDual Xeon E5-2690 6x 2.90 GHz\n16 GB RAM\n500 GB HDD\n10TB Monthly Transfer\n1Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nMonthly: $79 USD\nQuarterly: $237 USD\nSemi-Annually: $474 USD\nAnnually: $948 USD"
+    },
+    {
+      "id": "7",
+      "title": "Dual E5-2690 | 32 GB RAM",
+      "category": "Hybrid Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 32,
+        "storageGb": 750,
+        "storageType": "HDD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 99,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 297,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 594,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 1188,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-32-gb-ram",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/hybrid-dedicated-servers/dual-e5-2690-32-gb-ram"
+        }
+      ],
+      "baseSpecsText": "Dual E5-2690 | 32 GB RAM\nDual Xeon E5-2690 8x 2.90 GHz\n32 GB RAM\n750 GB HDD\n10TB Monthly Transfer\n1Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nMonthly: $99 USD\nQuarterly: $297 USD\nSemi-Annually: $594 USD\nAnnually: $1188 USD"
+    },
+    {
+      "id": "8",
+      "title": "Single Server Colocation",
+      "category": "Colocation",
+      "family": "Colocation",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 179,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/colocation/single-server-colocation",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/colocation"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/colocation/single-server-colocation"
+        }
+      ],
+      "baseSpecsText": "Single Server Colocation\n1U to 4U Rackspace (Single Server)\n1Amp 120v Power Allocation\n10TB Monthly Transfer\n1Gbps Network Port\n/29 IPv4 Allocation - 5 Usable IPs\n24/7 Remote Eyes & Hands\nBuffalo, New York Datacenter Location\n\nBilling Cycles\nMonthly: $179 USD"
+    },
+    {
+      "id": "9",
+      "title": "Quarter Rack Colocation",
+      "category": "Colocation",
+      "family": "Colocation",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 27
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 599,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/colocation/quarter-rack-colocation",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/colocation"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/colocation/quarter-rack-colocation"
+        }
+      ],
+      "baseSpecsText": "Quarter Rack Colocation\n10U Rack Space\n10Amp 120v Power Allocation\n30TB Monthly Transfer\n1Gbps Network Port\n/27 IPv4 Allocation - 29 Usable IPs\n24/7 Remote Eyes & Hands\nBuffalo, New York Datacenter Location\n\nBilling Cycles\nMonthly: $599 USD"
+    },
+    {
+      "id": "10",
+      "title": "Half Rack Colocation",
+      "category": "Colocation",
+      "family": "Colocation",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 26
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 999,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/colocation/half-rack-colocation",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/colocation"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/colocation/half-rack-colocation"
+        }
+      ],
+      "baseSpecsText": "Half Rack Colocation\n20U Rack Space\n20Amp 120v Power Allocation\n100TB Monthly Transfer\n1Gbps Network Port\n/26 IPv4 Allocation - 61 Usable IPs\n24/7 Remote Eyes & Hands\nBuffalo, New York Datacenter Location\n\nBilling Cycles\nMonthly: $999 USD"
+    },
+    {
+      "id": "12",
+      "title": "Intel Xeon E3-1230 v2 | 16GB RAM | 480 GB SSD",
+      "category": "Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 16,
+        "storageGb": 16,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 5
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 139,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/intel-xeon-e3-1230-v2-16gb-ram-480-gb-ssd",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/intel-xeon-e3-1230-v2-16gb-ram-480-gb-ssd"
+        }
+      ],
+      "baseSpecsText": "Intel Xeon E3-1230 v2 | 16GB RAM | 480 GB SSD\n0 Available\nIntel Xeon E3-1230 v2 - 4x 3.30 GHz (8x Threads @ 3.30 GHz with HT)\n16 GB RAM\n480 GB SSD\n35 TB Monthly Transfer\n1Gbps Network Port\nPremium Network Blend\n5 IPv4 Addresses\nMultiple Datacenter Locations\nStarting from\n$139.00 USD\nMonthly"
+    },
+    {
+      "id": "20",
+      "title": "KVM-1GB",
+      "category": "KVM VPS",
+      "family": "KVM VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2x vCPU Core",
+        "ramGb": 0,
+        "storageGb": 50,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 17.99,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 53.97,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 107.94,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 215.88,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-1gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-1gb"
+        }
+      ],
+      "baseSpecsText": "KVM-1GB\n2x vCPU Core\n50 GB SSD RAID-10 Storage\n1024MB RAM\n1000GB Premium Bandwidth\n1Gbps Network Port\nFull Root Admin Access\n1 Dedicated IP\nKVM / SolusVM Control Panel\n\nBilling Cycles\nMonthly: $17.99 USD\nQuarterly: $53.97 USD\nSemi-Annually: $107.94 USD\nAnnually: $215.88 USD"
+    },
+    {
+      "id": "21",
+      "title": "KVM-2GB",
+      "category": "KVM VPS",
+      "family": "KVM VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 3,
+        "cpuLabel": "3x vCPU Core",
+        "ramGb": 0,
+        "storageGb": 75,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 20.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 61.77,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 123.54,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 247.08,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-2gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-2gb"
+        }
+      ],
+      "baseSpecsText": "KVM-2GB\n3x vCPU Core\n75 GB SSD RAID-10 Storage\n2048MB RAM\n2000GB Premium Bandwidth\n1Gbps Network Port\nFull Root Admin Access\n1 Dedicated IP\nKVM / SolusVM Control Panel\n\nBilling Cycles\nMonthly: $20.59 USD\nQuarterly: $61.77 USD\nSemi-Annually: $123.54 USD\nAnnually: $247.08 USD"
+    },
+    {
+      "id": "22",
+      "title": "KVM-4GB",
+      "category": "KVM VPS",
+      "family": "KVM VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4x vCPU Core",
+        "ramGb": 0,
+        "storageGb": 130,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 24.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 73.77,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 147.54,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 295.08,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-4gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-4gb"
+        }
+      ],
+      "baseSpecsText": "KVM-4GB\n4x vCPU Core\n130 GB SSD RAID-10 Storage\n4096MB RAM\n3000GB Premium Bandwidth\n1Gbps Network Port\nFull Root Admin Access\n1 Dedicated IP\nKVM / SolusVM Control Panel\n\nBilling Cycles\nMonthly: $24.59 USD\nQuarterly: $73.77 USD\nSemi-Annually: $147.54 USD\nAnnually: $295.08 USD"
+    },
+    {
+      "id": "23",
+      "title": "KVM-6GB",
+      "category": "KVM VPS",
+      "family": "KVM VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 5,
+        "cpuLabel": "5x vCPU Core",
+        "ramGb": 0,
+        "storageGb": 170,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 27.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 77.59,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 148.59,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 268.59,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-6gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-6gb"
+        }
+      ],
+      "baseSpecsText": "KVM-6GB\n5x vCPU Core\n170 GB SSD RAID-10 Storage\n6144MB RAM\n4000GB Premium Bandwidth\n1Gbps Network Port\nFull Root Admin Access\n1 Dedicated IP\nKVM / SolusVM Control Panel\n\nBilling Cycles\nMonthly: $27.59 USD\nQuarterly: $77.59 USD\nSemi-Annually: $148.59 USD\nAnnually: $268.59 USD"
+    },
+    {
+      "id": "24",
+      "title": "KVM-8GB",
+      "category": "KVM VPS",
+      "family": "KVM VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 6,
+        "cpuLabel": "6x vCPU Core",
+        "ramGb": 0,
+        "storageGb": 220,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 36.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 106.59,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 204.59,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 385.59,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-8gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-8gb"
+        }
+      ],
+      "baseSpecsText": "KVM-8GB\n6x vCPU Core\n220 GB SSD RAID-10 Storage\n8192MB RAM\n5000GB Premium Bandwidth\n1Gbps Network Port\nFull Root Admin Access\n2 Dedicated IPs\nKVM / SolusVM Control Panel\n\nBilling Cycles\nMonthly: $36.59 USD\nQuarterly: $106.59 USD\nSemi-Annually: $204.59 USD\nAnnually: $385.59 USD"
+    },
+    {
+      "id": "25",
+      "title": "KVM-12GB",
+      "category": "KVM VPS",
+      "family": "KVM VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 7,
+        "cpuLabel": "7x vCPU Core",
+        "ramGb": 0,
+        "storageGb": 300,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 55.99,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 159.59,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 299.95,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 565.59,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-12gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/kvm-vps/kvm-12gb"
+        }
+      ],
+      "baseSpecsText": "KVM-12GB\n7x vCPU Core\n300 GB SSD RAID-10 Storage\n12288MB RAM\n6000GB Premium Bandwidth\n1Gbps Network Port\nFull Root Admin Access\n2 Dedicated IPs\nKVM / SolusVM Control Panel\n\nBilling Cycles\nMonthly: $55.99 USD\nQuarterly: $159.59 USD\nSemi-Annually: $299.95 USD\nAnnually: $565.59 USD"
+    },
+    {
+      "id": "81",
+      "title": "RackNerd Shared Hosting - 30GB",
+      "category": "Shared Hosting",
+      "family": "Shared Hosting",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 30,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 5.59,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/shared-hosting/racknerd-shared-hosting-30gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/shared-hosting"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/shared-hosting/racknerd-shared-hosting-30gb"
+        }
+      ],
+      "baseSpecsText": "RackNerd Shared Hosting - 30GB\n30 GB SSD Disk Space\n2TB Monthly Transfer\nUnlimited Databases\nUnlimited Domains\nFree SSL Certificates\nCloudLinux Powered\nSoftaculous Script Installer\nLiteSpeed Web Server\nFree Daily Backups Included\ncPanel Control Panel\nStarting from\n$5.59 USD\nMonthly"
+    },
+    {
+      "id": "82",
+      "title": "RackNerd Shared Hosting - 100GB",
+      "category": "Shared Hosting",
+      "family": "Shared Hosting",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 100,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 9.59,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/shared-hosting/racknerd-shared-hosting-100gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/shared-hosting"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/shared-hosting/racknerd-shared-hosting-100gb"
+        }
+      ],
+      "baseSpecsText": "RackNerd Shared Hosting - 100GB\n100 GB SSD Disk Space\n3TB Monthly Transfer\nUnlimited Databases\nUnlimited Domains\nFree SSL Certificates\nCloudLinux Powered\nSoftaculous Script Installer\nLiteSpeed Web Server\nFree Daily Backups Included\ncPanel Control Panel\nStarting from\n$9.59 USD\nMonthly"
+    },
+    {
+      "id": "83",
+      "title": "RackNerd Shared Hosting - 200GB",
+      "category": "Shared Hosting",
+      "family": "Shared Hosting",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 200,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 15.59,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/shared-hosting/racknerd-shared-hosting-200gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/shared-hosting"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/shared-hosting/racknerd-shared-hosting-200gb"
+        }
+      ],
+      "baseSpecsText": "RackNerd Shared Hosting - 200GB\n200 GB SSD Disk Space\n5TB Monthly Transfer\nUnlimited Databases\nUnlimited Domains\nFree SSL Certificates\nCloudLinux Powered\nSoftaculous Script Installer\nLiteSpeed Web Server\nFree Daily Backups Included\ncPanel Control Panel\nStarting from\n$15.59 USD\nMonthly"
+    },
+    {
+      "id": "275",
+      "title": "Intel Xeon E3-1240 v3 - LA / DAL / CHI / NY",
+      "category": "SEO Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 16,
+        "storageGb": 500,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 229,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 687,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 1374,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 2748,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/intel-xeon-e3-1240-v3-la-dal-chi-ny",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/intel-xeon-e3-1240-v3-la-dal-chi-ny"
+        }
+      ],
+      "baseSpecsText": "Intel Xeon E3-1240 v3 - LA / DAL / CHI / NY\nIntel Xeon E3-1240 v3 - 4x 3.40 GHz (8x Threads @ 3.40 GHz with HT)\n16 GB RAM\n500GB SSD or 1 TB HDD\n30 TB Monthly Transfer / 1Gbps Network Port\n/29 + 8x /27 IPv4 Allocation - 237 Usable IPs\nMultiple Datacenter Locations Available\n\nBilling Cycles\nMonthly: $229 USD\nQuarterly: $687 USD\nSemi-Annually: $1374 USD\nAnnually: $2748 USD"
+    },
+    {
+      "id": "276",
+      "title": "Intel Xeon E3-1240 v3 - 32x /29&#039;s - NY",
+      "category": "SEO Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 16,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 269,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/intel-xeon-e3-1240-v3-32x-29s-ny",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/intel-xeon-e3-1240-v3-32x-29s-ny"
+        }
+      ],
+      "baseSpecsText": "Intel Xeon E3-1240 v3 - 32x /29&#039;s - NY\n0 Available\nIntel Xeon E3-1240 v3 - 4x 3.40 GHz (8x Threads @ 3.40 GHz with HT)\n16 GB RAM\n500GB SSD or 1TB SATA HDD\n30 TB Monthly Transfer / 1Gbps Network Port\n/29 + 32x /29 IPv4 Allocations (Diverse 32c)\nNew York Datacenter Location\n192.3.180.103\nNetwork Test IP\nStarting from\n$269.00 USD\nMonthly"
+    },
+    {
+      "id": "277",
+      "title": "Intel Xeon E3-1230 v2 - Los Angeles DC-01",
+      "category": "SEO Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 16,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 235,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/intel-xeon-e3-1230-v2-los-angeles-dc-01",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/intel-xeon-e3-1230-v2-los-angeles-dc-01"
+        }
+      ],
+      "baseSpecsText": "Intel Xeon E3-1230 v2 - Los Angeles DC-01\n0 Available\nIntel Xeon E3-1230v2\n16 GB RAM\n1TB SATA HDD\n100Mbps Unmetered Bandwidth\n1x /24, 4x /26, 8x /27, or 16x /28 IPv4 Allocations\nLos Angeles DC-01 Datacenter\n23.247.28.130\nNetwork Test IP\nStarting from\n$235.00 USD\nMonthly"
+    },
+    {
+      "id": "278",
+      "title": "Dual Xeon L5520 - Los Angeles DC-01",
+      "category": "SEO Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 24,
+        "storageGb": 1024,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 245,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/dual-xeon-l5520-los-angeles-dc-01",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/dual-xeon-l5520-los-angeles-dc-01"
+        }
+      ],
+      "baseSpecsText": "Dual Xeon L5520 - Los Angeles DC-01\n0 Available\nDual Intel Xeon L5520\n24 GB RAM\n1TB HDD or 120 GB SSD\n100Mbps Unmetered Bandwidth\n1x /24, 4x /26, 8x /27, or 16x /28 IPv4 Allocations\nLos Angeles DC-01 Datacenter\n23.247.28.130\nNetwork Test IP\nStarting from\n$245.00 USD\nMonthly"
+    },
+    {
+      "id": "293",
+      "title": "Windows VPS 2GB",
+      "category": "Windows VPS with NVMe SSD",
+      "family": "Windows VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1x AMD Ryzen CPU Core",
+        "ramGb": 0,
+        "storageGb": 35,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 27.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 82.77,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 165.54,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 331.08,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "biennially",
+          "label": "Biennially",
+          "amount": 662.16,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-2gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-2gb"
+        }
+      ],
+      "baseSpecsText": "Windows VPS 2GB\n1x AMD Ryzen CPU Core\n35 GB NVMe SSD Storage\n2 GB DDR4 RAM\n2000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Administrator Access\nRemote Desktop (RDP) Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nLOCATION Los Angeles\nJUST $27.59/Month\n\nBilling Cycles\nMonthly: $27.59 USD\nQuarterly: $82.77 USD\nSemi-Annually: $165.54 USD\nAnnually: $331.08 USD\nBiennially: $662.16 USD"
+    },
+    {
+      "id": "294",
+      "title": "Windows VPS 4GB",
+      "category": "Windows VPS with NVMe SSD",
+      "family": "Windows VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2x AMD Ryzen CPU Cores",
+        "ramGb": 0,
+        "storageGb": 60,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 30.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 91.77,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 183.54,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 367.08,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "biennially",
+          "label": "Biennially",
+          "amount": 734.16,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-4gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-4gb"
+        }
+      ],
+      "baseSpecsText": "Windows VPS 4GB\n2x AMD Ryzen CPU Cores\n60 GB NVMe SSD Storage\n4 GB DDR4 RAM\n2000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Administrator Access\nRemote Desktop (RDP) Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nLOCATION Los Angeles\nJUST $30.59/Month\n\nBilling Cycles\nMonthly: $30.59 USD\nQuarterly: $91.77 USD\nSemi-Annually: $183.54 USD\nAnnually: $367.08 USD\nBiennially: $734.16 USD"
+    },
+    {
+      "id": "295",
+      "title": "Windows VPS 6GB",
+      "category": "Windows VPS with NVMe SSD",
+      "family": "Windows VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2x AMD Ryzen CPU Cores",
+        "ramGb": 0,
+        "storageGb": 85,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 35.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 106.77,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 213.54,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 427.08,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "biennially",
+          "label": "Biennially",
+          "amount": 854.16,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-6gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-6gb"
+        }
+      ],
+      "baseSpecsText": "Windows VPS 6GB\n2x AMD Ryzen CPU Cores\n85 GB NVMe SSD Storage\n6 GB DDR4 RAM\n3000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Administrator Access\nRemote Desktop (RDP) Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nLOCATION Los Angeles\nJUST $35.59/Month\n\nBilling Cycles\nMonthly: $35.59 USD\nQuarterly: $106.77 USD\nSemi-Annually: $213.54 USD\nAnnually: $427.08 USD\nBiennially: $854.16 USD"
+    },
+    {
+      "id": "296",
+      "title": "Windows VPS 8GB",
+      "category": "Windows VPS with NVMe SSD",
+      "family": "Windows VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 3,
+        "cpuLabel": "3x AMD Ryzen CPU Cores",
+        "ramGb": 0,
+        "storageGb": 110,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 44.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 133.77,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 267.54,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 535.08,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "biennially",
+          "label": "Biennially",
+          "amount": 1070.16,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-8gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-8gb"
+        }
+      ],
+      "baseSpecsText": "Windows VPS 8GB\n3x AMD Ryzen CPU Cores\n110 GB NVMe SSD Storage\n8 GB DDR4 RAM\n5000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Administrator Access\nRemote Desktop (RDP) Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nLOCATION Los Angeles\nJUST $44.59/Month\n\nBilling Cycles\nMonthly: $44.59 USD\nQuarterly: $133.77 USD\nSemi-Annually: $267.54 USD\nAnnually: $535.08 USD\nBiennially: $1070.16 USD"
+    },
+    {
+      "id": "297",
+      "title": "Windows VPS 12GB",
+      "category": "Windows VPS with NVMe SSD",
+      "family": "Windows VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4x AMD Ryzen CPU Cores",
+        "ramGb": 0,
+        "storageGb": 160,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 2
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 64.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 193.77,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 387.54,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 775.08,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "biennially",
+          "label": "Biennially",
+          "amount": 1550.16,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-12gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-12gb"
+        }
+      ],
+      "baseSpecsText": "Windows VPS 12GB\n4x AMD Ryzen CPU Cores\n160 GB NVMe SSD Storage\n12 GB DDR4 RAM\n6000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Administrator Access\nRemote Desktop (RDP) Access\n2 Dedicated IPv4 Addresses\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nLOCATION Los Angeles\nJUST $64.59/Month\n\nBilling Cycles\nMonthly: $64.59 USD\nQuarterly: $193.77 USD\nSemi-Annually: $387.54 USD\nAnnually: $775.08 USD\nBiennially: $1550.16 USD"
+    },
+    {
+      "id": "298",
+      "title": "Windows VPS 16GB",
+      "category": "Windows VPS with NVMe SSD",
+      "family": "Windows VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 6,
+        "cpuLabel": "6x AMD Ryzen CPU Cores",
+        "ramGb": 0,
+        "storageGb": 200,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 2
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 89.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 268.77,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 537.54,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 1075.08,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "biennially",
+          "label": "Biennially",
+          "amount": 2150.16,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-16gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/windows-vps-with-nvme-ssd/windows-vps-16gb"
+        }
+      ],
+      "baseSpecsText": "Windows VPS 16GB\n6x AMD Ryzen CPU Cores\n200 GB NVMe SSD Storage\n16 GB DDR4 RAM\n10,000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Administrator Access\nRemote Desktop (RDP) Access\n2 Dedicated IPv4 Addresses\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nLOCATION Los Angeles\nJUST $89.59/Month\n\nBilling Cycles\nMonthly: $89.59 USD\nQuarterly: $268.77 USD\nSemi-Annually: $537.54 USD\nAnnually: $1075.08 USD\nBiennially: $2150.16 USD"
+    },
+    {
+      "id": "500",
+      "title": "Ryzen-512MB (Linux)",
+      "category": "AMD Ryzen VPS Linux",
+      "family": "Ryzen VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1x AMD Ryzen 3900X CPU Core",
+        "ramGb": 0,
+        "storageGb": 10,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 26.99,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-512mb-linux",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-512mb-linux"
+        }
+      ],
+      "baseSpecsText": "Ryzen-512MB (Linux)\n1x AMD Ryzen 3900X CPU Core\n10 GB NVMe SSD Storage\n512 MB DDR4 RAM\n500GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nAvailable in MULTIPLE LOCATIONS!\n\nBilling Cycles\nAnnually: $26.99 USD"
+    },
+    {
+      "id": "501",
+      "title": "Ryzen-1GB (Linux)",
+      "category": "AMD Ryzen VPS Linux",
+      "family": "Ryzen VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1x AMD Ryzen 3900X CPU Core",
+        "ramGb": 0,
+        "storageGb": 15,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 17.99,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 194.29,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-1gb-linux",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-1gb-linux"
+        }
+      ],
+      "baseSpecsText": "Ryzen-1GB (Linux)\n1x AMD Ryzen 3900X CPU Core\n15 GB NVMe SSD Storage\n1 GB DDR4 RAM\n1000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nAvailable in MULTIPLE LOCATIONS!\n\nBilling Cycles\nMonthly: $17.99 USD\nAnnually: $194.29 USD"
+    },
+    {
+      "id": "502",
+      "title": "Ryzen-2GB (Linux)",
+      "category": "AMD Ryzen VPS Linux",
+      "family": "Ryzen VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2x AMD Ryzen 3900X CPU Cores",
+        "ramGb": 0,
+        "storageGb": 20,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 20.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 222.37,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-2gb-linux",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-2gb-linux"
+        }
+      ],
+      "baseSpecsText": "Ryzen-2GB (Linux)\n2x AMD Ryzen 3900X CPU Cores\n20 GB NVMe SSD Storage\n2 GB DDR4 RAM\n2000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nAvailable in MULTIPLE LOCATIONS!\n\nBilling Cycles\nMonthly: $20.59 USD\nAnnually: $222.37 USD"
+    },
+    {
+      "id": "503",
+      "title": "Ryzen-4GB (Linux)",
+      "category": "AMD Ryzen VPS Linux",
+      "family": "Ryzen VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2x AMD Ryzen 3900X CPU Cores",
+        "ramGb": 0,
+        "storageGb": 30,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 24.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 265.57,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-4gb-linux",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-4gb-linux"
+        }
+      ],
+      "baseSpecsText": "Ryzen-4GB (Linux)\n2x AMD Ryzen 3900X CPU Cores\n30 GB NVMe SSD Storage\n4 GB DDR4 RAM\n3000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nAvailable in MULTIPLE LOCATIONS!\n\nBilling Cycles\nMonthly: $24.59 USD\nAnnually: $265.57 USD"
+    },
+    {
+      "id": "504",
+      "title": "Ryzen-6GB (Linux)",
+      "category": "AMD Ryzen VPS Linux",
+      "family": "Ryzen VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 3,
+        "cpuLabel": "3x AMD Ryzen 3900X CPU Cores",
+        "ramGb": 0,
+        "storageGb": 45,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 27.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 297.97,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-6gb-linux",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-6gb-linux"
+        }
+      ],
+      "baseSpecsText": "Ryzen-6GB (Linux)\n3x AMD Ryzen 3900X CPU Cores\n45 GB NVMe SSD Storage\n6 GB DDR4 RAM\n4000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nAvailable in MULTIPLE LOCATIONS!\n\nBilling Cycles\nMonthly: $27.59 USD\nAnnually: $297.97 USD"
+    },
+    {
+      "id": "505",
+      "title": "Ryzen-8GB (Linux)",
+      "category": "AMD Ryzen VPS Linux",
+      "family": "Ryzen VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 3,
+        "cpuLabel": "3x AMD Ryzen 3900X CPU Cores",
+        "ramGb": 0,
+        "storageGb": 75,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 2
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 36.59,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 219.54,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 395.17,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-8gb-linux",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-8gb-linux"
+        }
+      ],
+      "baseSpecsText": "Ryzen-8GB (Linux)\n3x AMD Ryzen 3900X CPU Cores\n75 GB NVMe SSD Storage\n8 GB DDR4 RAM\n5000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Root Admin Access\n2 Dedicated IPv4 Addresses\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nAvailable in MULTIPLE LOCATIONS!\n\nBilling Cycles\nMonthly: $36.59 USD\nSemi-Annually: $219.54 USD\nAnnually: $395.17 USD"
+    },
+    {
+      "id": "506",
+      "title": "Ryzen-12GB (Linux)",
+      "category": "AMD Ryzen VPS Linux",
+      "family": "Ryzen VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4x AMD Ryzen 3900X CPU Cores",
+        "ramGb": 0,
+        "storageGb": 90,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 2
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 55.99,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 604.69,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-12gb-linux",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzen-vps-linux/ryzen-12gb-linux"
+        }
+      ],
+      "baseSpecsText": "Ryzen-12GB (Linux)\n4x AMD Ryzen 3900X CPU Cores\n90 GB NVMe SSD Storage\n12 GB DDR4 RAM\n6000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Root Admin Access\n2 Dedicated IPv4 Addresses\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nAvailable in MULTIPLE LOCATIONS!\n\nBilling Cycles\nMonthly: $55.99 USD\nAnnually: $604.69 USD"
+    },
+    {
+      "id": "659",
+      "title": "cPanel Reseller Hosting - 40GB",
+      "category": "Reseller Hosting",
+      "family": "Reseller Hosting",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 14.59,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/reseller-hosting/cpanel-reseller-hosting-40gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/reseller-hosting"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/reseller-hosting/cpanel-reseller-hosting-40gb"
+        }
+      ],
+      "baseSpecsText": "cPanel Reseller Hosting - 40GB\n40 GB SSD Disk Space\n2 TB Monthly Transfer\n20 cPanel Accounts\nFree SSL Certificates\nCloudLinux Powered\nSoftaculous Script Installer\nLiteSpeed Web Server\nFree Daily Backups Included (JetBackup)\nMailChannels Hybrid - Premium Email Delivery\ncPanel & WHM Control Panel\nAvailable in Multiple Locations\nStarting from\n$14.59 USD\nMonthly"
+    },
+    {
+      "id": "660",
+      "title": "cPanel Reseller Hosting - 100GB",
+      "category": "Reseller Hosting",
+      "family": "Reseller Hosting",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 100,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 22.59,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/reseller-hosting/cpanel-reseller-hosting-100gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/reseller-hosting"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/reseller-hosting/cpanel-reseller-hosting-100gb"
+        }
+      ],
+      "baseSpecsText": "cPanel Reseller Hosting - 100GB\n100 GB SSD Disk Space\nUnlimited Monthly Transfer\n40 cPanel Accounts\nFree SSL Certificates\nCloudLinux Powered\nSoftaculous Script Installer\nLiteSpeed Web Server\nFree Daily Backups Included\nMailChannels Hybrid - Premium Email Delivery\ncPanel & WHM Control Panel\nAvailable in Multiple Locations\nStarting from\n$22.59 USD\nMonthly"
+    },
+    {
+      "id": "661",
+      "title": "cPanel Reseller Hosting - 200GB",
+      "category": "Reseller Hosting",
+      "family": "Reseller Hosting",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 200,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 36.59,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/reseller-hosting/cpanel-reseller-hosting-200gb",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/reseller-hosting"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/reseller-hosting/cpanel-reseller-hosting-200gb"
+        }
+      ],
+      "baseSpecsText": "cPanel Reseller Hosting - 200GB\n200 GB SSD Disk Space\nUnlimited Monthly Transfer\n60 cPanel Accounts\nFree SSL Certificates\nCloudLinux Powered\nSoftaculous Script Installer\nLiteSpeed Web Server\nFree Daily Backups Included\nMailChannels Hybrid - Premium Email Delivery\ncPanel & WHM Control Panel\nAvailable in Multiple Locations\nStarting from\n$36.59 USD\nMonthly"
+    },
+    {
+      "id": "746",
+      "title": "Intel Xeon E3-1230 V3 (10Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 599,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 1797,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 3594,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 7188,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e3-1230-v3-10gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e3-1230-v3-10gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "Intel Xeon E3-1230 V3 (10Gbps Unmetered)\nIntel Xeon E3-1230 V3 - 4x 3.30 GHz (8x Threads)\n32 GB DDR3 RAM\n1 TB SSD\nTrue 10Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $599 USD\nQuarterly: $1797 USD\nSemi-Annually: $3594 USD\nAnnually: $7188 USD"
+    },
+    {
+      "id": "747",
+      "title": "Intel Xeon E-2136 (10Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 799,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 2397,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 4794,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 9588,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e-2136-10gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e-2136-10gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "Intel Xeon E-2136 (10Gbps Unmetered)\nIntel Xeon E-2136 - 6x 3.30 GHz (12x Threads)\n32 GB DDR4 RAM\n1 TB NVMe\nTrue 10Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $799 USD\nQuarterly: $2397 USD\nSemi-Annually: $4794 USD\nAnnually: $9588 USD"
+    },
+    {
+      "id": "748",
+      "title": "Dual Intel Xeon E5-2630 V4 (10Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 950,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 2850,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 5700,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 11400,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2630-v4-10gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2630-v4-10gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "Dual Intel Xeon E5-2630 V4 (10Gbps Unmetered)\nDual Intel Xeon E5-2630 V4 - 20x 2.20 GHz (40x Threads)\n64 GB DDR4 RAM\n1 TB NVMe\nTrue 10Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $950 USD\nQuarterly: $2850 USD\nSemi-Annually: $5700 USD\nAnnually: $11400 USD"
+    },
+    {
+      "id": "749",
+      "title": "Dual Intel Xeon E5-2695 V4 (10Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 1399,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 4197,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 8394,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 16788,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2695-v4-10gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2695-v4-10gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "Dual Intel Xeon E5-2695 V4 (10Gbps Unmetered)\nDual Intel Xeon E5-2695 V4 - 36x 2.10 GHz (72 Threads)\n128 GB DDR4 RAM\n2x 1 TB NVMe\nTrue 10Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $1399 USD\nQuarterly: $4197 USD\nSemi-Annually: $8394 USD\nAnnually: $16788 USD"
+    },
+    {
+      "id": "750",
+      "title": "AMD EPYC 7642 (10Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 1699,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 5097,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 10194,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 20388,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7642-10gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7642-10gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "AMD EPYC 7642 (10Gbps Unmetered)\nAMD EPYC 7642 - 48x 2.30 GHz (96x Threads)\n128 GB DDR4 RAM\n2x 1 TB NVMe\nTrue 10Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $1699 USD\nQuarterly: $5097 USD\nSemi-Annually: $10194 USD\nAnnually: $20388 USD"
+    },
+    {
+      "id": "751",
+      "title": "AMD EPYC 7702P (10Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 1999,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 5997,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 11994,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 23988,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7702p-10gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7702p-10gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "AMD EPYC 7702P (10Gbps Unmetered)\nAMD EPYC 7702P - 64x 2.00 GHz (128x Threads)\n128 GB DDR4 RAM\n2x 1 TB NVMe\nTrue 10Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $1999 USD\nQuarterly: $5997 USD\nSemi-Annually: $11994 USD\nAnnually: $23988 USD"
+    },
+    {
+      "id": "752",
+      "title": "Intel Xeon E3-1230 V3 (20Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 1499,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e3-1230-v3-20gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e3-1230-v3-20gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "Intel Xeon E3-1230 V3 (20Gbps Unmetered)\nIntel Xeon E3-1230 V3 - 4x 3.30 GHz (8x Threads)\n32 GB DDR3 RAM\n1 TB SSD\nTrue 20Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $1499 USD"
+    },
+    {
+      "id": "753",
+      "title": "Intel Xeon E-2136 (20Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 1699,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e-2136-20gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e-2136-20gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "Intel Xeon E-2136 (20Gbps Unmetered)\nIntel Xeon E-2136 - 6x 3.30 GHz (12x Threads)\n32 GB DDR4 RAM\n1 TB NVMe\nTrue 20Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $1699 USD"
+    },
+    {
+      "id": "754",
+      "title": "Dual Intel Xeon E5-2630 V4 (20Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 1850,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2630-v4-20gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2630-v4-20gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "Dual Intel Xeon E5-2630 V4 (20Gbps Unmetered)\nDual Intel Xeon E5-2630 V4 - 20x 2.20 GHz (40x Threads)\n64 GB DDR4 RAM\n1 TB NVMe\nTrue 20Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $1850 USD"
+    },
+    {
+      "id": "755",
+      "title": "Dual Intel Xeon E5-2695 V4 (20Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 2299,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2695-v4-20gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2695-v4-20gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "Dual Intel Xeon E5-2695 V4 (20Gbps Unmetered)\nDual Intel Xeon E5-2695 V4 - 36x 2.10 GHz (72 Threads)\n128 GB DDR4 RAM\n2x 1 TB NVMe\nTrue 20Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $2299 USD"
+    },
+    {
+      "id": "756",
+      "title": "AMD EPYC 7642 (20Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 2599,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7642-20gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7642-20gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "AMD EPYC 7642 (20Gbps Unmetered)\nAMD EPYC 7642 - 48x 2.30 GHz (96x Threads)\n128 GB DDR4 RAM\n2x 1 TB NVMe\nTrue 20Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $2599 USD"
+    },
+    {
+      "id": "757",
+      "title": "AMD EPYC 7702P (20Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 2899,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7702p-20gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7702p-20gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "AMD EPYC 7702P (20Gbps Unmetered)\nAMD EPYC 7702P - 64x 2.00 GHz (128x Threads)\n128 GB DDR4 RAM\n2x 1 TB NVMe\nTrue 20Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $2899 USD"
+    },
+    {
+      "id": "758",
+      "title": "Intel Xeon E3-1230 V3 (40Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 2799,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e3-1230-v3-40gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e3-1230-v3-40gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "Intel Xeon E3-1230 V3 (40Gbps Unmetered)\nIntel Xeon E3-1230 V3 - 4x 3.30 GHz (8x Threads)\n32 GB DDR3 RAM\n1 TB SSD\nTrue 40Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $2799 USD"
+    },
+    {
+      "id": "759",
+      "title": "Intel Xeon E-2136 (40Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 2999,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e-2136-40gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/intel-xeon-e-2136-40gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "Intel Xeon E-2136 (40Gbps Unmetered)\nIntel Xeon E-2136 - 6x 3.30 GHz (12x Threads)\n32 GB DDR4 RAM\n1 TB NVMe\nTrue 40Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $2999 USD"
+    },
+    {
+      "id": "760",
+      "title": "Dual Intel Xeon E5-2630 V4 (40Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 3150,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2630-v4-40gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2630-v4-40gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "Dual Intel Xeon E5-2630 V4 (40Gbps Unmetered)\nDual Intel Xeon E5-2630 V4 - 20x 2.20 GHz (40x Threads)\n64 GB DDR4 RAM\n1 TB NVMe\nTrue 40Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $3150 USD"
+    },
+    {
+      "id": "761",
+      "title": "Dual Intel Xeon E5-2695 V4 (40Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 4499,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2695-v4-40gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/dual-intel-xeon-e5-2695-v4-40gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "Dual Intel Xeon E5-2695 V4 (40Gbps Unmetered)\nDual Intel Xeon E5-2695 V4 - 36x 2.10 GHz (72 Threads)\n128 GB DDR4 RAM\n2x 1 TB NVMe\nTrue 40Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $4499 USD"
+    },
+    {
+      "id": "762",
+      "title": "AMD EPYC 7642 (40Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 4799,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7642-40gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7642-40gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "AMD EPYC 7642 (40Gbps Unmetered)\nAMD EPYC 7642 - 48x 2.30 GHz (96x Threads)\n128 GB DDR4 RAM\n2x 1 TB NVMe\nTrue 40Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $4799 USD"
+    },
+    {
+      "id": "763",
+      "title": "AMD EPYC 7702P (40Gbps Unmetered)",
+      "category": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 5099,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7702p-40gbps-unmetered",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers/amd-epyc-7702p-40gbps-unmetered"
+        }
+      ],
+      "baseSpecsText": "AMD EPYC 7702P (40Gbps Unmetered)\nAMD EPYC 7702P - 64x 2.00 GHz (128x Threads)\n128 GB DDR4 RAM\n2x 1 TB NVMe\nTrue 40Gbps Unmetered Bandwidth - Use And Sustain It 24x7!\n/29 IPv4 Allocation - 5 Usable IPs\nAvailable Datacenter Locations: Los Angeles, New Jersey, London, Montreal\n\nBilling Cycles\nMonthly: $5099 USD"
+    },
+    {
+      "id": "854",
+      "title": "Dual Intel Xeon E5-2620 v2 - LA / DAL / CHI / NY",
+      "category": "SEO Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 64,
+        "storageGb": 1024,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 29
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 299,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/dual-intel-xeon-e5-2620-v2-la-dal-chi-ny",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/seo-dedicated-servers/dual-intel-xeon-e5-2620-v2-la-dal-chi-ny"
+        }
+      ],
+      "baseSpecsText": "Dual Intel Xeon E5-2620 v2 - LA / DAL / CHI / NY\n0 Available\nDual Intel Xeon E5-2620 v2 - 12x 2.10 GHz (24x Threads @ 2.10 GHz with HT)\n64 GB RAM\n1 TB SSD\n30 TB Monthly Transfer / 1Gbps Network Port\n/29 + 8x /27 IPv4 Allocation - 237 Usable IPs\nMultiple Datacenter Locations Available\nStarting from\n$299.00 USD\nMonthly"
+    },
+    {
+      "id": "861",
+      "title": "AMD Ryzen 7600 | 64GB RAM | 1TB NVMe",
+      "category": "AMD Ryzen/EPYC Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 219,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 657,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 1314,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 2628,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7600-64gb-ram-1tb-nvme",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7600-64gb-ram-1tb-nvme"
+        }
+      ],
+      "baseSpecsText": "AMD Ryzen 7600 | 64GB RAM | 1TB NVMe\nAMD Ryzen™ 5 7600 - 6x 3.80 GHz (12x Threads, 5.10 GHz Max Boost Clock)\n64 GB DDR5 RAM\n1 TB NVMe Storage\n40 TB Monthly Transfer\n1Gbps Network Port\nPremium Network Blend\n1 Dedicated IP Address\nUtah - West Coast Datacenter Location\n\nBilling Cycles\nMonthly: $219 USD\nQuarterly: $657 USD\nSemi-Annually: $1314 USD\nAnnually: $2628 USD"
+    },
+    {
+      "id": "862",
+      "title": "AMD Ryzen 7700 | 64GB RAM | 1TB NVMe",
+      "category": "AMD Ryzen/EPYC Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 249,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 747,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 1494,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 2988,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7700-64gb-ram-1tb-nvme",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7700-64gb-ram-1tb-nvme"
+        }
+      ],
+      "baseSpecsText": "AMD Ryzen 7700 | 64GB RAM | 1TB NVMe\nAMD Ryzen™ 7 7700 - 8x 3.80 GHz (16x Threads, 5.30 GHz Max Boost Clock)\n64 GB DDR5 RAM\n1 TB NVMe Storage\n40 TB Monthly Transfer\n1Gbps Network Port\nPremium Network Blend\n1 Dedicated IP Address\nUtah - West Coast Datacenter Location\n\nBilling Cycles\nMonthly: $249 USD\nQuarterly: $747 USD\nSemi-Annually: $1494 USD\nAnnually: $2988 USD"
+    },
+    {
+      "id": "863",
+      "title": "AMD Ryzen 5950X | 128GB RAM | 2TB NVMe",
+      "category": "AMD Ryzen/EPYC Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 2048,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 309,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 927,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 1854,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 3708,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-5950x-128gb-ram-2tb-nvme",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-5950x-128gb-ram-2tb-nvme"
+        }
+      ],
+      "baseSpecsText": "AMD Ryzen 5950X | 128GB RAM | 2TB NVMe\nAMD Ryzen™ 9 5950X - 16x 3.40 GHz (32x Threads, 4.90 GHz Max Boost Clock)\n128 GB DDR4 RAM\n2 TB NVMe\n40 TB Monthly Transfer\n1Gbps Network Port\nPremium Network Blend\n1 Dedicated IP Address\nUtah - West Coast Datacenter Location\n\nBilling Cycles\nMonthly: $309 USD\nQuarterly: $927 USD\nSemi-Annually: $1854 USD\nAnnually: $3708 USD"
+    },
+    {
+      "id": "864",
+      "title": "AMD Ryzen 7900 | 64GB RAM | 1TB NVMe",
+      "category": "AMD Ryzen/EPYC Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 269,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 807,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 1614,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 3228,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7900-64gb-ram-1tb-nvme",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7900-64gb-ram-1tb-nvme"
+        }
+      ],
+      "baseSpecsText": "AMD Ryzen 7900 | 64GB RAM | 1TB NVMe\nAMD Ryzen™ 9 7900 - 12x 3.70 GHz (24x Threads, 5.40 GHz Max Boost Clock)\n64 GB DDR5 RAM\n1 TB NVMe\n40 TB Monthly Transfer\n1Gbps Network Port\nPremium Network Blend\n1 Dedicated IP Address\nUtah - West Coast Datacenter Location\n\nBilling Cycles\nMonthly: $269 USD\nQuarterly: $807 USD\nSemi-Annually: $1614 USD\nAnnually: $3228 USD"
+    },
+    {
+      "id": "865",
+      "title": "AMD Ryzen 7950X3D | 128GB RAM | 1TB NVMe",
+      "category": "AMD Ryzen/EPYC Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 379,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 1137,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 2274,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 4548,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7950x3d-128gb-ram-1tb-nvme",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7950x3d-128gb-ram-1tb-nvme"
+        }
+      ],
+      "baseSpecsText": "AMD Ryzen 7950X3D | 128GB RAM | 1TB NVMe\nAMD Ryzen™ 9 7950X3D - 16x 4.20 GHz (32x Threads, 5.70 GHz Max Boost Clock)\n128 GB DDR5 RAM\n1 TB NVMe Storage\n40 TB Monthly Transfer\n1Gbps Network Port\nPremium Network Blend\n1 Dedicated IP Address\nUtah - West Coast Datacenter Location\n\nBilling Cycles\nMonthly: $379 USD\nQuarterly: $1137 USD\nSemi-Annually: $2274 USD\nAnnually: $4548 USD"
+    },
+    {
+      "id": "866",
+      "title": "AMD Ryzen 7950X3D | 192GB RAM | 2x 3.84TB NVMe",
+      "category": "AMD Ryzen/EPYC Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 3932.16,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 499,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 1497,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 2994,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 5988,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7950x3d-192gb-ram-2x-384tb-nvme",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/amd-ryzenepyc-dedicated-servers/amd-ryzen-7950x3d-192gb-ram-2x-384tb-nvme"
+        }
+      ],
+      "baseSpecsText": "AMD Ryzen 7950X3D | 192GB RAM | 2x 3.84TB NVMe\nAMD Ryzen™ 9 7950X3D - 16x 4.20 GHz (32x Threads, 5.70 GHz Max Boost Clock)\n192 GB DDR5 RAM\n2x 3.84 TB NVMe\n40 TB Monthly Transfer\n1Gbps Network Port\nPremium Network Blend\n1 Dedicated IP Address\nUtah - West Coast Datacenter Location\n\nBilling Cycles\nMonthly: $499 USD\nQuarterly: $1497 USD\nSemi-Annually: $2994 USD\nAnnually: $5988 USD"
+    },
+    {
+      "id": "867",
+      "title": "Dual Intel Xeon E5-2650 v2 | 64GB RAM | 1TB SSD",
+      "category": "Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 64,
+        "storageGb": 1024,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 5
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 199,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-v2-64gb-ram-1tb-ssd",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-v2-64gb-ram-1tb-ssd"
+        }
+      ],
+      "baseSpecsText": "Dual Intel Xeon E5-2650 v2 | 64GB RAM | 1TB SSD\n0 Available\nDual Intel Xeon E5-2650 v2 16x 2.60 GHz (32x Threads, 3.40 GHz Turbo)\n64 GB RAM\n1 TB SSD\n100 TB Monthly Transfer\n1Gbps Network Port\nPremium Network Blend\n5 IPv4 Addresses\nDeployed in First Available US Datacenter Location (email [email&#160;protected] if you have a specific location requirement before ordering)\nStarting from\n$199.00 USD\nMonthly"
+    },
+    {
+      "id": "868",
+      "title": "Dual Intel Xeon E5-2650 v2 | 256GB RAM | 4x 2TB SSD",
+      "category": "Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 256,
+        "storageGb": 2048,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 27
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 349,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 1047,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 2094,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 4188,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-256gb-ram-4x-2tb-ssd",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-256gb-ram-4x-2tb-ssd"
+        }
+      ],
+      "baseSpecsText": "Dual Intel Xeon E5-2650 v2 | 256GB RAM | 4x 2TB SSD\nDual Intel Xeon E5-2650 v2 16x 2.60 GHz (32x Threads, 3.40 GHz Turbo)\n256 GB RAM\n4x 2 TB SSD\n100 TB Monthly Transfer\n1Gbps Network Port\nPremium Network Blend\n/27 IPv4 Allocation - 29 Usable IPs\nDeployed in First Available US Datacenter Location (email [email&#160;protected] if you have a specific location requirement before ordering)\n\nBilling Cycles\nMonthly: $349 USD\nQuarterly: $1047 USD\nSemi-Annually: $2094 USD\nAnnually: $4188 USD"
+    },
+    {
+      "id": "869",
+      "title": "Intel Xeon E3-1270 v3 | 32GB RAM | 2x 1TB SSD",
+      "category": "Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 32,
+        "storageGb": 1024,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 5
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 169,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/intel-xeon-e3-1270-v3-32gb-ram-2x-1tb-ssd",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/intel-xeon-e3-1270-v3-32gb-ram-2x-1tb-ssd"
+        }
+      ],
+      "baseSpecsText": "Intel Xeon E3-1270 v3 | 32GB RAM | 2x 1TB SSD\n0 Available\nIntel Xeon E3-1270 v3 - 4x 3.50 GHz (8x Threads @ 3.90 GHz with HT)\n32 GB RAM\n2x 1 TB SSD\n35 TB Monthly Transfer\n1Gbps Network Port\nPremium Network Blend\n5 IPv4 Addresses\nMultiple Datacenter Locations\nStarting from\n$169.00 USD\nMonthly"
+    },
+    {
+      "id": "870",
+      "title": "Dual Intel Xeon E5-2680 v4 | 256GB RAM | 4x 2TB SSD",
+      "category": "Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 256,
+        "storageGb": 2048,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 26
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 399,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 1197,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 2394,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 4788,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2698-v4-256gb-ram-4x-2tb-ssd",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2698-v4-256gb-ram-4x-2tb-ssd"
+        }
+      ],
+      "baseSpecsText": "Dual Intel Xeon E5-2680 v4 | 256GB RAM | 4x 2TB SSD\nDual Intel Xeon E5-2680 v4 28x 2.40 GHz (56x Threads, 3.30 GHz Turbo)\n256 GB RAM\n4x 2 TB SSD\n100 TB Monthly Transfer\n1Gbps Network Port\nPremium Network Blend\n/26 IPv4 Allocation - 61 Usable IPs\nDeployed in First Available US Datacenter Location (email [email&#160;protected] if you have a specific location requirement before ordering)\n\nBilling Cycles\nMonthly: $399 USD\nQuarterly: $1197 USD\nSemi-Annually: $2394 USD\nAnnually: $4788 USD"
+    },
+    {
+      "id": "871",
+      "title": "Dual Intel Xeon E5-2650 v2 | 128GB RAM | 1TB SSD + 3TB HDD",
+      "category": "Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 128,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 5
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 245,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 735,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 1470,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 2940,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-v2-128gb-ram-1tb-ssd-3tb-hdd",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/dedicated-servers/dual-intel-xeon-e5-2650-v2-128gb-ram-1tb-ssd-3tb-hdd"
+        }
+      ],
+      "baseSpecsText": "Dual Intel Xeon E5-2650 v2 | 128GB RAM | 1TB SSD + 3TB HDD\nDual Intel Xeon E5-2650 v2 16x 2.60 GHz (32x Threads, 3.40 GHz Turbo)\n128 GB RAM\n1x 1TB SSD\n1x 3TB HDD\n50 TB Monthly Transfer\n1Gbps Network Port\nPremium Network Blend\n5 IPv4 Addresses\nDeployed in First Available US Datacenter Location (email [email&#160;protected] if you have a specific location requirement before ordering)\n\nBilling Cycles\nMonthly: $245 USD\nQuarterly: $735 USD\nSemi-Annually: $1470 USD\nAnnually: $2940 USD"
+    },
+    {
+      "id": "952",
+      "title": "1 GB KVM VPS Special",
+      "category": "Special Promos",
+      "family": "Promo VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1 vCPU Core",
+        "ramGb": 1,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 21.99,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "biennially",
+          "label": "Biennially",
+          "amount": 43.98,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/special-promos/1-gb-kvm-vps-special",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/special-promos"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/special-promos/1-gb-kvm-vps-special"
+        }
+      ],
+      "baseSpecsText": "1 GB KVM VPS Special\n1 vCPU Core\n20 GB PURE SSD RAID-10 Storage\n1 GB RAM\n3000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nAvailable in Multiple Locations\nJUST $21.99/YEAR - WOW!!\n\nBilling Cycles\nAnnually: $21.99 USD\nBiennially: $43.98 USD"
+    },
+    {
+      "id": "953",
+      "title": "2 GB KVM VPS Special",
+      "category": "Special Promos",
+      "family": "Promo VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2 vCPU Cores",
+        "ramGb": 2,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 35.99,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "biennially",
+          "label": "Biennially",
+          "amount": 71.98,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/special-promos/2-gb-kvm-vps-special",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/special-promos"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/special-promos/2-gb-kvm-vps-special"
+        }
+      ],
+      "baseSpecsText": "2 GB KVM VPS Special\n2 vCPU Cores\n35 GB PURE SSD RAID-10 Storage\n2 GB RAM\n5000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nAvailable in Multiple Locations\nJUST $35.99/YEAR - WOW!!\n\nBilling Cycles\nAnnually: $35.99 USD\nBiennially: $71.98 USD"
+    },
+    {
+      "id": "954",
+      "title": "4 GB KVM VPS Special",
+      "category": "Special Promos",
+      "family": "Promo VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 3,
+        "cpuLabel": "3 vCPU Cores",
+        "ramGb": 4,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 59.99,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "biennially",
+          "label": "Biennially",
+          "amount": 119.98,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/special-promos/4-gb-kvm-vps-special",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/special-promos"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/special-promos/4-gb-kvm-vps-special"
+        }
+      ],
+      "baseSpecsText": "4 GB KVM VPS Special\n3 vCPU Cores\n60 GB PURE SSD RAID-10 Storage\n4 GB RAM\n7000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nAvailable in Multiple Locations\nJUST $59.99/YEAR - WOW!!\n\nBilling Cycles\nAnnually: $59.99 USD\nBiennially: $119.98 USD"
+    },
+    {
+      "id": "955",
+      "title": "6 GB KVM VPS Special",
+      "category": "Special Promos",
+      "family": "Promo VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 6,
+        "cpuLabel": "6 vCPU Cores",
+        "ramGb": 6,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 89.99,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "biennially",
+          "label": "Biennially",
+          "amount": 179.98,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/special-promos/6-gb-kvm-vps-special",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/special-promos"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/special-promos/6-gb-kvm-vps-special"
+        }
+      ],
+      "baseSpecsText": "6 GB KVM VPS Special\n6 vCPU Cores\n100 GB PURE SSD RAID-10 Storage\n6 GB RAM\n12,000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nAvailable in Multiple Locations\nJUST $89.99/YEAR - WOW!!\n\nBilling Cycles\nAnnually: $89.99 USD\nBiennially: $179.98 USD"
+    },
+    {
+      "id": "956",
+      "title": "8 GB KVM VPS Special",
+      "category": "Special Promos",
+      "family": "Promo VPS",
+      "location": "Multiple",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 7,
+        "cpuLabel": "7 vCPU Cores",
+        "ramGb": 8,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 119.99,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "biennially",
+          "label": "Biennially",
+          "amount": 239.98,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/special-promos/8-gb-kvm-vps-special",
+      "sources": [
+        {
+          "type": "category",
+          "url": "https://my.racknerd.com/index.php?rp=/store/special-promos"
+        },
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/special-promos/8-gb-kvm-vps-special"
+        }
+      ],
+      "baseSpecsText": "8 GB KVM VPS Special\n7 vCPU Cores\n150 GB PURE SSD RAID-10 Storage\n8 GB RAM\n20,000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nAvailable in Multiple Locations\nJUST $119.99/YEAR - WOW!!\n\nBilling Cycles\nAnnually: $119.99 USD\nBiennially: $239.98 USD"
+    }
+  ]
+}

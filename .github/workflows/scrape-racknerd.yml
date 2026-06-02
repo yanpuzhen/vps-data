@@ -1,0 +1,60 @@
+name: Scrape RackNerd Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-racknerd-data
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    env:
+      WHMCS_CONFIG_FILE: racknerd/whmcs.config.json
+      WHMCS_EXTRA_PID_FILE: racknerd/racknerd-extra-pids.json
+      WHMCS_OUTPUT_FILE: racknerd/products.generated.json
+      WHMCS_PID_SCAN_MIN: 1
+      WHMCS_PID_SCAN_MAX: 10000
+      WHMCS_PID_SCAN_CONCURRENCY: 32
+      WHMCS_PID_SCRAPE_CONCURRENCY: 12
+      WHMCS_PID_SCAN_CACHE_TTL_HOURS: 24
+      WHMCS_PID_SCAN_RETRIES: 2
+      WHMCS_PID_REQUEST_TIMEOUT_MS: 15000
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Restore PID scan cache
+        uses: actions/cache@v4
+        with:
+          path: racknerd/*pid-scan-cache.json
+          key: racknerd-pid-scan-${{ github.run_id }}
+          restore-keys: |
+            racknerd-pid-scan-
+
+      - name: Scrape RackNerd products
+        run: npm run scrape:racknerd
+
+      - name: Validate dataset
+        run: npm run validate:racknerd
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: "Update RackNerd product data"
+          file_pattern: racknerd/products.generated.json racknerd/racknerd-extra-pids.json

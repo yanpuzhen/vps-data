@@ -1,0 +1,104 @@
+{
+  "siteName": "RackNerd",
+  "siteTitle": "RackNerd VPS 筛选",
+  "sourceName": "RackNerd WHMCS",
+  "origin": "https://my.racknerd.com",
+  "searchPlaceholder": "KVM / Ryzen / Windows / Dedicated",
+  "currency": "USD",
+  "productCardPattern": "<div class=\"product clearfix\" id=\"product(\\d+)\">([\\s\\S]*?)<\\/footer>\\s*<\\/div>",
+  "affiliate": {
+    "id": "17189",
+    "param": "aff",
+    "basePath": "/aff.php"
+  },
+  "storeIndexPaths": ["/index.php?rp=/store"],
+  "extraPidFile": "racknerd/racknerd-extra-pids.json",
+  "pidScanCacheFile": "racknerd/whmcs-pid-scan-cache.json",
+  "outputFile": "racknerd/products.generated.json",
+  "categories": [
+    {
+      "id": "shared-hosting",
+      "name": "Shared Hosting",
+      "family": "Shared Hosting",
+      "location": "Multiple",
+      "path": "/index.php?rp=/store/shared-hosting"
+    },
+    {
+      "id": "reseller-hosting",
+      "name": "Reseller Hosting",
+      "family": "Reseller Hosting",
+      "location": "Multiple",
+      "path": "/index.php?rp=/store/reseller-hosting"
+    },
+    {
+      "id": "kvm-vps",
+      "name": "KVM VPS",
+      "family": "KVM VPS",
+      "location": "Multiple",
+      "path": "/index.php?rp=/store/kvm-vps"
+    },
+    {
+      "id": "hybrid-dedicated-servers",
+      "name": "Hybrid Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "path": "/index.php?rp=/store/hybrid-dedicated-servers"
+    },
+    {
+      "id": "colocation",
+      "name": "Colocation",
+      "family": "Colocation",
+      "location": "Multiple",
+      "path": "/index.php?rp=/store/colocation"
+    },
+    {
+      "id": "dedicated-servers",
+      "name": "Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "path": "/index.php?rp=/store/dedicated-servers"
+    },
+    {
+      "id": "special-promos",
+      "name": "Special Promos",
+      "family": "Promo VPS",
+      "location": "Multiple",
+      "path": "/index.php?rp=/store/special-promos"
+    },
+    {
+      "id": "high-bandwidth-unmetered-dedicated-servers",
+      "name": "High Bandwidth Unmetered Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "path": "/index.php?rp=/store/high-bandwidth-unmetered-dedicated-servers"
+    },
+    {
+      "id": "amd-ryzen-epyc-dedicated-servers",
+      "name": "AMD Ryzen/EPYC Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "path": "/index.php?rp=/store/amd-ryzenepyc-dedicated-servers"
+    },
+    {
+      "id": "seo-dedicated-servers",
+      "name": "SEO Dedicated Servers",
+      "family": "Dedicated Server",
+      "location": "Multiple",
+      "path": "/index.php?rp=/store/seo-dedicated-servers"
+    },
+    {
+      "id": "windows-vps-with-nvme-ssd",
+      "name": "Windows VPS with NVMe SSD",
+      "family": "Windows VPS",
+      "location": "Multiple",
+      "path": "/index.php?rp=/store/windows-vps-with-nvme-ssd"
+    },
+    {
+      "id": "amd-ryzen-vps-linux",
+      "name": "AMD Ryzen VPS Linux",
+      "family": "Ryzen VPS",
+      "location": "Multiple",
+      "path": "/index.php?rp=/store/amd-ryzen-vps-linux"
+    }
+  ]
+}

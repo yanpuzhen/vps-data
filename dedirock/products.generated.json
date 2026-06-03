@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-02T21:24:42.004Z",
+  "generatedAt": "2026-06-03T05:16:27.001Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -2122,40 +2122,28 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "Available",
-      "availableCount": null,
-      "inStock": true,
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
       "specs": {
-        "cpuCores": 1,
-        "cpuLabel": "1x vCore CPU",
-        "ramGb": 1,
-        "storageGb": 20,
-        "storageType": "SSD",
-        "bandwidthGb": 750,
-        "portMbps": 1000,
-        "ipv4": 1
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 8.88,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-vp/promo-vps-saver-ny-cm",
       "sources": [
-        {
-          "type": "category",
-          "url": "https://billing.dedirock.com/index.php/store/promo-vp"
-        },
         {
           "type": "pid",
           "url": "https://billing.dedirock.com/index.php/store/promo-vp/promo-vps-saver-ny-cm"
         }
       ],
-      "baseSpecsText": "Promo VPS Saver NY CM\n1 GB RAM\n1x vCore CPU\n20 GB SSD\n750 GB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $8.88 USD"
+      "baseSpecsText": "Promo VPS Saver NY CM\nPID: 101\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/promo-vp/promo-vps-saver-ny-cm"
     },
     {
       "id": "102",
@@ -3058,32 +3046,44 @@
     },
     {
       "id": "183",
-      "title": "LET 7 KVM Super Sale NY",
+      "title": "LET $7 KVM Super Sale NY",
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
+        "ramGb": 2,
+        "storageGb": 30,
+        "storageType": "SSD",
+        "bandwidthGb": 2048,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 7,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-vp/let-7-kvm-super-sale-ny",
       "sources": [
+        {
+          "type": "category",
+          "url": "https://billing.dedirock.com/index.php/store/promo-vp"
+        },
         {
           "type": "pid",
           "url": "https://billing.dedirock.com/index.php/store/promo-vp/let-7-kvm-super-sale-ny"
         }
       ],
-      "baseSpecsText": "LET 7 KVM Super Sale NY\nPID: 183\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/promo-vp/let-7-kvm-super-sale-ny"
+      "baseSpecsText": "LET $7 KVM Super Sale NY\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $7 USD"
     },
     {
       "id": "186",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T05:00:13.172Z",
+  "generatedAt": "2026-06-05T10:16:40.219Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,9 +49,9 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 121,
-      "pidParsed": 22,
+      "pidParsed": 21,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 97,
+      "pidOutOfStockOnly": 98,
       "pidUnparsed": 2,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -59,8 +59,8 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 121,
       "pidScanInvalid": 9879,
       "pidScanErrors": 0
@@ -2321,39 +2321,24 @@
     },
     {
       "id": "108",
-      "title": "Storage Promo Plus BF",
+      "title": "Storage Promo Plus 1",
       "category": "VPS Storage",
       "family": "Storage VPS",
       "location": "Unknown",
-      "stock": "Available",
-      "availableCount": null,
-      "inStock": true,
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
       "specs": {
-        "cpuCores": 1,
-        "cpuLabel": "1x vCore CPU",
-        "ramGb": 2,
-        "storageGb": 2048,
-        "storageType": "Space",
-        "bandwidthGb": 4096,
-        "portMbps": 1000,
-        "ipv4": 1
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 6.92,
-          "currency": "USD",
-          "selected": true
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 27.68,
-          "currency": "USD",
-          "selected": false
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-plus-1",
       "sources": [
         {
@@ -2361,7 +2346,7 @@
           "url": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-plus-1"
         }
       ],
-      "baseSpecsText": "Storage Promo Plus BF\n2 GB RAM\n1x vCore CPU\n2 TB Space\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nQuarterly: $6.92 USD\nAnnually: $27.68 USD"
+      "baseSpecsText": "Storage Promo Plus 1\nPID: 108\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-plus-1"
     },
     {
       "id": "109",

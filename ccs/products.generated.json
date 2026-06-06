@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-06T04:44:18.627Z",
+  "generatedAt": "2026-06-06T09:29:40.691Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -39,8 +39,8 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
       "pidScanValid": 190,
       "pidScanInvalid": 9810,
       "pidScanErrors": 0

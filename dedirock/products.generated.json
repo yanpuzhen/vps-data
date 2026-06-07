@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-06T19:46:40.460Z",
+  "generatedAt": "2026-06-07T04:56:09.241Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -51,9 +51,9 @@
       "pidTargets": 121,
       "pidParsed": 21,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 98,
-      "pidUnparsed": 2,
-      "pidScrapeErrors": 0,
+      "pidOutOfStockOnly": 97,
+      "pidUnparsed": 3,
+      "pidScrapeErrors": 1,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
@@ -66,7 +66,9 @@
       "pidScanErrors": 0
     }
   },
-  "warnings": [],
+  "warnings": [
+    "PID 213 failed while scraping https://billing.dedirock.com/index.php/store/promo-bf-leb-2025/promo-vps-saver-la-bf-leb-2025: The operation was aborted due to timeout"
+  ],
   "products": [
     {
       "id": "36",
@@ -3620,8 +3622,8 @@
       "category": "Hidden Promo VPS",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -3641,7 +3643,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-bf-leb-2025/promo-vps-saver-la-bf-leb-2025"
         }
       ],
-      "baseSpecsText": "Promo VPS Saver LA BF LEB 2025\nPID: 213\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/promo-bf-leb-2025/promo-vps-saver-la-bf-leb-2025"
+      "baseSpecsText": "Promo VPS Saver LA BF LEB 2025\nPID: 213\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/promo-bf-leb-2025/promo-vps-saver-la-bf-leb-2025"
     },
     {
       "id": "214",

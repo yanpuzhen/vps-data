@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-08T05:21:54.414Z",
+  "generatedAt": "2026-06-08T11:41:48.151Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -33,20 +33,22 @@
       "pidInvalid": 0,
       "pidOutOfStockOnly": 42,
       "pidUnparsed": 148,
-      "pidScrapeErrors": 0,
+      "pidScrapeErrors": 1,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
       "pidScanValid": 190,
       "pidScanInvalid": 9810,
       "pidScanErrors": 0
     }
   },
-  "warnings": [],
+  "warnings": [
+    "PID 65 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-spring-special-2025: The operation was aborted due to timeout"
+  ],
   "products": [
     {
       "id": "3",

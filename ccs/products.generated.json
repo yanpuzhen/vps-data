@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-08T11:41:48.151Z",
+  "generatedAt": "2026-06-08T16:41:15.846Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -39,15 +39,15 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 190,
       "pidScanInvalid": 9810,
       "pidScanErrors": 0
     }
   },
   "warnings": [
-    "PID 65 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/4gb-ram-spring-special-2025: The operation was aborted due to timeout"
+    "PID 127 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-vpsxxs: The operation was aborted due to timeout"
   ],
   "products": [
     {

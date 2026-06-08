@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-08T16:41:15.846Z",
+  "generatedAt": "2026-06-08T21:10:05.434Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -33,7 +33,7 @@
       "pidInvalid": 0,
       "pidOutOfStockOnly": 42,
       "pidUnparsed": 148,
-      "pidScrapeErrors": 1,
+      "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
@@ -46,9 +46,7 @@
       "pidScanErrors": 0
     }
   },
-  "warnings": [
-    "PID 127 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-vpsxxs: The operation was aborted due to timeout"
-  ],
+  "warnings": [],
   "products": [
     {
       "id": "3",

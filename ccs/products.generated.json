@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-09T15:59:01.674Z",
+  "generatedAt": "2026-06-09T20:52:09.770Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -31,27 +31,24 @@
       "pidTargets": 190,
       "pidParsed": 0,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 171,
-      "pidUnparsed": 19,
-      "pidScrapeErrors": 5,
+      "pidOutOfStockOnly": 175,
+      "pidUnparsed": 15,
+      "pidScrapeErrors": 2,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 190,
       "pidScanInvalid": 9810,
       "pidScanErrors": 0
     }
   },
   "warnings": [
-    "PID 30 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/cloud-metal-servers/1gb-ram-4: The operation was aborted due to timeout",
-    "PID 51 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-black-friday-vps-2024: The operation was aborted due to timeout",
-    "PID 71 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-4gb-ram-vps: The operation was aborted due to timeout",
-    "PID 94 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-memorial-day-special: The operation was aborted due to timeout",
-    "PID 104 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-fall-special-2025: The operation was aborted due to timeout"
+    "PID 17 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/32vcpu: The operation was aborted due to timeout",
+    "PID 11 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/2vcpu: The operation was aborted due to timeout"
   ],
   "products": [
     {
@@ -408,8 +405,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -429,7 +426,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/32vcpu"
         }
       ],
-      "baseSpecsText": "CCS PID 17\nPID: 17\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/32vcpu"
+      "baseSpecsText": "CCS PID 17\nPID: 17\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/new-cloud-vps/32vcpu"
     },
     {
       "id": "18",
@@ -1444,8 +1441,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Unparsed",
-      "availableCount": null,
+      "stock": "Out of Stock",
+      "availableCount": 0,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -1465,7 +1462,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-black-friday-vps-2024"
         }
       ],
-      "baseSpecsText": "CCS PID 51\nPID: 51\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-black-friday-vps-2024"
+      "baseSpecsText": "CCS PID 51\nPID: 51\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-black-friday-vps-2024"
     },
     {
       "id": "52",
@@ -1995,8 +1992,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Unparsed",
-      "availableCount": null,
+      "stock": "Out of Stock",
+      "availableCount": 0,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -2016,7 +2013,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-4gb-ram-vps"
         }
       ],
-      "baseSpecsText": "CCS PID 71\nPID: 71\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-4gb-ram-vps"
+      "baseSpecsText": "CCS PID 71\nPID: 71\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/leblet-4gb-ram-vps"
     },
     {
       "id": "72",
@@ -2662,8 +2659,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Unparsed",
-      "availableCount": null,
+      "stock": "Out of Stock",
+      "availableCount": 0,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -2683,7 +2680,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-memorial-day-special"
         }
       ],
-      "baseSpecsText": "CCS PID 94\nPID: 94\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-memorial-day-special"
+      "baseSpecsText": "CCS PID 94\nPID: 94\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-memorial-day-special"
     },
     {
       "id": "95",
@@ -2952,8 +2949,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Unparsed",
-      "availableCount": null,
+      "stock": "Out of Stock",
+      "availableCount": 0,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -2973,7 +2970,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-fall-special-2025"
         }
       ],
-      "baseSpecsText": "CCS PID 104\nPID: 104\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-fall-special-2025"
+      "baseSpecsText": "CCS PID 104\nPID: 104\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/1gb-ram-fall-special-2025"
     },
     {
       "id": "105",

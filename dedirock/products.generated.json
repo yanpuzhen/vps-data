@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-10T16:21:35.116Z",
+  "generatedAt": "2026-06-10T20:45:03.355Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,9 +49,9 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 121,
-      "pidParsed": 21,
+      "pidParsed": 26,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 98,
+      "pidOutOfStockOnly": 93,
       "pidUnparsed": 2,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -59,8 +59,8 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 121,
       "pidScanInvalid": 9879,
       "pidScanErrors": 0
@@ -74,9 +74,9 @@
       "category": "LA KVM VPS",
       "family": "KVM VPS",
       "location": "Los Angeles",
-      "stock": "0 Available",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
         "cpuCores": 1,
         "cpuLabel": "1x vCore CPU",
@@ -94,6 +94,27 @@
           "amount": 5.99,
           "currency": "USD",
           "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 17.99,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 35.94,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 71.88,
+          "currency": "USD",
+          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-start",
@@ -107,7 +128,7 @@
           "url": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-start"
         }
       ],
-      "baseSpecsText": "LA KVM VPS Starter\n0 Available\n1 GB RAM\n1x vCore CPU\n20 GB SSD\n750 GB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$5.99 USD\nMonthly"
+      "baseSpecsText": "LA KVM VPS Starter\n1 GB RAM\n1x vCore CPU\n20 GB SSD\n750 GB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $5.99 USD\nQuarterly: $17.99 USD\nSemi-Annually: $35.94 USD\nAnnually: $71.88 USD"
     },
     {
       "id": "37",
@@ -115,9 +136,9 @@
       "category": "LA KVM VPS",
       "family": "KVM VPS",
       "location": "Los Angeles",
-      "stock": "0 Available",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
         "cpuCores": 2,
         "cpuLabel": "2x vCore CPU",
@@ -135,6 +156,27 @@
           "amount": 8.99,
           "currency": "USD",
           "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 26.97,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 53.94,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 107.88,
+          "currency": "USD",
+          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-pro",
@@ -148,7 +190,7 @@
           "url": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-pro"
         }
       ],
-      "baseSpecsText": "LA KVM VPS Essentials\n0 Available\n2 GB RAM\n2x vCore CPU\n40 GB SSD\n1 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$8.99 USD\nMonthly"
+      "baseSpecsText": "LA KVM VPS Essentials\n2 GB RAM\n2x vCore CPU\n40 GB SSD\n1 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $8.99 USD\nQuarterly: $26.97 USD\nSemi-Annually: $53.94 USD\nAnnually: $107.88 USD"
     },
     {
       "id": "39",
@@ -584,9 +626,9 @@
       "category": "LA KVM VPS",
       "family": "KVM VPS",
       "location": "Los Angeles",
-      "stock": "0 Available",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
         "cpuCores": 4,
         "cpuLabel": "4x vCore CPU",
@@ -604,6 +646,27 @@
           "amount": 12.99,
           "currency": "USD",
           "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 38.97,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 77.94,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 155.88,
+          "currency": "USD",
+          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-plus",
@@ -617,7 +680,7 @@
           "url": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-plus"
         }
       ],
-      "baseSpecsText": "LA KVM VPS Plus\n0 Available\n4 GB RAM\n4x vCore CPU\n100 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$12.99 USD\nMonthly"
+      "baseSpecsText": "LA KVM VPS Plus\n4 GB RAM\n4x vCore CPU\n100 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $12.99 USD\nQuarterly: $38.97 USD\nSemi-Annually: $77.94 USD\nAnnually: $155.88 USD"
     },
     {
       "id": "55",
@@ -625,9 +688,9 @@
       "category": "LA KVM VPS",
       "family": "KVM VPS",
       "location": "Los Angeles",
-      "stock": "0 Available",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
         "cpuCores": 6,
         "cpuLabel": "6x vCore CPU",
@@ -645,6 +708,27 @@
           "amount": 19.99,
           "currency": "USD",
           "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 59.97,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 119.94,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 239.88,
+          "currency": "USD",
+          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-advanced",
@@ -658,7 +742,7 @@
           "url": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-advanced"
         }
       ],
-      "baseSpecsText": "LA KVM VPS Advanced\n0 Available\n8 GB RAM\n6x vCore CPU\n200 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$19.99 USD\nMonthly"
+      "baseSpecsText": "LA KVM VPS Advanced\n8 GB RAM\n6x vCore CPU\n200 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $19.99 USD\nQuarterly: $59.97 USD\nSemi-Annually: $119.94 USD\nAnnually: $239.88 USD"
     },
     {
       "id": "56",
@@ -666,9 +750,9 @@
       "category": "LA KVM VPS",
       "family": "KVM VPS",
       "location": "Los Angeles",
-      "stock": "0 Available",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
         "cpuCores": 8,
         "cpuLabel": "8x vCore CPU",
@@ -686,6 +770,27 @@
           "amount": 34.99,
           "currency": "USD",
           "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 104.97,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 209.94,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 419.88,
+          "currency": "USD",
+          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-elte",
@@ -699,7 +804,7 @@
           "url": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-elte"
         }
       ],
-      "baseSpecsText": "LA KVM VPS Premium\n0 Available\n16 GB RAM\n8x vCore CPU\n300 GB SSD\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$34.99 USD\nMonthly"
+      "baseSpecsText": "LA KVM VPS Premium\n16 GB RAM\n8x vCore CPU\n300 GB SSD\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $34.99 USD\nQuarterly: $104.97 USD\nSemi-Annually: $209.94 USD\nAnnually: $419.88 USD"
     },
     {
       "id": "57",

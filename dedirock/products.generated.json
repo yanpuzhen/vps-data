@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-10T10:32:39.767Z",
+  "generatedAt": "2026-06-10T16:21:35.116Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,8 +49,8 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 121,
-      "pidParsed": 18,
-      "pidInvalid": 3,
+      "pidParsed": 21,
+      "pidInvalid": 0,
       "pidOutOfStockOnly": 98,
       "pidUnparsed": 2,
       "pidScrapeErrors": 0,
@@ -59,8 +59,8 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
       "pidScanValid": 121,
       "pidScanInvalid": 9879,
       "pidScanErrors": 0
@@ -357,6 +357,43 @@
       "baseSpecsText": "Dual E5-2670 (16 cores)\nDual E5-2670 (16 cores)\n128GB RAM\n500GB SSD\nHardware RAID + BBU\n20TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $119 USD"
     },
     {
+      "id": "47",
+      "title": "E5-2697v3 (14 cores)",
+      "category": "Dedicated Server",
+      "family": "Dedicated Server",
+      "location": "Unknown",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "Storage",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 131,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-e5-2680v2-20-cores",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-e5-2680v2-20-cores"
+        }
+      ],
+      "baseSpecsText": "E5-2697v3 (14 cores)\nE5-2697v3 (14 cores)\n64GB RAM\n500GB SSD\nSoftware\n15TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $131 USD"
+    },
+    {
       "id": "48",
       "title": "E5-2667v3 (8 cores)",
       "category": "Dedicated Server",
@@ -392,6 +429,80 @@
         }
       ],
       "baseSpecsText": "E5-2667v3 (8 cores)\nE5-2667v3 (8 cores)\n64GB RAM\n500GB SSD\nSoftware/BIOS\n15TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $119 USD"
+    },
+    {
+      "id": "50",
+      "title": "2x E5-2680v2 (20 cores)",
+      "category": "Dedicated Server",
+      "family": "Dedicated Server",
+      "location": "Unknown",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "SSD",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 138,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/dedicated-server/quad-e5-4650v2-40-cores-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/dedicated-server/quad-e5-4650v2-40-cores-1"
+        }
+      ],
+      "baseSpecsText": "2x E5-2680v2 (20 cores)\n2x E5-2680v2 (20 cores)\n192GB RAM\n1 TB SSD\nSoftware\n20TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $138 USD"
+    },
+    {
+      "id": "51",
+      "title": "2x E5-2697v3 (28 cores)",
+      "category": "Dedicated Server",
+      "family": "Dedicated Server",
+      "location": "Unknown",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 256,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 202,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-e5-2699v3-36-cores-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-e5-2699v3-36-cores-1"
+        }
+      ],
+      "baseSpecsText": "2x E5-2697v3 (28 cores)\n2x E5-2697v3 (28 cores)\n256 GB RAM\n1 TB NVMe\nHardware RAID + BBU\n25TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $202 USD"
     },
     {
       "id": "52",

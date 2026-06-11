@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T16:31:13.032Z",
+  "generatedAt": "2026-06-11T20:35:42.117Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -51,22 +51,24 @@
       "pidTargets": 121,
       "pidParsed": 36,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 83,
-      "pidUnparsed": 2,
-      "pidScrapeErrors": 0,
+      "pidOutOfStockOnly": 82,
+      "pidUnparsed": 3,
+      "pidScrapeErrors": 1,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 121,
       "pidScanInvalid": 9879,
       "pidScanErrors": 0
     }
   },
-  "warnings": [],
+  "warnings": [
+    "PID 120 failed while scraping https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-advanced: The operation was aborted due to timeout"
+  ],
   "products": [
     {
       "id": "36",
@@ -2012,8 +2014,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "20 Available",
-      "availableCount": 20,
+      "stock": "17 Available",
+      "availableCount": 17,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2053,8 +2055,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "8 Available",
-      "availableCount": 8,
+      "stock": "6 Available",
+      "availableCount": 6,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2845,8 +2847,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "New York",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -2866,7 +2868,7 @@
           "url": "https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-advanced"
         }
       ],
-      "baseSpecsText": "LET Offer NY KVM VPS Advanced\nPID: 120\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-advanced"
+      "baseSpecsText": "LET Offer NY KVM VPS Advanced\nPID: 120\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-advanced"
     },
     {
       "id": "121",

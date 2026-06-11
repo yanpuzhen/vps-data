@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T05:18:07.823Z",
+  "generatedAt": "2026-06-11T11:17:29.391Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -31,9 +31,9 @@
       "pidTargets": 190,
       "pidParsed": 0,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 176,
-      "pidUnparsed": 14,
-      "pidScrapeErrors": 0,
+      "pidOutOfStockOnly": 174,
+      "pidUnparsed": 16,
+      "pidScrapeErrors": 3,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
@@ -46,7 +46,11 @@
       "pidScanErrors": 0
     }
   },
-  "warnings": [],
+  "warnings": [
+    "PID 21 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/4gb-ram: The operation was aborted due to timeout",
+    "PID 102 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-summer-special: The operation was aborted due to timeout",
+    "PID 119 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsxxs: The operation was aborted due to timeout"
+  ],
   "products": [
     {
       "id": "3",
@@ -2888,8 +2892,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -2909,7 +2913,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-summer-special"
         }
       ],
-      "baseSpecsText": "CCS PID 102\nPID: 102\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-summer-special"
+      "baseSpecsText": "CCS PID 102\nPID: 102\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-summer-special"
     },
     {
       "id": "103",
@@ -3352,8 +3356,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -3373,7 +3377,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsxxs"
         }
       ],
-      "baseSpecsText": "CCS PID 119\nPID: 119\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsxxs"
+      "baseSpecsText": "CCS PID 119\nPID: 119\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsxxs"
     },
     {
       "id": "120",

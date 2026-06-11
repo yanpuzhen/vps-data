@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T11:17:29.391Z",
+  "generatedAt": "2026-06-11T21:22:32.661Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -31,25 +31,23 @@
       "pidTargets": 190,
       "pidParsed": 0,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 174,
-      "pidUnparsed": 16,
-      "pidScrapeErrors": 3,
+      "pidOutOfStockOnly": 175,
+      "pidUnparsed": 15,
+      "pidScrapeErrors": 1,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
       "pidScanValid": 190,
       "pidScanInvalid": 9810,
       "pidScanErrors": 0
     }
   },
   "warnings": [
-    "PID 21 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/cloud-virtual-private-servers/4gb-ram: The operation was aborted due to timeout",
-    "PID 102 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-summer-special: The operation was aborted due to timeout",
-    "PID 119 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsxxs: The operation was aborted due to timeout"
+    "PID 187 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsjyz: The operation was aborted due to timeout"
   ],
   "products": [
     {
@@ -2892,8 +2890,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Unparsed",
-      "availableCount": null,
+      "stock": "Out of Stock",
+      "availableCount": 0,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -2913,7 +2911,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-summer-special"
         }
       ],
-      "baseSpecsText": "CCS PID 102\nPID: 102\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-summer-special"
+      "baseSpecsText": "CCS PID 102\nPID: 102\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-summer-special"
     },
     {
       "id": "103",
@@ -3356,8 +3354,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Unparsed",
-      "availableCount": null,
+      "stock": "Out of Stock",
+      "availableCount": 0,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -3377,7 +3375,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsxxs"
         }
       ],
-      "baseSpecsText": "CCS PID 119\nPID: 119\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsxxs"
+      "baseSpecsText": "CCS PID 119\nPID: 119\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-1gb-ram-special-vpsxxs"
     },
     {
       "id": "120",
@@ -5328,8 +5326,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -5349,7 +5347,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsjyz"
         }
       ],
-      "baseSpecsText": "CCS PID 187\nPID: 187\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsjyz"
+      "baseSpecsText": "CCS PID 187\nPID: 187\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsjyz"
     },
     {
       "id": "188",

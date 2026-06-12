@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T21:22:32.661Z",
+  "generatedAt": "2026-06-12T05:23:07.295Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -31,24 +31,22 @@
       "pidTargets": 190,
       "pidParsed": 0,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 175,
-      "pidUnparsed": 15,
-      "pidScrapeErrors": 1,
+      "pidOutOfStockOnly": 176,
+      "pidUnparsed": 14,
+      "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 190,
       "pidScanInvalid": 9810,
       "pidScanErrors": 0
     }
   },
-  "warnings": [
-    "PID 187 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsjyz: The operation was aborted due to timeout"
-  ],
+  "warnings": [],
   "products": [
     {
       "id": "3",
@@ -5326,8 +5324,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Unparsed",
-      "availableCount": null,
+      "stock": "Out of Stock",
+      "availableCount": 0,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -5347,7 +5345,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsjyz"
         }
       ],
-      "baseSpecsText": "CCS PID 187\nPID: 187\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsjyz"
+      "baseSpecsText": "CCS PID 187\nPID: 187\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/12gb-ram-vps-vpsjyz"
     },
     {
       "id": "188",

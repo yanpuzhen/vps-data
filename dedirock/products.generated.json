@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-12T10:40:22.041Z",
+  "generatedAt": "2026-06-12T15:40:11.226Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,11 +49,11 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 121,
-      "pidParsed": 29,
+      "pidParsed": 30,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 90,
-      "pidUnparsed": 2,
-      "pidScrapeErrors": 0,
+      "pidOutOfStockOnly": 88,
+      "pidUnparsed": 3,
+      "pidScrapeErrors": 1,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
@@ -66,7 +66,9 @@
       "pidScanErrors": 0
     }
   },
-  "warnings": [],
+  "warnings": [
+    "PID 125 failed while scraping https://billing.dedirock.com/index.php/store/yearly-promo/yearly-promo-saver: The operation was aborted due to timeout"
+  ],
   "products": [
     {
       "id": "36",
@@ -2012,9 +2014,9 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "0 Available",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "15 Available",
+      "availableCount": 15,
+      "inStock": true,
       "specs": {
         "cpuCores": 1,
         "cpuLabel": "1x vCore CPU",
@@ -2045,7 +2047,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/promo-vps-saver-la-bf"
         }
       ],
-      "baseSpecsText": "Promo VPS Saver LA BF\n0 Available\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$9.88 USD\nAnnually"
+      "baseSpecsText": "Promo VPS Saver LA BF\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $9.88 USD"
     },
     {
       "id": "94",
@@ -2053,8 +2055,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "4 Available",
-      "availableCount": 4,
+      "stock": "26 Available",
+      "availableCount": 26,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2935,8 +2937,8 @@
       "category": "Hidden Promo VPS",
       "family": "Promo VPS",
       "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -2956,7 +2958,7 @@
           "url": "https://billing.dedirock.com/index.php/store/yearly-promo/yearly-promo-saver"
         }
       ],
-      "baseSpecsText": "Yearly Promo Saver\nPID: 125\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/yearly-promo/yearly-promo-saver"
+      "baseSpecsText": "Yearly Promo Saver\nPID: 125\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/yearly-promo/yearly-promo-saver"
     },
     {
       "id": "126",

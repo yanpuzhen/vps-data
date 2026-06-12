@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T20:35:42.117Z",
+  "generatedAt": "2026-06-12T10:40:22.041Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,11 +49,11 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 121,
-      "pidParsed": 36,
+      "pidParsed": 29,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 82,
-      "pidUnparsed": 3,
-      "pidScrapeErrors": 1,
+      "pidOutOfStockOnly": 90,
+      "pidUnparsed": 2,
+      "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
@@ -66,9 +66,7 @@
       "pidScanErrors": 0
     }
   },
-  "warnings": [
-    "PID 120 failed while scraping https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-advanced: The operation was aborted due to timeout"
-  ],
+  "warnings": [],
   "products": [
     {
       "id": "36",
@@ -2014,9 +2012,9 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "17 Available",
-      "availableCount": 17,
-      "inStock": true,
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
       "specs": {
         "cpuCores": 1,
         "cpuLabel": "1x vCore CPU",
@@ -2047,7 +2045,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/promo-vps-saver-la-bf"
         }
       ],
-      "baseSpecsText": "Promo VPS Saver LA BF\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $9.88 USD"
+      "baseSpecsText": "Promo VPS Saver LA BF\n0 Available\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$9.88 USD\nAnnually"
     },
     {
       "id": "94",
@@ -2055,8 +2053,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "6 Available",
-      "availableCount": 6,
+      "stock": "4 Available",
+      "availableCount": 4,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2386,28 +2384,20 @@
       "category": "VPS Storage",
       "family": "Storage VPS",
       "location": "Unknown",
-      "stock": "Available",
-      "availableCount": null,
-      "inStock": true,
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
       "specs": {
-        "cpuCores": 1,
-        "cpuLabel": "1x vCore CPU",
-        "ramGb": 0.5,
-        "storageGb": 256,
-        "storageType": "Space",
-        "bandwidthGb": 1024,
-        "portMbps": 1000,
-        "ipv4": 1
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 11.88,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-starter-bf",
       "sources": [
         {
@@ -2415,7 +2405,7 @@
           "url": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-starter-bf"
         }
       ],
-      "baseSpecsText": "Storage Promo Starter BF\n512 MB RAM\n1x vCore CPU\n256 GB Space\n1 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $11.88 USD"
+      "baseSpecsText": "Storage Promo Starter BF\nPID: 106\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-starter-bf"
     },
     {
       "id": "107",
@@ -2423,28 +2413,20 @@
       "category": "VPS Storage",
       "family": "Storage VPS",
       "location": "Unknown",
-      "stock": "Available",
-      "availableCount": null,
-      "inStock": true,
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
       "specs": {
-        "cpuCores": 1,
-        "cpuLabel": "1x vCore CPU",
-        "ramGb": 1,
-        "storageGb": 1024,
-        "storageType": "Space",
-        "bandwidthGb": 2048,
-        "portMbps": 1000,
-        "ipv4": 1
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 17.68,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-essentials-bf",
       "sources": [
         {
@@ -2452,43 +2434,28 @@
           "url": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-essentials-bf"
         }
       ],
-      "baseSpecsText": "Storage Promo Essentials BF\n1 GB RAM\n1x vCore CPU\n1 TB Space\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $17.68 USD"
+      "baseSpecsText": "Storage Promo Essentials BF\nPID: 107\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-essentials-bf"
     },
     {
       "id": "108",
-      "title": "Storage Promo Plus BF",
+      "title": "Storage Promo Plus 1",
       "category": "VPS Storage",
       "family": "Storage VPS",
       "location": "Unknown",
-      "stock": "Available",
-      "availableCount": null,
-      "inStock": true,
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
       "specs": {
-        "cpuCores": 1,
-        "cpuLabel": "1x vCore CPU",
-        "ramGb": 2,
-        "storageGb": 2048,
-        "storageType": "Space",
-        "bandwidthGb": 4096,
-        "portMbps": 1000,
-        "ipv4": 1
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 6.92,
-          "currency": "USD",
-          "selected": true
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 27.68,
-          "currency": "USD",
-          "selected": false
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-plus-1",
       "sources": [
         {
@@ -2496,7 +2463,7 @@
           "url": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-plus-1"
         }
       ],
-      "baseSpecsText": "Storage Promo Plus BF\n2 GB RAM\n1x vCore CPU\n2 TB Space\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nQuarterly: $6.92 USD\nAnnually: $27.68 USD"
+      "baseSpecsText": "Storage Promo Plus 1\nPID: 108\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-plus-1"
     },
     {
       "id": "109",
@@ -2504,28 +2471,20 @@
       "category": "VPS Storage",
       "family": "Storage VPS",
       "location": "Unknown",
-      "stock": "Available",
-      "availableCount": null,
-      "inStock": true,
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
       "specs": {
-        "cpuCores": 1,
-        "cpuLabel": "1x vCore CPU",
-        "ramGb": 0.5,
-        "storageGb": 256,
-        "storageType": "Space",
-        "bandwidthGb": 1024,
-        "portMbps": 200,
-        "ipv4": 1
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 10.88,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-starter-cm",
       "sources": [
         {
@@ -2533,7 +2492,7 @@
           "url": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-starter-cm"
         }
       ],
-      "baseSpecsText": "Storage Promo Starter CM\n512 MB RAM\n1x vCore CPU\n256 GB Space\n1 TB Bandwidth\n200 Mbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $10.88 USD"
+      "baseSpecsText": "Storage Promo Starter CM\nPID: 109\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-starter-cm"
     },
     {
       "id": "110",
@@ -2541,28 +2500,20 @@
       "category": "VPS Storage",
       "family": "Storage VPS",
       "location": "Unknown",
-      "stock": "Available",
-      "availableCount": null,
-      "inStock": true,
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
       "specs": {
-        "cpuCores": 1,
-        "cpuLabel": "1x vCore CPU",
-        "ramGb": 1,
-        "storageGb": 1024,
-        "storageType": "Space",
-        "bandwidthGb": 2048,
-        "portMbps": 400,
-        "ipv4": 1
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 16.68,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-essentials-cm",
       "sources": [
         {
@@ -2570,7 +2521,7 @@
           "url": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-essentials-cm"
         }
       ],
-      "baseSpecsText": "Storage Promo Essentials CM\n1 GB RAM\n1x vCore CPU\n1 TB Space\n2 TB Bandwidth\n400 Mbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $16.68 USD"
+      "baseSpecsText": "Storage Promo Essentials CM\nPID: 110\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-essentials-cm"
     },
     {
       "id": "111",
@@ -2578,28 +2529,20 @@
       "category": "VPS Storage",
       "family": "Storage VPS",
       "location": "Unknown",
-      "stock": "Available",
-      "availableCount": null,
-      "inStock": true,
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
       "specs": {
-        "cpuCores": 1,
-        "cpuLabel": "1x vCore CPU",
-        "ramGb": 2,
-        "storageGb": 2048,
-        "storageType": "Space",
-        "bandwidthGb": 4096,
-        "portMbps": 600,
-        "ipv4": 1
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 26.68,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-plus-cm",
       "sources": [
         {
@@ -2607,7 +2550,7 @@
           "url": "https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-plus-cm"
         }
       ],
-      "baseSpecsText": "Storage Promo Plus CM\n2 GB RAM\n1x vCore CPU\n2 TB Space\n4 TB Bandwidth\n600 Mbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $26.68 USD"
+      "baseSpecsText": "Storage Promo Plus CM\nPID: 111\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/vps-storage/storage-promo-plus-cm"
     },
     {
       "id": "112",
@@ -2847,8 +2790,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "New York",
-      "stock": "Unparsed",
-      "availableCount": null,
+      "stock": "Out of Stock",
+      "availableCount": 0,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -2868,7 +2811,7 @@
           "url": "https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-advanced"
         }
       ],
-      "baseSpecsText": "LET Offer NY KVM VPS Advanced\nPID: 120\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-advanced"
+      "baseSpecsText": "LET Offer NY KVM VPS Advanced\nPID: 120\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-advanced"
     },
     {
       "id": "121",

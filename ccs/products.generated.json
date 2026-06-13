@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-13T05:27:58.102Z",
+  "generatedAt": "2026-06-13T09:48:39.795Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -31,27 +31,24 @@
       "pidTargets": 190,
       "pidParsed": 0,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 175,
-      "pidUnparsed": 15,
-      "pidScrapeErrors": 5,
+      "pidOutOfStockOnly": 174,
+      "pidUnparsed": 16,
+      "pidScrapeErrors": 2,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 190,
       "pidScanInvalid": 9810,
       "pidScanErrors": 0
     }
   },
   "warnings": [
-    "PID 8 failed while scraping https://cloud.colocrossing.com/cart.php?a=view: The operation was aborted due to timeout",
-    "PID 25 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/4gb-ram-1: The operation was aborted due to timeout",
-    "PID 24 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/2gb-ram-2: The operation was aborted due to timeout",
-    "PID 52 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/3gb-black-friday-kvm-vps-2024: The operation was aborted due to timeout",
-    "PID 143 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-2gb-ram-vps-2025: The operation was aborted due to timeout"
+    "PID 96 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-linkedin-special: The operation was aborted due to timeout",
+    "PID 128 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-vpsjyz30: The operation was aborted due to timeout"
   ],
   "products": [
     {
@@ -2720,8 +2717,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -2741,7 +2738,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-linkedin-special"
         }
       ],
-      "baseSpecsText": "CCS PID 96\nPID: 96\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-linkedin-special"
+      "baseSpecsText": "CCS PID 96\nPID: 96\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/2gb-ram-linkedin-special"
     },
     {
       "id": "97",
@@ -3619,8 +3616,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -3640,7 +3637,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-vpsjyz30"
         }
       ],
-      "baseSpecsText": "CCS PID 128\nPID: 128\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-vpsjyz30"
+      "baseSpecsText": "CCS PID 128\nPID: 128\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/singles-day-8gb-ram-special-vpsjyz30"
     },
     {
       "id": "129",
@@ -4054,8 +4051,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Unparsed",
-      "availableCount": null,
+      "stock": "Out of Stock",
+      "availableCount": 0,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -4075,7 +4072,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-2gb-ram-vps-2025"
         }
       ],
-      "baseSpecsText": "CCS PID 143\nPID: 143\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-2gb-ram-vps-2025"
+      "baseSpecsText": "CCS PID 143\nPID: 143\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-2gb-ram-vps-2025"
     },
     {
       "id": "144",

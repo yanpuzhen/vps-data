@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-13T14:54:50.474Z",
+  "generatedAt": "2026-06-13T20:09:01.635Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -31,9 +31,9 @@
       "pidTargets": 190,
       "pidParsed": 0,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 176,
-      "pidUnparsed": 14,
-      "pidScrapeErrors": 0,
+      "pidOutOfStockOnly": 175,
+      "pidUnparsed": 15,
+      "pidScrapeErrors": 1,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
@@ -46,7 +46,9 @@
       "pidScanErrors": 0
     }
   },
-  "warnings": [],
+  "warnings": [
+    "PID 40 failed while scraping https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/customer-4761-16gb-plan: The operation was aborted due to timeout"
+  ],
   "products": [
     {
       "id": "3",
@@ -1148,8 +1150,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -1169,7 +1171,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/customer-4761-16gb-plan"
         }
       ],
-      "baseSpecsText": "CCS PID 40\nPID: 40\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/customer-4761-16gb-plan"
+      "baseSpecsText": "CCS PID 40\nPID: 40\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/customer-4761-16gb-plan"
     },
     {
       "id": "41",

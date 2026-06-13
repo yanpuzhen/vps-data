@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-13T05:02:32.410Z",
+  "generatedAt": "2026-06-13T09:34:07.804Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,28 +49,24 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 121,
-      "pidParsed": 29,
+      "pidParsed": 30,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 88,
-      "pidUnparsed": 4,
-      "pidScrapeErrors": 2,
+      "pidOutOfStockOnly": 89,
+      "pidUnparsed": 2,
+      "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 121,
       "pidScanInvalid": 9879,
       "pidScanErrors": 0
     }
   },
-  "warnings": [
-    "PID 67 failed while scraping https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-start: The operation was aborted due to timeout",
-    "PID 194 failed while scraping https://billing.dedirock.com/index.php/store/promo-vp/let-38-kvm-mega-sale-ny: The operation was aborted due to timeout",
-    "PID 67 exists at https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-start, but the product configuration page could not be parsed."
-  ],
+  "warnings": [],
   "products": [
     {
       "id": "36",
@@ -1233,6 +1229,27 @@
           "amount": 5.99,
           "currency": "USD",
           "selected": true
+        },
+        {
+          "cycle": "quarterly",
+          "label": "Quarterly",
+          "amount": 17.97,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "semiannually",
+          "label": "Semi-Annually",
+          "amount": 35.94,
+          "currency": "USD",
+          "selected": false
+        },
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 71.88,
+          "currency": "USD",
+          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-start",
@@ -1246,7 +1263,7 @@
           "url": "https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-start"
         }
       ],
-      "baseSpecsText": "NY KVM VPS Starter\n1 GB RAM\n1x vCore CPU\n20 GB SSD\n750 GB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$5.99 USD\nMonthly"
+      "baseSpecsText": "NY KVM VPS Starter\n1 GB RAM\n1x vCore CPU\n20 GB SSD\n750 GB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $5.99 USD\nQuarterly: $17.97 USD\nSemi-Annually: $35.94 USD\nAnnually: $71.88 USD"
     },
     {
       "id": "68",
@@ -1995,8 +2012,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "56 Available",
-      "availableCount": 56,
+      "stock": "47 Available",
+      "availableCount": 47,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2036,8 +2053,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "34 Available",
-      "availableCount": 34,
+      "stock": "31 Available",
+      "availableCount": 31,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -3382,8 +3399,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "Unparsed",
-      "availableCount": null,
+      "stock": "Out of Stock",
+      "availableCount": 0,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -3403,7 +3420,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vp/let-38-kvm-mega-sale-ny"
         }
       ],
-      "baseSpecsText": "LET 38 KVM Mega Sale NY\nPID: 194\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/promo-vp/let-38-kvm-mega-sale-ny"
+      "baseSpecsText": "LET 38 KVM Mega Sale NY\nPID: 194\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/promo-vp/let-38-kvm-mega-sale-ny"
     },
     {
       "id": "195",
@@ -3452,8 +3469,8 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "14 Available",
-      "availableCount": 14,
+      "stock": "12 Available",
+      "availableCount": 12,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -3493,8 +3510,8 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "8 Available",
-      "availableCount": 8,
+      "stock": "7 Available",
+      "availableCount": 7,
       "inStock": true,
       "specs": {
         "cpuCores": 1,

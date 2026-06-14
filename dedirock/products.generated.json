@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-14T05:19:36.042Z",
+  "generatedAt": "2026-06-14T09:56:08.609Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,24 +49,45 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 121,
-      "pidParsed": 30,
+      "pidParsed": 0,
       "pidInvalid": 0,
       "pidOutOfStockOnly": 89,
-      "pidUnparsed": 2,
+      "pidUnparsed": 32,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 121,
       "pidScanInvalid": 9879,
       "pidScanErrors": 0
     }
   },
-  "warnings": [],
+  "warnings": [
+    "PID 36 exists at https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-start, but the product configuration page could not be parsed.",
+    "PID 37 exists at https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-pro, but the product configuration page could not be parsed.",
+    "PID 54 exists at https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-plus, but the product configuration page could not be parsed.",
+    "PID 55 exists at https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-advanced, but the product configuration page could not be parsed.",
+    "PID 56 exists at https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-elte, but the product configuration page could not be parsed.",
+    "PID 57 exists at https://billing.dedirock.com/index.php/store/vps-storage/storage-starter, but the product configuration page could not be parsed.",
+    "PID 58 exists at https://billing.dedirock.com/index.php/store/vps-storage/storage-essentials, but the product configuration page could not be parsed.",
+    "PID 59 exists at https://billing.dedirock.com/index.php/store/vps-storage/storage-plus, but the product configuration page could not be parsed.",
+    "PID 60 exists at https://billing.dedirock.com/index.php/store/vps-storage/storage-advanced, but the product configuration page could not be parsed.",
+    "PID 61 exists at https://billing.dedirock.com/index.php/store/vps-storage/storage-premium, but the product configuration page could not be parsed.",
+    "PID 67 exists at https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-start, but the product configuration page could not be parsed.",
+    "PID 68 exists at https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-essentials, but the product configuration page could not be parsed.",
+    "PID 69 exists at https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-plus, but the product configuration page could not be parsed.",
+    "PID 70 exists at https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-advanced, but the product configuration page could not be parsed.",
+    "PID 71 exists at https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-premium, but the product configuration page could not be parsed.",
+    "PID 93 exists at https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/promo-vps-saver-la-bf, but the product configuration page could not be parsed.",
+    "PID 94 exists at https://billing.dedirock.com/index.php/store/promo-vp/promo-vps-saver-ny-bf, but the product configuration page could not be parsed.",
+    "PID 195 exists at https://billing.dedirock.com/index.php/store/promo-storage-new-york-hidden/storage-promo-start-bf-2025, but the product configuration page could not be parsed.",
+    "PID 197 exists at https://billing.dedirock.com/index.php/store/promo-storage-new-york-hidden/storage-promo-essentials-bf-1, but the product configuration page could not be parsed.",
+    "PID 199 exists at https://billing.dedirock.com/index.php/store/promo-storage-new-york-hidden/storage-promo-plus-bf-2025, but the product configuration page could not be parsed."
+  ],
   "products": [
     {
       "id": "36",
@@ -94,27 +115,6 @@
           "amount": 5.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 17.99,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 35.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 71.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-start",
@@ -128,7 +128,7 @@
           "url": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-start"
         }
       ],
-      "baseSpecsText": "LA KVM VPS Starter\n1 GB RAM\n1x vCore CPU\n20 GB SSD\n750 GB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $5.99 USD\nQuarterly: $17.99 USD\nSemi-Annually: $35.94 USD\nAnnually: $71.88 USD"
+      "baseSpecsText": "LA KVM VPS Starter\n1 GB RAM\n1x vCore CPU\n20 GB SSD\n750 GB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$5.99 USD\nMonthly"
     },
     {
       "id": "37",
@@ -156,27 +156,6 @@
           "amount": 8.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 26.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 53.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 107.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-pro",
@@ -190,7 +169,7 @@
           "url": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-pro"
         }
       ],
-      "baseSpecsText": "LA KVM VPS Essentials\n2 GB RAM\n2x vCore CPU\n40 GB SSD\n1 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $8.99 USD\nQuarterly: $26.97 USD\nSemi-Annually: $53.94 USD\nAnnually: $107.88 USD"
+      "baseSpecsText": "LA KVM VPS Essentials\n2 GB RAM\n2x vCore CPU\n40 GB SSD\n1 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$8.99 USD\nMonthly"
     },
     {
       "id": "39",
@@ -223,32 +202,24 @@
     },
     {
       "id": "40",
-      "title": "E3-1230v3 (4 cores)",
+      "title": "E3 1230v3 4 Cores 32 GB",
       "category": "Dedicated Server",
       "family": "Dedicated Server",
       "location": "Unknown",
-      "stock": "Available",
+      "stock": "Unparsed",
       "availableCount": null,
-      "inStock": true,
+      "inStock": false,
       "specs": {
         "cpuCores": 0,
         "cpuLabel": "N/A",
         "ramGb": 0,
         "storageGb": 0,
-        "storageType": "Storage",
+        "storageType": "N/A",
         "bandwidthGb": 0,
         "portMbps": 0,
-        "ipv4": 1
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "monthly",
-          "label": "Monthly",
-          "amount": 59,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/dedicated-server/e3-1230v3-4-cores-32-gb",
       "sources": [
         {
@@ -256,36 +227,28 @@
           "url": "https://billing.dedirock.com/index.php/store/dedicated-server/e3-1230v3-4-cores-32-gb"
         }
       ],
-      "baseSpecsText": "E3-1230v3 (4 cores)\nE3-1230v3 (4 cores)\n32GB RAM\n250GB SSD\nSoftware/BIOS\n10TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $59 USD"
+      "baseSpecsText": "E3 1230v3 4 Cores 32 GB\nPID: 40\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/dedicated-server/e3-1230v3-4-cores-32-gb"
     },
     {
       "id": "42",
-      "title": "Dual L5520 (8 cores)",
+      "title": "Dual L5520 8 Cores",
       "category": "Dedicated Server",
       "family": "Dedicated Server",
       "location": "Unknown",
-      "stock": "Available",
+      "stock": "Unparsed",
       "availableCount": null,
-      "inStock": true,
+      "inStock": false,
       "specs": {
         "cpuCores": 0,
         "cpuLabel": "N/A",
         "ramGb": 0,
         "storageGb": 0,
-        "storageType": "Storage",
+        "storageType": "N/A",
         "bandwidthGb": 0,
         "portMbps": 0,
-        "ipv4": 1
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "monthly",
-          "label": "Monthly",
-          "amount": 70,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-l5520-8-cores",
       "sources": [
         {
@@ -293,7 +256,7 @@
           "url": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-l5520-8-cores"
         }
       ],
-      "baseSpecsText": "Dual L5520 (8 cores)\nDual L5520 (8 cores)\n32GB RAM\n500GB SSD\nSoftware/BIOS\n10TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $70 USD"
+      "baseSpecsText": "Dual L5520 8 Cores\nPID: 42\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/dedicated-server/dual-l5520-8-cores"
     },
     {
       "id": "43",
@@ -326,32 +289,24 @@
     },
     {
       "id": "44",
-      "title": "E3-1270v5 (4 cores)",
+      "title": "E3 1270v6 4 Cores",
       "category": "Dedicated Server",
       "family": "Dedicated Server",
       "location": "Unknown",
-      "stock": "Available",
+      "stock": "Unparsed",
       "availableCount": null,
-      "inStock": true,
+      "inStock": false,
       "specs": {
         "cpuCores": 0,
         "cpuLabel": "N/A",
         "ramGb": 0,
         "storageGb": 0,
-        "storageType": "Storage",
+        "storageType": "N/A",
         "bandwidthGb": 0,
         "portMbps": 0,
-        "ipv4": 1
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "monthly",
-          "label": "Monthly",
-          "amount": 102,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/dedicated-server/e3-1270v6-4-cores",
       "sources": [
         {
@@ -359,36 +314,28 @@
           "url": "https://billing.dedirock.com/index.php/store/dedicated-server/e3-1270v6-4-cores"
         }
       ],
-      "baseSpecsText": "E3-1270v5 (4 cores)\nE3-1270v6 (4 cores)\n64GB RAM\n500GB SSD\nSoftware/BIOS\n15TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $102 USD"
+      "baseSpecsText": "E3 1270v6 4 Cores\nPID: 44\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/dedicated-server/e3-1270v6-4-cores"
     },
     {
       "id": "46",
-      "title": "Dual E5-2670 (16 cores)",
+      "title": "Dual E5 2670 16 Cores 1",
       "category": "Dedicated Server",
       "family": "Dedicated Server",
       "location": "Unknown",
-      "stock": "Available",
+      "stock": "Unparsed",
       "availableCount": null,
-      "inStock": true,
+      "inStock": false,
       "specs": {
         "cpuCores": 0,
         "cpuLabel": "N/A",
         "ramGb": 0,
         "storageGb": 0,
-        "storageType": "Storage",
+        "storageType": "N/A",
         "bandwidthGb": 0,
         "portMbps": 0,
-        "ipv4": 1
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "monthly",
-          "label": "Monthly",
-          "amount": 119,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-e5-2670-16-cores-1",
       "sources": [
         {
@@ -396,36 +343,28 @@
           "url": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-e5-2670-16-cores-1"
         }
       ],
-      "baseSpecsText": "Dual E5-2670 (16 cores)\nDual E5-2670 (16 cores)\n128GB RAM\n500GB SSD\nHardware RAID + BBU\n20TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $119 USD"
+      "baseSpecsText": "Dual E5 2670 16 Cores 1\nPID: 46\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/dedicated-server/dual-e5-2670-16-cores-1"
     },
     {
       "id": "47",
-      "title": "E5-2697v3 (14 cores)",
+      "title": "Dual E5 2680v2 20 Cores",
       "category": "Dedicated Server",
       "family": "Dedicated Server",
       "location": "Unknown",
-      "stock": "Available",
+      "stock": "Unparsed",
       "availableCount": null,
-      "inStock": true,
+      "inStock": false,
       "specs": {
         "cpuCores": 0,
         "cpuLabel": "N/A",
         "ramGb": 0,
         "storageGb": 0,
-        "storageType": "Storage",
+        "storageType": "N/A",
         "bandwidthGb": 0,
         "portMbps": 0,
-        "ipv4": 1
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "monthly",
-          "label": "Monthly",
-          "amount": 131,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-e5-2680v2-20-cores",
       "sources": [
         {
@@ -433,36 +372,28 @@
           "url": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-e5-2680v2-20-cores"
         }
       ],
-      "baseSpecsText": "E5-2697v3 (14 cores)\nE5-2697v3 (14 cores)\n64GB RAM\n500GB SSD\nSoftware\n15TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $131 USD"
+      "baseSpecsText": "Dual E5 2680v2 20 Cores\nPID: 47\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/dedicated-server/dual-e5-2680v2-20-cores"
     },
     {
       "id": "48",
-      "title": "E5-2667v3 (8 cores)",
+      "title": "Single E5 2699v4 22 Cores",
       "category": "Dedicated Server",
       "family": "Dedicated Server",
       "location": "Unknown",
-      "stock": "Available",
+      "stock": "Unparsed",
       "availableCount": null,
-      "inStock": true,
+      "inStock": false,
       "specs": {
         "cpuCores": 0,
         "cpuLabel": "N/A",
         "ramGb": 0,
         "storageGb": 0,
-        "storageType": "Storage",
+        "storageType": "N/A",
         "bandwidthGb": 0,
         "portMbps": 0,
-        "ipv4": 1
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "monthly",
-          "label": "Monthly",
-          "amount": 119,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/dedicated-server/single-e5-2699v4-22-cores",
       "sources": [
         {
@@ -470,36 +401,28 @@
           "url": "https://billing.dedirock.com/index.php/store/dedicated-server/single-e5-2699v4-22-cores"
         }
       ],
-      "baseSpecsText": "E5-2667v3 (8 cores)\nE5-2667v3 (8 cores)\n64GB RAM\n500GB SSD\nSoftware/BIOS\n15TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $119 USD"
+      "baseSpecsText": "Single E5 2699v4 22 Cores\nPID: 48\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/dedicated-server/single-e5-2699v4-22-cores"
     },
     {
       "id": "50",
-      "title": "2x E5-2680v2 (20 cores)",
+      "title": "Quad E5 4650v2 40 Cores 1",
       "category": "Dedicated Server",
       "family": "Dedicated Server",
       "location": "Unknown",
-      "stock": "Available",
+      "stock": "Unparsed",
       "availableCount": null,
-      "inStock": true,
+      "inStock": false,
       "specs": {
         "cpuCores": 0,
         "cpuLabel": "N/A",
         "ramGb": 0,
-        "storageGb": 1024,
-        "storageType": "SSD",
+        "storageGb": 0,
+        "storageType": "N/A",
         "bandwidthGb": 0,
         "portMbps": 0,
-        "ipv4": 1
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "monthly",
-          "label": "Monthly",
-          "amount": 138,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/dedicated-server/quad-e5-4650v2-40-cores-1",
       "sources": [
         {
@@ -507,36 +430,28 @@
           "url": "https://billing.dedirock.com/index.php/store/dedicated-server/quad-e5-4650v2-40-cores-1"
         }
       ],
-      "baseSpecsText": "2x E5-2680v2 (20 cores)\n2x E5-2680v2 (20 cores)\n192GB RAM\n1 TB SSD\nSoftware\n20TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $138 USD"
+      "baseSpecsText": "Quad E5 4650v2 40 Cores 1\nPID: 50\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/dedicated-server/quad-e5-4650v2-40-cores-1"
     },
     {
       "id": "51",
-      "title": "2x E5-2697v3 (28 cores)",
+      "title": "Dual E5 2699v3 36 Cores 1",
       "category": "Dedicated Server",
       "family": "Dedicated Server",
       "location": "Unknown",
-      "stock": "Available",
+      "stock": "Unparsed",
       "availableCount": null,
-      "inStock": true,
+      "inStock": false,
       "specs": {
         "cpuCores": 0,
         "cpuLabel": "N/A",
-        "ramGb": 256,
-        "storageGb": 1024,
-        "storageType": "NVMe",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
         "bandwidthGb": 0,
         "portMbps": 0,
-        "ipv4": 1
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "monthly",
-          "label": "Monthly",
-          "amount": 202,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-e5-2699v3-36-cores-1",
       "sources": [
         {
@@ -544,36 +459,28 @@
           "url": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-e5-2699v3-36-cores-1"
         }
       ],
-      "baseSpecsText": "2x E5-2697v3 (28 cores)\n2x E5-2697v3 (28 cores)\n256 GB RAM\n1 TB NVMe\nHardware RAID + BBU\n25TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $202 USD"
+      "baseSpecsText": "Dual E5 2699v3 36 Cores 1\nPID: 51\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/dedicated-server/dual-e5-2699v3-36-cores-1"
     },
     {
       "id": "52",
-      "title": "4x E5-4650v2 (40 cores)",
+      "title": "AMD Ryzen 9 7950x",
       "category": "Dedicated Server",
       "family": "Dedicated Server",
       "location": "Unknown",
-      "stock": "Available",
+      "stock": "Unparsed",
       "availableCount": null,
-      "inStock": true,
+      "inStock": false,
       "specs": {
         "cpuCores": 0,
         "cpuLabel": "N/A",
         "ramGb": 0,
         "storageGb": 0,
-        "storageType": "Storage",
+        "storageType": "N/A",
         "bandwidthGb": 0,
         "portMbps": 0,
-        "ipv4": 1
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "monthly",
-          "label": "Monthly",
-          "amount": 215,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/dedicated-server/amd-ryzen-9-7950x",
       "sources": [
         {
@@ -581,36 +488,28 @@
           "url": "https://billing.dedirock.com/index.php/store/dedicated-server/amd-ryzen-9-7950x"
         }
       ],
-      "baseSpecsText": "4x E5-4650v2 (40 cores)\n4x E5-4650v2 (40 cores)\n256GB RAM\n2TB NVMe\nHardware RAID + BBU\n30TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $215 USD"
+      "baseSpecsText": "AMD Ryzen 9 7950x\nPID: 52\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/dedicated-server/amd-ryzen-9-7950x"
     },
     {
       "id": "53",
-      "title": "Dual Gold 6148 (40 cores)",
+      "title": "Dual Gold 6148",
       "category": "Dedicated Server",
       "family": "Dedicated Server",
       "location": "Unknown",
-      "stock": "Available",
+      "stock": "Unparsed",
       "availableCount": null,
-      "inStock": true,
+      "inStock": false,
       "specs": {
         "cpuCores": 0,
         "cpuLabel": "N/A",
         "ramGb": 0,
         "storageGb": 0,
-        "storageType": "Storage",
+        "storageType": "N/A",
         "bandwidthGb": 0,
         "portMbps": 0,
-        "ipv4": 1
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "monthly",
-          "label": "Monthly",
-          "amount": 263,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-gold-6148",
       "sources": [
         {
@@ -618,7 +517,7 @@
           "url": "https://billing.dedirock.com/index.php/store/dedicated-server/dual-gold-6148"
         }
       ],
-      "baseSpecsText": "Dual Gold 6148 (40 cores)\nDual Gold 6148\n256GB RAM\n2x 2TB NVMe\nHardware RAID + BBU\n40TB Bandwidth\n1 IPv4\n\nBilling Cycles\nMonthly: $263 USD"
+      "baseSpecsText": "Dual Gold 6148\nPID: 53\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/dedicated-server/dual-gold-6148"
     },
     {
       "id": "54",
@@ -646,27 +545,6 @@
           "amount": 12.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 38.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 77.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 155.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-plus",
@@ -680,7 +558,7 @@
           "url": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-plus"
         }
       ],
-      "baseSpecsText": "LA KVM VPS Plus\n4 GB RAM\n4x vCore CPU\n100 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $12.99 USD\nQuarterly: $38.97 USD\nSemi-Annually: $77.94 USD\nAnnually: $155.88 USD"
+      "baseSpecsText": "LA KVM VPS Plus\n4 GB RAM\n4x vCore CPU\n100 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$12.99 USD\nMonthly"
     },
     {
       "id": "55",
@@ -708,27 +586,6 @@
           "amount": 19.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 59.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 119.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 239.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-advanced",
@@ -742,7 +599,7 @@
           "url": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-advanced"
         }
       ],
-      "baseSpecsText": "LA KVM VPS Advanced\n8 GB RAM\n6x vCore CPU\n200 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $19.99 USD\nQuarterly: $59.97 USD\nSemi-Annually: $119.94 USD\nAnnually: $239.88 USD"
+      "baseSpecsText": "LA KVM VPS Advanced\n8 GB RAM\n6x vCore CPU\n200 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$19.99 USD\nMonthly"
     },
     {
       "id": "56",
@@ -770,27 +627,6 @@
           "amount": 34.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 104.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 209.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 419.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-elte",
@@ -804,7 +640,7 @@
           "url": "https://billing.dedirock.com/index.php/store/kvm-vps-hosting/kvm-vps-elte"
         }
       ],
-      "baseSpecsText": "LA KVM VPS Premium\n16 GB RAM\n8x vCore CPU\n300 GB SSD\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $34.99 USD\nQuarterly: $104.97 USD\nSemi-Annually: $209.94 USD\nAnnually: $419.88 USD"
+      "baseSpecsText": "LA KVM VPS Premium\n16 GB RAM\n8x vCore CPU\n300 GB SSD\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$34.99 USD\nMonthly"
     },
     {
       "id": "57",
@@ -832,27 +668,6 @@
           "amount": 3.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 11.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 23.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 47.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/vps-storage/storage-starter",
@@ -866,7 +681,7 @@
           "url": "https://billing.dedirock.com/index.php/store/vps-storage/storage-starter"
         }
       ],
-      "baseSpecsText": "Storage Starter\n512 MB RAM\n1x vCPU core\n256 GB Space\n1 TB Bandwidth\n200 Mbp/s connection\n1 IPv4\n\nBilling Cycles\nMonthly: $3.99 USD\nQuarterly: $11.97 USD\nSemi-Annually: $23.94 USD\nAnnually: $47.88 USD"
+      "baseSpecsText": "Storage Starter\n512 MB RAM\n1x vCPU core\n256 GB Space\n1 TB Bandwidth\n200 Mbp/s connection\n1 IPv4\nStarting from\n$3.99 USD\nMonthly"
     },
     {
       "id": "58",
@@ -894,27 +709,6 @@
           "amount": 5.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 17.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 35.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 71.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/vps-storage/storage-essentials",
@@ -928,7 +722,7 @@
           "url": "https://billing.dedirock.com/index.php/store/vps-storage/storage-essentials"
         }
       ],
-      "baseSpecsText": "Storage Essentials\n1 GB RAM\n1x vCPU core\n1 TB Space\n2 TB Bandwidth\n400 Mbp/s connection\n1 IPv4\n\nBilling Cycles\nMonthly: $5.99 USD\nQuarterly: $17.97 USD\nSemi-Annually: $35.94 USD\nAnnually: $71.88 USD"
+      "baseSpecsText": "Storage Essentials\n1 GB RAM\n1x vCPU core\n1 TB Space\n2 TB Bandwidth\n400 Mbp/s connection\n1 IPv4\nStarting from\n$5.99 USD\nMonthly"
     },
     {
       "id": "59",
@@ -956,27 +750,6 @@
           "amount": 9.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 29.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 59.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 119.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/vps-storage/storage-plus",
@@ -990,7 +763,7 @@
           "url": "https://billing.dedirock.com/index.php/store/vps-storage/storage-plus"
         }
       ],
-      "baseSpecsText": "Storage Plus\n2 GB RAM\n1x vCPU core\n2 TB Space\n4 TB Bandwidth\n600 Mbp/s connection\n1 IPv4\n\nBilling Cycles\nMonthly: $9.99 USD\nQuarterly: $29.97 USD\nSemi-Annually: $59.94 USD\nAnnually: $119.88 USD"
+      "baseSpecsText": "Storage Plus\n2 GB RAM\n1x vCPU core\n2 TB Space\n4 TB Bandwidth\n600 Mbp/s connection\n1 IPv4\nStarting from\n$9.99 USD\nMonthly"
     },
     {
       "id": "60",
@@ -1018,27 +791,6 @@
           "amount": 18.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 56.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 113.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 227.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/vps-storage/storage-advanced",
@@ -1052,7 +804,7 @@
           "url": "https://billing.dedirock.com/index.php/store/vps-storage/storage-advanced"
         }
       ],
-      "baseSpecsText": "Storage Advanced\n4 GB RAM\n1x vCPU core\n4 TB Space\n8 TB Bandwidth\n800 Mbp/s connection\n1 IPv4\n\nBilling Cycles\nMonthly: $18.99 USD\nQuarterly: $56.97 USD\nSemi-Annually: $113.94 USD\nAnnually: $227.88 USD"
+      "baseSpecsText": "Storage Advanced\n4 GB RAM\n1x vCPU core\n4 TB Space\n8 TB Bandwidth\n800 Mbp/s connection\n1 IPv4\nStarting from\n$18.99 USD\nMonthly"
     },
     {
       "id": "61",
@@ -1080,27 +832,6 @@
           "amount": 35.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 107.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 215.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 431.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/vps-storage/storage-premium",
@@ -1114,7 +845,7 @@
           "url": "https://billing.dedirock.com/index.php/store/vps-storage/storage-premium"
         }
       ],
-      "baseSpecsText": "Storage Premium\n8 GB RAM\n1x vCPU core\n8 TB Space\n16 TB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nMonthly: $35.99 USD\nQuarterly: $107.97 USD\nSemi-Annually: $215.94 USD\nAnnually: $431.88 USD"
+      "baseSpecsText": "Storage Premium\n8 GB RAM\n1x vCPU core\n8 TB Space\n16 TB Bandwidth\n1 Gbp/s connection\n1 IPv4\nStarting from\n$35.99 USD\nMonthly"
     },
     {
       "id": "62",
@@ -1229,27 +960,6 @@
           "amount": 5.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 17.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 35.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 71.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-start",
@@ -1263,7 +973,7 @@
           "url": "https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-start"
         }
       ],
-      "baseSpecsText": "NY KVM VPS Starter\n1 GB RAM\n1x vCore CPU\n20 GB SSD\n750 GB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $5.99 USD\nQuarterly: $17.97 USD\nSemi-Annually: $35.94 USD\nAnnually: $71.88 USD"
+      "baseSpecsText": "NY KVM VPS Starter\n1 GB RAM\n1x vCore CPU\n20 GB SSD\n750 GB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$5.99 USD\nMonthly"
     },
     {
       "id": "68",
@@ -1291,27 +1001,6 @@
           "amount": 8.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 26.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 53.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 108.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-essentials",
@@ -1325,7 +1014,7 @@
           "url": "https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-essentials"
         }
       ],
-      "baseSpecsText": "NY KVM VPS Essentials\n2 GB RAM\n2x vCore CPU\n40 GB SSD\n1 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $8.99 USD\nQuarterly: $26.97 USD\nSemi-Annually: $53.94 USD\nAnnually: $108.88 USD"
+      "baseSpecsText": "NY KVM VPS Essentials\n2 GB RAM\n2x vCore CPU\n40 GB SSD\n1 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$8.99 USD\nMonthly"
     },
     {
       "id": "69",
@@ -1353,27 +1042,6 @@
           "amount": 12.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 38.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 77.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 155.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-plus",
@@ -1387,7 +1055,7 @@
           "url": "https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-plus"
         }
       ],
-      "baseSpecsText": "NY KVM VPS Plus\n4 GB RAM\n4x vCore CPU\n100 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $12.99 USD\nQuarterly: $38.97 USD\nSemi-Annually: $77.94 USD\nAnnually: $155.88 USD"
+      "baseSpecsText": "NY KVM VPS Plus\n4 GB RAM\n4x vCore CPU\n100 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$12.99 USD\nMonthly"
     },
     {
       "id": "70",
@@ -1415,27 +1083,6 @@
           "amount": 19.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 59.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 119.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 239.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-advanced",
@@ -1449,7 +1096,7 @@
           "url": "https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-advanced"
         }
       ],
-      "baseSpecsText": "NY KVM VPS Advanced\n8 GB RAM\n6x vCore CPU\n200 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $19.99 USD\nQuarterly: $59.97 USD\nSemi-Annually: $119.94 USD\nAnnually: $239.88 USD"
+      "baseSpecsText": "NY KVM VPS Advanced\n8 GB RAM\n6x vCore CPU\n200 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$19.99 USD\nMonthly"
     },
     {
       "id": "71",
@@ -1477,27 +1124,6 @@
           "amount": 34.99,
           "currency": "USD",
           "selected": true
-        },
-        {
-          "cycle": "quarterly",
-          "label": "Quarterly",
-          "amount": 104.97,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "semiannually",
-          "label": "Semi-Annually",
-          "amount": 209.94,
-          "currency": "USD",
-          "selected": false
-        },
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 419.88,
-          "currency": "USD",
-          "selected": false
         }
       ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-premium",
@@ -1511,7 +1137,7 @@
           "url": "https://billing.dedirock.com/index.php/store/buffalo-kvm-vps/buff-kvm-vps-premium"
         }
       ],
-      "baseSpecsText": "NY KVM VPS Premium\n16 GB RAM\n8x vCore CPU\n300 GB SSD\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nMonthly: $34.99 USD\nQuarterly: $104.97 USD\nSemi-Annually: $209.94 USD\nAnnually: $419.88 USD"
+      "baseSpecsText": "NY KVM VPS Premium\n16 GB RAM\n8x vCore CPU\n300 GB SSD\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$34.99 USD\nMonthly"
     },
     {
       "id": "72",
@@ -2012,8 +1638,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "46 Available",
-      "availableCount": 46,
+      "stock": "44 Available",
+      "availableCount": 44,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2045,7 +1671,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/promo-vps-saver-la-bf"
         }
       ],
-      "baseSpecsText": "Promo VPS Saver LA BF\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $9.88 USD"
+      "baseSpecsText": "Promo VPS Saver LA BF\n44 Available\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$9.88 USD\nAnnually"
     },
     {
       "id": "94",
@@ -2053,8 +1679,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "29 Available",
-      "availableCount": 29,
+      "stock": "28 Available",
+      "availableCount": 28,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2086,7 +1712,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vp/promo-vps-saver-ny-bf"
         }
       ],
-      "baseSpecsText": "Promo VPS Saver NY BF\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $8.88 USD"
+      "baseSpecsText": "Promo VPS Saver NY BF\n28 Available\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$8.88 USD\nAnnually"
     },
     {
       "id": "95",
@@ -3461,7 +3087,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york-hidden/storage-promo-start-bf-2025"
         }
       ],
-      "baseSpecsText": "Storage Promo Starter BF 2025\n512 MB RAM\n1x vCore CPU\n256 GB Space\n1 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $11.68 USD"
+      "baseSpecsText": "Storage Promo Starter BF 2025\n9 Available\n512 MB RAM\n1x vCore CPU\n256 GB Space\n1 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$11.68 USD\nAnnually"
     },
     {
       "id": "197",
@@ -3502,7 +3128,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york-hidden/storage-promo-essentials-bf-1"
         }
       ],
-      "baseSpecsText": "Storage Promo Essentials BF 2025\n1 GB RAM\n1x vCore CPU\n1 TB Space\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $17.38 USD"
+      "baseSpecsText": "Storage Promo Essentials BF 2025\n12 Available\n1 GB RAM\n1x vCore CPU\n1 TB Space\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$17.38 USD\nAnnually"
     },
     {
       "id": "199",
@@ -3543,7 +3169,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york-hidden/storage-promo-plus-bf-2025"
         }
       ],
-      "baseSpecsText": "Storage Promo Plus BF 2025\n2 GB RAM\n1x vCore CPU\n2 TB Space\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $27.48 USD"
+      "baseSpecsText": "Storage Promo Plus BF 2025\n5 Available\n2 GB RAM\n1x vCore CPU\n2 TB Space\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$27.48 USD\nAnnually"
     },
     {
       "id": "201",

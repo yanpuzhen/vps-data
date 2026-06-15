@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-15T12:54:59.951Z",
+  "generatedAt": "2026-06-15T21:42:24.626Z",
   "source": {
     "name": "RackNerd WHMCS",
     "origin": "https://my.racknerd.com",
@@ -79,9 +79,9 @@
     "stats": {
       "categoryProducts": 73,
       "pidTargets": 952,
-      "pidParsed": 105,
+      "pidParsed": 104,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 821,
+      "pidOutOfStockOnly": 822,
       "pidUnparsed": 26,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -89,8 +89,8 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
       "pidScanValid": 952,
       "pidScanInvalid": 9048,
       "pidScanErrors": 0
@@ -18281,32 +18281,24 @@
     },
     {
       "id": "582",
-      "title": "KVM 512MB Custom Plan",
+      "title": "RackNerd PID 582",
       "category": "Special Promos",
       "family": "Promo VPS",
       "location": "Unknown",
-      "stock": "Available",
-      "availableCount": null,
-      "inStock": true,
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
       "specs": {
-        "cpuCores": 1,
-        "cpuLabel": "1x vCPU Core",
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
         "ramGb": 0,
-        "storageGb": 15,
-        "storageType": "SSD",
+        "storageGb": 0,
+        "storageType": "N/A",
         "bandwidthGb": 0,
         "portMbps": 0,
-        "ipv4": 1
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 22,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/special-promos/kvm-512mb-custom-plan",
       "sources": [
         {
@@ -18314,7 +18306,7 @@
           "url": "https://my.racknerd.com/index.php?rp=/store/special-promos/kvm-512mb-custom-plan"
         }
       ],
-      "baseSpecsText": "KVM 512MB Custom Plan\n1x vCPU Core\n15 GB SSD Cached RAID-10 Storage\n512MB RAM\n500GB Premium Bandwidth\n1Gbps Network Port\nFull Root Admin Access\n1 Dedicated IP\nKVM / SolusVM Control Panel\n\nBilling Cycles\nAnnually: $22 USD"
+      "baseSpecsText": "RackNerd PID 582\nPID: 582\nStatus: Out of Stock\nSource: https://my.racknerd.com/index.php?rp=/store/special-promos/kvm-512mb-custom-plan"
     },
     {
       "id": "583",

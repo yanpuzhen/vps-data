@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-17T11:24:56.075Z",
+  "generatedAt": "2026-06-17T16:28:34.873Z",
   "source": {
     "name": "RackNerd WHMCS",
     "origin": "https://my.racknerd.com",
@@ -79,9 +79,9 @@
     "stats": {
       "categoryProducts": 73,
       "pidTargets": 952,
-      "pidParsed": 104,
+      "pidParsed": 105,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 822,
+      "pidOutOfStockOnly": 821,
       "pidUnparsed": 26,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -27707,24 +27707,39 @@
     },
     {
       "id": "874",
-      "title": "RackNerd PID 874",
+      "title": "Storage VPS Special - 100GB Storage",
       "category": "Special Promos",
       "family": "Promo VPS",
       "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
+        "cpuCores": 1,
+        "cpuLabel": "1x vCPU Core",
+        "ramGb": 1,
         "storageGb": 0,
-        "storageType": "N/A",
+        "storageType": "Storage",
         "bandwidthGb": 0,
         "portMbps": 0,
-        "ipv4": 0
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 35,
+          "currency": "USD",
+          "selected": true
+        },
+        {
+          "cycle": "biennially",
+          "label": "Biennially",
+          "amount": 70,
+          "currency": "USD",
+          "selected": false
+        }
+      ],
       "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/special-promos/storage-vps-special-100gb-storage",
       "sources": [
         {
@@ -27732,7 +27747,7 @@
           "url": "https://my.racknerd.com/index.php?rp=/store/special-promos/storage-vps-special-100gb-storage"
         }
       ],
-      "baseSpecsText": "RackNerd PID 874\nPID: 874\nStatus: Out of Stock\nSource: https://my.racknerd.com/index.php?rp=/store/special-promos/storage-vps-special-100gb-storage"
+      "baseSpecsText": "Storage VPS Special - 100GB Storage\n1x vCPU Core\n100 GB Pure SSD Storage\n1 GB RAM\n10,000GB Monthly Premium Bandwidth\n1Gbps Public Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / SolusVM Control Panel - Reboot, Reinstall, Manage rDNS, & much more\nAvailable in Multiple Locations\nJUST $35/YEAR - WOW!!\n\nBilling Cycles\nAnnually: $35 USD\nBiennially: $70 USD"
     },
     {
       "id": "875",

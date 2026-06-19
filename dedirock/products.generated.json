@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-18T20:38:45.695Z",
+  "generatedAt": "2026-06-19T05:24:07.054Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,9 +49,9 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 121,
-      "pidParsed": 28,
+      "pidParsed": 27,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 91,
+      "pidOutOfStockOnly": 92,
       "pidUnparsed": 2,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -3428,9 +3428,9 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "1 Available",
-      "availableCount": 1,
-      "inStock": true,
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
       "specs": {
         "cpuCores": 1,
         "cpuLabel": "1x vCore CPU",
@@ -3461,7 +3461,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york-hidden/storage-promo-start-bf-2025"
         }
       ],
-      "baseSpecsText": "Storage Promo Starter BF 2025\n512 MB RAM\n1x vCore CPU\n256 GB Space\n1 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $11.68 USD"
+      "baseSpecsText": "Storage Promo Starter BF 2025\n0 Available\n512 MB RAM\n1x vCore CPU\n256 GB Space\n1 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$11.68 USD\nAnnually"
     },
     {
       "id": "197",
@@ -3510,8 +3510,8 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "16 Available",
-      "availableCount": 16,
+      "stock": "14 Available",
+      "availableCount": 14,
       "inStock": true,
       "specs": {
         "cpuCores": 1,

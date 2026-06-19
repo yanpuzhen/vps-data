@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-19T05:24:07.054Z",
+  "generatedAt": "2026-06-19T10:57:06.773Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,9 +49,9 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 121,
-      "pidParsed": 27,
+      "pidParsed": 30,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 92,
+      "pidOutOfStockOnly": 89,
       "pidUnparsed": 2,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -2012,9 +2012,9 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "0 Available",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "35 Available",
+      "availableCount": 35,
+      "inStock": true,
       "specs": {
         "cpuCores": 1,
         "cpuLabel": "1x vCore CPU",
@@ -2045,7 +2045,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/promo-vps-saver-la-bf"
         }
       ],
-      "baseSpecsText": "Promo VPS Saver LA BF\n0 Available\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$9.88 USD\nAnnually"
+      "baseSpecsText": "Promo VPS Saver LA BF\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $9.88 USD"
     },
     {
       "id": "94",
@@ -2053,9 +2053,9 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "0 Available",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "47 Available",
+      "availableCount": 47,
+      "inStock": true,
       "specs": {
         "cpuCores": 1,
         "cpuLabel": "1x vCore CPU",
@@ -2086,7 +2086,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vp/promo-vps-saver-ny-bf"
         }
       ],
-      "baseSpecsText": "Promo VPS Saver NY BF\n0 Available\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$8.88 USD\nAnnually"
+      "baseSpecsText": "Promo VPS Saver NY BF\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $8.88 USD"
     },
     {
       "id": "95",
@@ -3428,9 +3428,9 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "0 Available",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "9 Available",
+      "availableCount": 9,
+      "inStock": true,
       "specs": {
         "cpuCores": 1,
         "cpuLabel": "1x vCore CPU",
@@ -3461,7 +3461,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york-hidden/storage-promo-start-bf-2025"
         }
       ],
-      "baseSpecsText": "Storage Promo Starter BF 2025\n0 Available\n512 MB RAM\n1x vCore CPU\n256 GB Space\n1 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$11.68 USD\nAnnually"
+      "baseSpecsText": "Storage Promo Starter BF 2025\n512 MB RAM\n1x vCore CPU\n256 GB Space\n1 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $11.68 USD"
     },
     {
       "id": "197",
@@ -3469,8 +3469,8 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "6 Available",
-      "availableCount": 6,
+      "stock": "5 Available",
+      "availableCount": 5,
       "inStock": true,
       "specs": {
         "cpuCores": 1,

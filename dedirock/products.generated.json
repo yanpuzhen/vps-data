@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T05:41:25.000Z",
+  "generatedAt": "2026-06-22T12:25:50.011Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -59,8 +59,8 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 121,
       "pidScanInvalid": 9879,
       "pidScanErrors": 0
@@ -2012,8 +2012,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "42 Available",
-      "availableCount": 42,
+      "stock": "33 Available",
+      "availableCount": 33,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2053,8 +2053,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "27 Available",
-      "availableCount": 27,
+      "stock": "18 Available",
+      "availableCount": 18,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -3507,8 +3507,8 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "7 Available",
-      "availableCount": 7,
+      "stock": "6 Available",
+      "availableCount": 6,
       "inStock": true,
       "specs": {
         "cpuCores": 1,

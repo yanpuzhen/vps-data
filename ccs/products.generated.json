@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-25T09:59:18.681Z",
+  "generatedAt": "2026-06-25T15:43:54.785Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -30,23 +30,25 @@
       "categoryProducts": 9,
       "pidTargets": 190,
       "pidParsed": 0,
-      "pidInvalid": 0,
-      "pidOutOfStockOnly": 176,
-      "pidUnparsed": 14,
+      "pidInvalid": 1,
+      "pidOutOfStockOnly": 174,
+      "pidUnparsed": 15,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
       "pidScanValid": 190,
       "pidScanInvalid": 9810,
       "pidScanErrors": 0
     }
   },
-  "warnings": [],
+  "warnings": [
+    "PID 199 failed at https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-12gb-ram-vps-special: HTTP 500"
+  ],
   "products": [
     {
       "id": "3",
@@ -3985,35 +3987,6 @@
       "baseSpecsText": "CCS PID 140\nPID: 140\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-6gb-ram-vps"
     },
     {
-      "id": "141",
-      "title": "CCS PID 141",
-      "category": "Hidden VPS",
-      "family": "KVM VPS",
-      "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
-      "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
-      },
-      "billingOptions": [],
-      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-2025",
-      "sources": [
-        {
-          "type": "pid",
-          "url": "https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-2025"
-        }
-      ],
-      "baseSpecsText": "CCS PID 141\nPID: 141\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/out-of-stock-specials/black-friday-flash-offer-4gb-ram-vps-2025"
-    },
-    {
       "id": "142",
       "title": "CCS PID 142",
       "category": "Hidden VPS",
@@ -5643,8 +5616,8 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -5664,7 +5637,7 @@
           "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-12gb-ram-vps-special"
         }
       ],
-      "baseSpecsText": "CCS PID 199\nPID: 199\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-12gb-ram-vps-special"
+      "baseSpecsText": "CCS PID 199\nPID: 199\nStatus: Unparsed\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-12gb-ram-vps-special"
     }
   ]
 }

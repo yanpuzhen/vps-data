@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-26T14:47:27.090Z",
+  "generatedAt": "2026-06-26T20:18:40.678Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -59,8 +59,8 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
       "pidScanValid": 121,
       "pidScanInvalid": 9879,
       "pidScanErrors": 0
@@ -2012,8 +2012,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "7 Available",
-      "availableCount": 7,
+      "stock": "34 Available",
+      "availableCount": 34,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2053,8 +2053,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "18 Available",
-      "availableCount": 18,
+      "stock": "15 Available",
+      "availableCount": 15,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -4193,7 +4193,7 @@
         "ramGb": 2,
         "storageGb": 1024,
         "storageType": "Space",
-        "bandwidthGb": 0,
+        "bandwidthGb": 2000,
         "portMbps": 1000,
         "ipv4": 1
       },
@@ -4213,7 +4213,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york/storage-wars-starter"
         }
       ],
-      "baseSpecsText": "Storage Wars Starter\n1x vCPU Core\n1 TB Storage\n2 GB RAM\n2000GB Monthly Bandwidth\n1 Gbps Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / Virtualizor\nNY Location\n\nBilling Cycles\nAnnually: $18.68 USD"
+      "baseSpecsText": "Storage Wars Starter\n1x vCPU Core\n1 TB Storage\n2 GB RAM\n2000 GB Monthly Bandwidth\n1 Gbps Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / Virtualizor\nNY Location\n\nBilling Cycles\nAnnually: $18.68 USD"
     },
     {
       "id": "229",
@@ -4230,7 +4230,7 @@
         "ramGb": 2.5,
         "storageGb": 1536,
         "storageType": "Space",
-        "bandwidthGb": 0,
+        "bandwidthGb": 4000,
         "portMbps": 1000,
         "ipv4": 1
       },
@@ -4250,7 +4250,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york/storage-wars-power"
         }
       ],
-      "baseSpecsText": "Storage Wars Power\n1x vCPU Core\n1.5 TB Storage\n2.5 GB RAM\n4000GB Monthly Bandwidth\n1 Gbps Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / Virtualizor\nNY Location\n\nBilling Cycles\nAnnually: $24.55 USD"
+      "baseSpecsText": "Storage Wars Power\n1x vCPU Core\n1.5 TB Storage\n2.5 GB RAM\n4000 GB Monthly Bandwidth\n1 Gbps Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / Virtualizor\nNY Location\n\nBilling Cycles\nAnnually: $24.55 USD"
     },
     {
       "id": "230",
@@ -4267,7 +4267,7 @@
         "ramGb": 3,
         "storageGb": 2048,
         "storageType": "Space",
-        "bandwidthGb": 0,
+        "bandwidthGb": 6000,
         "portMbps": 1000,
         "ipv4": 1
       },
@@ -4287,7 +4287,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york/storage-wars-final-boss"
         }
       ],
-      "baseSpecsText": "Storage Wars Final Boss\n1x vCPU Core\n2 TB Storage\n3 GB RAM\n6000GB Monthly Bandwidth\n1 Gbps Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / Virtualizor\nNY Location\n\nBilling Cycles\nAnnually: $32.68 USD"
+      "baseSpecsText": "Storage Wars Final Boss\n1x vCPU Core\n2 TB Storage\n3 GB RAM\n6000 GB Monthly Bandwidth\n1 Gbps Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / Virtualizor\nNY Location\n\nBilling Cycles\nAnnually: $32.68 USD"
     },
     {
       "id": "231",

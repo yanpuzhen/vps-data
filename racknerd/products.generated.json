@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-28T05:08:41.003Z",
+  "generatedAt": "2026-06-28T09:53:04.430Z",
   "source": {
     "name": "RackNerd WHMCS",
     "origin": "https://my.racknerd.com",
@@ -89,8 +89,8 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
       "pidScanValid": 952,
       "pidScanInvalid": 9048,
       "pidScanErrors": 0

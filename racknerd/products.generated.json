@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T15:30:42.473Z",
+  "generatedAt": "2026-07-01T20:30:01.832Z",
   "source": {
     "name": "RackNerd WHMCS",
     "origin": "https://my.racknerd.com",
@@ -79,9 +79,9 @@
     "stats": {
       "categoryProducts": 73,
       "pidTargets": 952,
-      "pidParsed": 104,
+      "pidParsed": 103,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 822,
+      "pidOutOfStockOnly": 823,
       "pidUnparsed": 26,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -89,8 +89,8 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 952,
       "pidScanInvalid": 9048,
       "pidScanErrors": 0
@@ -7436,32 +7436,24 @@
     },
     {
       "id": "230",
-      "title": "CUSTOM VPS SPEC - Ticket #157070",
+      "title": "RackNerd PID 230",
       "category": "Special Promos",
       "family": "Promo VPS",
       "location": "Unknown",
-      "stock": "Available",
-      "availableCount": null,
-      "inStock": true,
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
       "specs": {
-        "cpuCores": 100,
-        "cpuLabel": "100 GB storage, 4 vCPU Cores, 8 GB RAM, 10 TB monthly transfer",
-        "ramGb": 100,
-        "storageGb": 100,
-        "storageType": "Space",
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
         "bandwidthGb": 0,
         "portMbps": 0,
         "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 123.99,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/special-promos/custom-vps-spec-ticket-157070",
       "sources": [
         {
@@ -7469,7 +7461,7 @@
           "url": "https://my.racknerd.com/index.php?rp=/store/special-promos/custom-vps-spec-ticket-157070"
         }
       ],
-      "baseSpecsText": "CUSTOM VPS SPEC - Ticket #157070\n100 GB storage, 4 vCPU Cores, 8 GB RAM, 10 TB monthly transfer\n\nBilling Cycles\nAnnually: $123.99 USD"
+      "baseSpecsText": "RackNerd PID 230\nPID: 230\nStatus: Out of Stock\nSource: https://my.racknerd.com/index.php?rp=/store/special-promos/custom-vps-spec-ticket-157070"
     },
     {
       "id": "231",

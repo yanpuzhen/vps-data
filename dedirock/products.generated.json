@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T04:16:20.608Z",
+  "generatedAt": "2026-07-07T10:15:38.295Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -48,9 +48,9 @@
     "extraPids": [],
     "stats": {
       "categoryProducts": 20,
-      "pidTargets": 124,
-      "pidParsed": 46,
-      "pidInvalid": 3,
+      "pidTargets": 129,
+      "pidParsed": 54,
+      "pidInvalid": 0,
       "pidOutOfStockOnly": 73,
       "pidUnparsed": 2,
       "pidScrapeErrors": 0,
@@ -59,10 +59,10 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
-      "pidScanValid": 124,
-      "pidScanInvalid": 9876,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
+      "pidScanValid": 129,
+      "pidScanInvalid": 9871,
       "pidScanErrors": 0
     }
   },
@@ -2012,8 +2012,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "32 Available",
-      "availableCount": 32,
+      "stock": "11 Available",
+      "availableCount": 11,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2053,8 +2053,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "24 Available",
-      "availableCount": 24,
+      "stock": "7 Available",
+      "availableCount": 7,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -4346,6 +4346,302 @@
         }
       ],
       "baseSpecsText": "7 KVM Super Sale NY\nPID: 232\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/promo-vp/7-kvm-super-sale-ny"
+    },
+    {
+      "id": "242",
+      "title": "Promo Storage NY Core",
+      "category": "Hidden Promo Storage",
+      "family": "Promo Storage VPS",
+      "location": "New York",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1x vCPU Core",
+        "ramGb": 2.5,
+        "storageGb": 1024,
+        "storageType": "Space",
+        "bandwidthGb": 2000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 21.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-storage-new-york/promo-storage-ny-core",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york/promo-storage-ny-core"
+        }
+      ],
+      "baseSpecsText": "Promo Storage NY Core\n1x vCPU Core\n1 TB Storage\n2.5 GB RAM\n2000 GB Monthly Bandwidth\n1 Gbps Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / Virtualizor\n\nBilling Cycles\nAnnually: $21.88 USD"
+    },
+    {
+      "id": "243",
+      "title": "Promo Storage NY Plus",
+      "category": "Hidden Promo Storage",
+      "family": "Promo Storage VPS",
+      "location": "New York",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1x vCPU Core",
+        "ramGb": 3,
+        "storageGb": 1536,
+        "storageType": "Space",
+        "bandwidthGb": 4000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 29.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-storage-new-york/promo-storage-ny-plus",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york/promo-storage-ny-plus"
+        }
+      ],
+      "baseSpecsText": "Promo Storage NY Plus\n1x vCPU Core\n1.5 TB Storage\n3.0 GB RAM\n4000 GB Monthly Bandwidth\n1 Gbps Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / Virtualizor\n\nBilling Cycles\nAnnually: $29.88 USD"
+    },
+    {
+      "id": "244",
+      "title": "Promo Storage NY Power",
+      "category": "Hidden Promo Storage",
+      "family": "Promo Storage VPS",
+      "location": "New York",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1x vCPU Core",
+        "ramGb": 4,
+        "storageGb": 2048,
+        "storageType": "Space",
+        "bandwidthGb": 6000,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 39.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-storage-new-york/promo-storage-ny-power",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york/promo-storage-ny-power"
+        }
+      ],
+      "baseSpecsText": "Promo Storage NY Power\n1x vCPU Core\n2 TB Storage\n4 GB RAM\n6000 GB Monthly Bandwidth\n1 Gbps Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / Virtualizor\n\nBilling Cycles\nAnnually: $39.88 USD"
+    },
+    {
+      "id": "245",
+      "title": "Promo Performance VPS NY Core",
+      "category": "Hidden Promo VPS",
+      "family": "Promo VPS",
+      "location": "New York",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2x vCore CPU",
+        "ramGb": 0,
+        "storageGb": 40,
+        "storageType": "NVMe",
+        "bandwidthGb": 2048,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 35.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-performance/promo-performance-vps-ny-core",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/promo-performance/promo-performance-vps-ny-core"
+        }
+      ],
+      "baseSpecsText": "Promo Performance VPS NY Core\n2 GB DDR5 RAM\n2x vCore CPU\n40 GB NVMe SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nAnnually: $35.88 USD"
+    },
+    {
+      "id": "246",
+      "title": "Promo Performance VPS NY Plus",
+      "category": "Hidden Promo VPS",
+      "family": "Promo VPS",
+      "location": "New York",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 4,
+        "cpuLabel": "4x vCore CPU",
+        "ramGb": 0,
+        "storageGb": 80,
+        "storageType": "NVMe",
+        "bandwidthGb": 4096,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 69.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-performance/promo-performance-vps-ny-plus",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/promo-performance/promo-performance-vps-ny-plus"
+        }
+      ],
+      "baseSpecsText": "Promo Performance VPS NY Plus\n4 GB DDR5 RAM\n4x vCore CPU\n80 GB NVMe SSD\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nAnnually: $69.88 USD"
+    },
+    {
+      "id": "248",
+      "title": "Promo Performance VPS NY Power",
+      "category": "Hidden Promo VPS",
+      "family": "Promo VPS",
+      "location": "New York",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 6,
+        "cpuLabel": "6x vCore CPU",
+        "ramGb": 0,
+        "storageGb": 160,
+        "storageType": "NVMe",
+        "bandwidthGb": 8192,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 129.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-performance/promo-performance-vps-ny-power",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/promo-performance/promo-performance-vps-ny-power"
+        }
+      ],
+      "baseSpecsText": "Promo Performance VPS NY Power\n8 GB DDR5 RAM\n6x vCore CPU\n160 GB NVMe SSD\n8 TB Bandwidth\n1 Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nAnnually: $129.88 USD"
+    },
+    {
+      "id": "249",
+      "title": "Promo LET Favorites LA",
+      "category": "PROMO VPS LA",
+      "family": "Promo VPS",
+      "location": "Los Angeles",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
+        "ramGb": 2,
+        "storageGb": 30,
+        "storageType": "SSD",
+        "bandwidthGb": 2048,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 9.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/promo-let-favorites-la",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/promo-let-favorites-la"
+        }
+      ],
+      "baseSpecsText": "Promo LET Favorites LA\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $9.88 USD"
+    },
+    {
+      "id": "250",
+      "title": "Promo LET Favorites NY",
+      "category": "PROMO VPS NY",
+      "family": "Promo VPS",
+      "location": "New York",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
+        "ramGb": 2,
+        "storageGb": 30,
+        "storageType": "SSD",
+        "bandwidthGb": 2048,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 8.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-vp/promo-let-favorites-ny",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/promo-vp/promo-let-favorites-ny"
+        }
+      ],
+      "baseSpecsText": "Promo LET Favorites NY\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $8.88 USD"
     }
   ]
 }

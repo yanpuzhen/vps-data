@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-06T20:14:02.490Z",
+  "generatedAt": "2026-07-07T04:16:20.608Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -50,9 +50,9 @@
       "categoryProducts": 20,
       "pidTargets": 124,
       "pidParsed": 46,
-      "pidInvalid": 0,
+      "pidInvalid": 3,
       "pidOutOfStockOnly": 73,
-      "pidUnparsed": 5,
+      "pidUnparsed": 2,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
@@ -2012,8 +2012,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "46 Available",
-      "availableCount": 46,
+      "stock": "32 Available",
+      "availableCount": 32,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2053,8 +2053,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "28 Available",
-      "availableCount": 28,
+      "stock": "24 Available",
+      "availableCount": 24,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -3589,8 +3589,8 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "4 Available",
-      "availableCount": 4,
+      "stock": "3 Available",
+      "availableCount": 3,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -4346,93 +4346,6 @@
         }
       ],
       "baseSpecsText": "7 KVM Super Sale NY\nPID: 232\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/promo-vp/7-kvm-super-sale-ny"
-    },
-    {
-      "id": "236",
-      "title": "Core",
-      "category": "Hidden VPS",
-      "family": "KVM VPS",
-      "location": "Unknown",
-      "stock": "Unparsed",
-      "availableCount": null,
-      "inStock": false,
-      "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
-      },
-      "billingOptions": [],
-      "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-performance/core",
-      "sources": [
-        {
-          "type": "pid",
-          "url": "https://billing.dedirock.com/index.php/store/promo-performance/core"
-        }
-      ],
-      "baseSpecsText": "Core\nPID: 236\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/promo-performance/core"
-    },
-    {
-      "id": "237",
-      "title": "Plus",
-      "category": "Hidden VPS",
-      "family": "KVM VPS",
-      "location": "Unknown",
-      "stock": "Unparsed",
-      "availableCount": null,
-      "inStock": false,
-      "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
-      },
-      "billingOptions": [],
-      "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-performance/plus",
-      "sources": [
-        {
-          "type": "pid",
-          "url": "https://billing.dedirock.com/index.php/store/promo-performance/plus"
-        }
-      ],
-      "baseSpecsText": "Plus\nPID: 237\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/promo-performance/plus"
-    },
-    {
-      "id": "238",
-      "title": "Power",
-      "category": "Hidden VPS",
-      "family": "KVM VPS",
-      "location": "Unknown",
-      "stock": "Unparsed",
-      "availableCount": null,
-      "inStock": false,
-      "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
-      },
-      "billingOptions": [],
-      "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-performance/power",
-      "sources": [
-        {
-          "type": "pid",
-          "url": "https://billing.dedirock.com/index.php/store/promo-performance/power"
-        }
-      ],
-      "baseSpecsText": "Power\nPID: 238\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/promo-performance/power"
     }
   ]
 }

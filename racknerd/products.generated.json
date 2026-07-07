@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T04:38:51.573Z",
+  "generatedAt": "2026-07-07T10:15:35.713Z",
   "source": {
     "name": "RackNerd WHMCS",
     "origin": "https://my.racknerd.com",
@@ -78,10 +78,10 @@
     "extraPids": [],
     "stats": {
       "categoryProducts": 73,
-      "pidTargets": 952,
+      "pidTargets": 953,
       "pidParsed": 103,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 823,
+      "pidOutOfStockOnly": 824,
       "pidUnparsed": 26,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -89,10 +89,10 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
-      "pidScanValid": 952,
-      "pidScanInvalid": 9048,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
+      "pidScanValid": 953,
+      "pidScanInvalid": 9047,
       "pidScanErrors": 0
     }
   },
@@ -30263,6 +30263,35 @@
         }
       ],
       "baseSpecsText": "RackNerd PID 958\nPID: 958\nStatus: Out of Stock\nSource: https://my.racknerd.com/index.php?rp=/store/special-promos/custom-hybrid-vps-ttad21001"
+    },
+    {
+      "id": "959",
+      "title": "RackNerd PID 959",
+      "category": "Special Promos",
+      "family": "Promo VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/special-promos/custom-vps-ttei49881",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/special-promos/custom-vps-ttei49881"
+        }
+      ],
+      "baseSpecsText": "RackNerd PID 959\nPID: 959\nStatus: Out of Stock\nSource: https://my.racknerd.com/index.php?rp=/store/special-promos/custom-vps-ttei49881"
     }
   ]
 }

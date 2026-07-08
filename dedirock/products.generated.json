@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T20:13:42.628Z",
+  "generatedAt": "2026-07-08T03:43:33.686Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -2012,8 +2012,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "44 Available",
-      "availableCount": 44,
+      "stock": "20 Available",
+      "availableCount": 20,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2053,8 +2053,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "22 Available",
-      "availableCount": 22,
+      "stock": "14 Available",
+      "availableCount": 14,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -4468,10 +4468,10 @@
       "availableCount": null,
       "inStock": true,
       "specs": {
-        "cpuCores": 2,
-        "cpuLabel": "2x vCore CPU",
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
         "ramGb": 0,
-        "storageGb": 40,
+        "storageGb": 30,
         "storageType": "NVMe",
         "bandwidthGb": 2048,
         "portMbps": 1000,
@@ -4481,7 +4481,7 @@
         {
           "cycle": "annually",
           "label": "Annually",
-          "amount": 35.88,
+          "amount": 24.88,
           "currency": "USD",
           "selected": true
         }
@@ -4493,7 +4493,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-performance/promo-performance-vps-ny-core"
         }
       ],
-      "baseSpecsText": "Promo Performance VPS NY Core\n2 GB DDR5 RAM\n2x vCore CPU\n40 GB NVMe SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nAnnually: $35.88 USD"
+      "baseSpecsText": "Promo Performance VPS NY Core\n2 GB DDR5 RAM\n1x vCore CPU\n30 GB NVMe SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nAnnually: $24.88 USD"
     },
     {
       "id": "246",
@@ -4505,10 +4505,10 @@
       "availableCount": null,
       "inStock": true,
       "specs": {
-        "cpuCores": 4,
-        "cpuLabel": "4x vCore CPU",
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
         "ramGb": 0,
-        "storageGb": 80,
+        "storageGb": 40,
         "storageType": "NVMe",
         "bandwidthGb": 4096,
         "portMbps": 1000,
@@ -4518,7 +4518,7 @@
         {
           "cycle": "annually",
           "label": "Annually",
-          "amount": 69.88,
+          "amount": 34.88,
           "currency": "USD",
           "selected": true
         }
@@ -4530,7 +4530,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-performance/promo-performance-vps-ny-plus"
         }
       ],
-      "baseSpecsText": "Promo Performance VPS NY Plus\n4 GB DDR5 RAM\n4x vCore CPU\n80 GB NVMe SSD\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nAnnually: $69.88 USD"
+      "baseSpecsText": "Promo Performance VPS NY Plus\n3 GB DDR5 RAM\n1x vCore CPU\n40 GB NVMe SSD\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nAnnually: $34.88 USD"
     },
     {
       "id": "248",
@@ -4542,12 +4542,12 @@
       "availableCount": null,
       "inStock": true,
       "specs": {
-        "cpuCores": 6,
-        "cpuLabel": "6x vCore CPU",
+        "cpuCores": 2,
+        "cpuLabel": "2x vCore CPU",
         "ramGb": 0,
-        "storageGb": 160,
+        "storageGb": 60,
         "storageType": "NVMe",
-        "bandwidthGb": 8192,
+        "bandwidthGb": 6144,
         "portMbps": 1000,
         "ipv4": 1
       },
@@ -4555,7 +4555,7 @@
         {
           "cycle": "annually",
           "label": "Annually",
-          "amount": 129.88,
+          "amount": 44.88,
           "currency": "USD",
           "selected": true
         }
@@ -4567,7 +4567,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-performance/promo-performance-vps-ny-power"
         }
       ],
-      "baseSpecsText": "Promo Performance VPS NY Power\n8 GB DDR5 RAM\n6x vCore CPU\n160 GB NVMe SSD\n8 TB Bandwidth\n1 Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nAnnually: $129.88 USD"
+      "baseSpecsText": "Promo Performance VPS NY Power\n4 GB DDR5 RAM\n2x vCore CPU\n60 GB NVMe SSD\n6 TB Bandwidth\n1 Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nAnnually: $44.88 USD"
     },
     {
       "id": "249",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-08T08:43:41.886Z",
+  "generatedAt": "2026-07-08T20:09:32.560Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -48,10 +48,10 @@
     "extraPids": [],
     "stats": {
       "categoryProducts": 20,
-      "pidTargets": 129,
-      "pidParsed": 53,
+      "pidTargets": 131,
+      "pidParsed": 54,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 74,
+      "pidOutOfStockOnly": 75,
       "pidUnparsed": 2,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -59,10 +59,10 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
-      "pidScanValid": 129,
-      "pidScanInvalid": 9871,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
+      "pidScanValid": 131,
+      "pidScanInvalid": 9869,
       "pidScanErrors": 0
     }
   },
@@ -2012,9 +2012,9 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "0 Available",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "32 Available",
+      "availableCount": 32,
+      "inStock": true,
       "specs": {
         "cpuCores": 1,
         "cpuLabel": "1x vCore CPU",
@@ -2045,7 +2045,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/promo-vps-saver-la-bf"
         }
       ],
-      "baseSpecsText": "Promo VPS Saver LA BF\n0 Available\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$9.88 USD\nAnnually"
+      "baseSpecsText": "Promo VPS Saver LA BF\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $9.88 USD"
     },
     {
       "id": "94",
@@ -2053,8 +2053,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "6 Available",
-      "availableCount": 6,
+      "stock": "25 Available",
+      "availableCount": 25,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -4642,6 +4642,64 @@
         }
       ],
       "baseSpecsText": "Promo LET Favorites NY\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $8.88 USD"
+    },
+    {
+      "id": "251",
+      "title": "Promo Performance VPS NY 1776 Edition",
+      "category": "Hidden Promo VPS",
+      "family": "Promo VPS",
+      "location": "New York",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-performance/promo-performance-vps-ny-1776-edition",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/promo-performance/promo-performance-vps-ny-1776-edition"
+        }
+      ],
+      "baseSpecsText": "Promo Performance VPS NY 1776 Edition\nPID: 251\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/promo-performance/promo-performance-vps-ny-1776-edition"
+    },
+    {
+      "id": "252",
+      "title": "Promo Storage NY 1776 Edition",
+      "category": "Hidden Promo Storage",
+      "family": "Promo Storage VPS",
+      "location": "New York",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-storage-new-york/promo-storage-ny-1776-edition",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york/promo-storage-ny-1776-edition"
+        }
+      ],
+      "baseSpecsText": "Promo Storage NY 1776 Edition\nPID: 252\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/promo-storage-new-york/promo-storage-ny-1776-edition"
     }
   ]
 }

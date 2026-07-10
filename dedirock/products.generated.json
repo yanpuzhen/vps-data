@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-10T14:51:01.228Z",
+  "generatedAt": "2026-07-10T19:50:34.712Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,9 +49,9 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 131,
-      "pidParsed": 55,
+      "pidParsed": 54,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 74,
+      "pidOutOfStockOnly": 75,
       "pidUnparsed": 2,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -2012,8 +2012,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "8 Available",
-      "availableCount": 8,
+      "stock": "47 Available",
+      "availableCount": 47,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2053,8 +2053,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "9 Available",
-      "availableCount": 9,
+      "stock": "32 Available",
+      "availableCount": 32,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -3589,9 +3589,9 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "2 Available",
-      "availableCount": 2,
-      "inStock": true,
+      "stock": "0 Available",
+      "availableCount": 0,
+      "inStock": false,
       "specs": {
         "cpuCores": 1,
         "cpuLabel": "1x vCore CPU",
@@ -3622,7 +3622,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york-hidden/storage-promo-plus-bf-2025"
         }
       ],
-      "baseSpecsText": "Storage Promo Plus BF 2025\n2 GB RAM\n1x vCore CPU\n2 TB Space\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $27.48 USD"
+      "baseSpecsText": "Storage Promo Plus BF 2025\n0 Available\n2 GB RAM\n1x vCore CPU\n2 TB Space\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$27.48 USD\nAnnually"
     },
     {
       "id": "201",

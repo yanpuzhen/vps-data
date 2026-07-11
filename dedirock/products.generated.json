@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-10T19:50:34.712Z",
+  "generatedAt": "2026-07-11T03:52:07.584Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,9 +49,9 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 131,
-      "pidParsed": 54,
+      "pidParsed": 55,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 75,
+      "pidOutOfStockOnly": 74,
       "pidUnparsed": 2,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -59,8 +59,8 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
       "pidScanValid": 131,
       "pidScanInvalid": 9869,
       "pidScanErrors": 0
@@ -2012,8 +2012,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "47 Available",
-      "availableCount": 47,
+      "stock": "38 Available",
+      "availableCount": 38,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2053,8 +2053,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "32 Available",
-      "availableCount": 32,
+      "stock": "26 Available",
+      "availableCount": 26,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -3589,9 +3589,9 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "0 Available",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "12 Available",
+      "availableCount": 12,
+      "inStock": true,
       "specs": {
         "cpuCores": 1,
         "cpuLabel": "1x vCore CPU",
@@ -3622,7 +3622,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york-hidden/storage-promo-plus-bf-2025"
         }
       ],
-      "baseSpecsText": "Storage Promo Plus BF 2025\n0 Available\n2 GB RAM\n1x vCore CPU\n2 TB Space\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$27.48 USD\nAnnually"
+      "baseSpecsText": "Storage Promo Plus BF 2025\n2 GB RAM\n1x vCore CPU\n2 TB Space\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $27.48 USD"
     },
     {
       "id": "201",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T08:43:01.197Z",
+  "generatedAt": "2026-07-14T14:13:15.296Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,9 +49,9 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 131,
-      "pidParsed": 62,
+      "pidParsed": 72,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 67,
+      "pidOutOfStockOnly": 57,
       "pidUnparsed": 2,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -59,8 +59,8 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 131,
       "pidScanInvalid": 9869,
       "pidScanErrors": 0
@@ -2044,8 +2044,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "39 Available",
-      "availableCount": 39,
+      "stock": "16 Available",
+      "availableCount": 16,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2085,8 +2085,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "37 Available",
-      "availableCount": 37,
+      "stock": "29 Available",
+      "availableCount": 29,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2645,20 +2645,28 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Los Angeles",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
+        "ramGb": 1,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 750,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 13.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-starter",
       "sources": [
         {
@@ -2666,7 +2674,7 @@
           "url": "https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-starter"
         }
       ],
-      "baseSpecsText": "LET Offer LA KVM VPS Starter\nPID: 112\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-starter"
+      "baseSpecsText": "LET Offer LA KVM VPS Starter\n1 GB RAM\n1x vCore CPU\n20 GB SSD\n750 GB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $13.88 USD"
     },
     {
       "id": "113",
@@ -2674,20 +2682,28 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Los Angeles",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 2,
+        "cpuLabel": "2x vCore CPU",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 1024,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 25.2,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-essentials",
       "sources": [
         {
@@ -2695,7 +2711,7 @@
           "url": "https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-essentials"
         }
       ],
-      "baseSpecsText": "LET Offer LA KVM VPS Essentials\nPID: 113\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-essentials"
+      "baseSpecsText": "LET Offer LA KVM VPS Essentials\n2 GB RAM\n2x vCore CPU\n40 GB SSD\n1 TB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $25.2 USD"
     },
     {
       "id": "114",
@@ -2703,20 +2719,28 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Los Angeles",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 4,
+        "cpuLabel": "4x vCore CPU",
+        "ramGb": 4,
+        "storageGb": 100,
+        "storageType": "SSD",
+        "bandwidthGb": 2048,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 52.25,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-plus",
       "sources": [
         {
@@ -2724,7 +2748,7 @@
           "url": "https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-plus"
         }
       ],
-      "baseSpecsText": "LET Offer LA KVM VPS Plus\nPID: 114\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-plus"
+      "baseSpecsText": "LET Offer LA KVM VPS Plus\n4 GB RAM\n4x vCore CPU\n100 GB SSD\n2 TB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $52.25 USD"
     },
     {
       "id": "115",
@@ -2732,20 +2756,28 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Los Angeles",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 6,
+        "cpuLabel": "6x vCore CPU",
+        "ramGb": 8,
+        "storageGb": 200,
+        "storageType": "SSD",
+        "bandwidthGb": 2048,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 108.22,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-advanced",
       "sources": [
         {
@@ -2753,7 +2785,7 @@
           "url": "https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-advanced"
         }
       ],
-      "baseSpecsText": "LET Offer LA KVM VPS Advanced\nPID: 115\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-advanced"
+      "baseSpecsText": "LET Offer LA KVM VPS Advanced\n8 GB RAM\n6x vCore CPU\n200 GB SSD\n2 TB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $108.22 USD"
     },
     {
       "id": "116",
@@ -2761,20 +2793,28 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "Los Angeles",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 8,
+        "cpuLabel": "8x vCore CPU",
+        "ramGb": 16,
+        "storageGb": 300,
+        "storageType": "SSD",
+        "bandwidthGb": 4096,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 216.22,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-premium",
       "sources": [
         {
@@ -2782,7 +2822,7 @@
           "url": "https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-premium"
         }
       ],
-      "baseSpecsText": "LET Offer LA KVM VPS Premium\nPID: 116\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/let-offer/let-offer-la-kvm-vps-premium"
+      "baseSpecsText": "LET Offer LA KVM VPS Premium\n16 GB RAM\n8x vCore CPU\n300 GB SSD\n4 TB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $216.22 USD"
     },
     {
       "id": "117",
@@ -2790,20 +2830,28 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "New York",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
+        "ramGb": 1,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 750,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 13.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-starter",
       "sources": [
         {
@@ -2811,7 +2859,7 @@
           "url": "https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-starter"
         }
       ],
-      "baseSpecsText": "LET Offer NY KVM VPS Starter\nPID: 117\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-starter"
+      "baseSpecsText": "LET Offer NY KVM VPS Starter\n1 GB RAM\n1x vCore CPU\n20 GB SSD\n750 GB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $13.88 USD"
     },
     {
       "id": "118",
@@ -2819,20 +2867,28 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "New York",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 2,
+        "cpuLabel": "2x vCore CPU",
+        "ramGb": 2,
+        "storageGb": 40,
+        "storageType": "SSD",
+        "bandwidthGb": 1024,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 25.2,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-essentials",
       "sources": [
         {
@@ -2840,7 +2896,7 @@
           "url": "https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-essentials"
         }
       ],
-      "baseSpecsText": "LET Offer NY KVM VPS Essentials\nPID: 118\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-essentials"
+      "baseSpecsText": "LET Offer NY KVM VPS Essentials\n2 GB RAM\n2x vCore CPU\n40 GB SSD\n1 TB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $25.2 USD"
     },
     {
       "id": "119",
@@ -2848,20 +2904,28 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "New York",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 4,
+        "cpuLabel": "4x vCore CPU",
+        "ramGb": 4,
+        "storageGb": 100,
+        "storageType": "SSD",
+        "bandwidthGb": 2048,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 52.25,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-plus",
       "sources": [
         {
@@ -2869,7 +2933,7 @@
           "url": "https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-plus"
         }
       ],
-      "baseSpecsText": "LET Offer NY KVM VPS Plus\nPID: 119\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-plus"
+      "baseSpecsText": "LET Offer NY KVM VPS Plus\n4 GB RAM\n4x vCore CPU\n100 GB SSD\n2 TB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $52.25 USD"
     },
     {
       "id": "120",
@@ -2877,20 +2941,28 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "New York",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 6,
+        "cpuLabel": "6x vCore CPU",
+        "ramGb": 8,
+        "storageGb": 200,
+        "storageType": "SSD",
+        "bandwidthGb": 2048,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 108.22,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-advanced",
       "sources": [
         {
@@ -2898,7 +2970,7 @@
           "url": "https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-advanced"
         }
       ],
-      "baseSpecsText": "LET Offer NY KVM VPS Advanced\nPID: 120\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-advanced"
+      "baseSpecsText": "LET Offer NY KVM VPS Advanced\n8 GB RAM\n6x vCore CPU\n200 GB SSD\n2 TB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $108.22 USD"
     },
     {
       "id": "121",
@@ -2906,20 +2978,28 @@
       "category": "Hidden VPS",
       "family": "KVM VPS",
       "location": "New York",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 8,
+        "cpuLabel": "8x vCore CPU",
+        "ramGb": 16,
+        "storageGb": 300,
+        "storageType": "SSD",
+        "bandwidthGb": 4096,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 216.22,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-premium",
       "sources": [
         {
@@ -2927,7 +3007,7 @@
           "url": "https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-premium"
         }
       ],
-      "baseSpecsText": "LET Offer NY KVM VPS Premium\nPID: 121\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/let-offer-ny-kvm/let-offer-ny-kvm-vps-premium"
+      "baseSpecsText": "LET Offer NY KVM VPS Premium\n16 GB RAM\n8x vCore CPU\n300 GB SSD\n4 TB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $216.22 USD"
     },
     {
       "id": "122",

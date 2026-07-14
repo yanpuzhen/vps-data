@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-13T15:10:59.776Z",
+  "generatedAt": "2026-07-14T03:32:40.744Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,9 +49,9 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 131,
-      "pidParsed": 55,
+      "pidParsed": 62,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 74,
+      "pidOutOfStockOnly": 67,
       "pidUnparsed": 2,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -1896,20 +1896,28 @@
       "category": "Hidden Promo VPS",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
+        "ramGb": 2,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 2048,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 20.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/leb-special/promo-vps-economy-ny-leb-offer",
       "sources": [
         {
@@ -1917,28 +1925,36 @@
           "url": "https://billing.dedirock.com/index.php/store/leb-special/promo-vps-economy-ny-leb-offer"
         }
       ],
-      "baseSpecsText": "Promo VPS Economy NY LEB Offer\nPID: 85\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/leb-special/promo-vps-economy-ny-leb-offer"
+      "baseSpecsText": "Promo VPS Economy NY LEB Offer\n2 GB RAM\n1x vCore CPU\n20 GB SSD\n2 TB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $20.88 USD"
     },
     {
       "id": "89",
-      "title": "Promo VPS LEB Special 768 NY",
+      "title": "Promo VPS LEB Special 768 MB NY",
       "category": "Hidden Promo VPS",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
+        "ramGb": 0.75,
+        "storageGb": 10,
+        "storageType": "SSD",
+        "bandwidthGb": 1000,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 10.18,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/leb-special/promo-vps-leb-special-768-ny",
       "sources": [
         {
@@ -1946,28 +1962,36 @@
           "url": "https://billing.dedirock.com/index.php/store/leb-special/promo-vps-leb-special-768-ny"
         }
       ],
-      "baseSpecsText": "Promo VPS LEB Special 768 NY\nPID: 89\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/leb-special/promo-vps-leb-special-768-ny"
+      "baseSpecsText": "Promo VPS LEB Special 768 MB NY\n768 MB RAM\n1x vCore CPU\n10 GB SSD\n1000 GB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $10.18 USD"
     },
     {
       "id": "90",
-      "title": "Promo VPS LEB Special 768 LA",
+      "title": "Promo VPS LEB Special 768 MB LA",
       "category": "Hidden Promo VPS",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
+        "ramGb": 0.75,
+        "storageGb": 10,
+        "storageType": "SSD",
+        "bandwidthGb": 1000,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 10.18,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/leb-special/promo-vps-leb-special-768-la",
       "sources": [
         {
@@ -1975,7 +1999,7 @@
           "url": "https://billing.dedirock.com/index.php/store/leb-special/promo-vps-leb-special-768-la"
         }
       ],
-      "baseSpecsText": "Promo VPS LEB Special 768 LA\nPID: 90\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/leb-special/promo-vps-leb-special-768-la"
+      "baseSpecsText": "Promo VPS LEB Special 768 MB LA\n768 MB RAM\n1x vCore CPU\n10 GB SSD\n1000 GB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $10.18 USD"
     },
     {
       "id": "91",
@@ -1983,20 +2007,28 @@
       "category": "Hidden Promo VPS",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
+        "ramGb": 2,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 2048,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 20.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/leb-special/promo-vps-economy-la-leb-offer",
       "sources": [
         {
@@ -2004,7 +2036,7 @@
           "url": "https://billing.dedirock.com/index.php/store/leb-special/promo-vps-economy-la-leb-offer"
         }
       ],
-      "baseSpecsText": "Promo VPS Economy LA LEB Offer\nPID: 91\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/leb-special/promo-vps-economy-la-leb-offer"
+      "baseSpecsText": "Promo VPS Economy LA LEB Offer\n2 GB RAM\n1x vCore CPU\n20 GB SSD\n2 TB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $20.88 USD"
     },
     {
       "id": "93",
@@ -2012,9 +2044,9 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "0 Available",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "54 Available",
+      "availableCount": 54,
+      "inStock": true,
       "specs": {
         "cpuCores": 1,
         "cpuLabel": "1x vCore CPU",
@@ -2045,7 +2077,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/promo-vps-saver-la-bf"
         }
       ],
-      "baseSpecsText": "Promo VPS Saver LA BF\n0 Available\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$9.88 USD\nAnnually"
+      "baseSpecsText": "Promo VPS Saver LA BF\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $9.88 USD"
     },
     {
       "id": "94",
@@ -2053,8 +2085,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "29 Available",
-      "availableCount": 29,
+      "stock": "47 Available",
+      "availableCount": 47,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2899,24 +2931,32 @@
     },
     {
       "id": "122",
-      "title": "LEB Special 2GB KVM VPS",
-      "category": "Hidden VPS",
-      "family": "KVM VPS",
+      "title": "Promo VPS LEB Special 2 GB",
+      "category": "Hidden Promo VPS",
+      "family": "Promo VPS",
       "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
+        "ramGb": 2,
+        "storageGb": 20,
+        "storageType": "SSD",
+        "bandwidthGb": 2048,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 20.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/leb-special/leb-special-2gb-kvm-vps",
       "sources": [
         {
@@ -2924,28 +2964,36 @@
           "url": "https://billing.dedirock.com/index.php/store/leb-special/leb-special-2gb-kvm-vps"
         }
       ],
-      "baseSpecsText": "LEB Special 2GB KVM VPS\nPID: 122\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/leb-special/leb-special-2gb-kvm-vps"
+      "baseSpecsText": "Promo VPS LEB Special 2 GB\n2 GB RAM\n1x vCore CPU\n20 GB SSD\n2 TB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $20.88 USD"
     },
     {
       "id": "123",
-      "title": "Promo VPS LEB Special 768",
+      "title": "Promo VPS LEB Special 768 MB",
       "category": "Hidden Promo VPS",
       "family": "Promo VPS",
       "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
+        "ramGb": 0.75,
+        "storageGb": 10,
+        "storageType": "SSD",
+        "bandwidthGb": 1000,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 10.18,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/leb-special/promo-vps-leb-special-768",
       "sources": [
         {
@@ -2953,7 +3001,7 @@
           "url": "https://billing.dedirock.com/index.php/store/leb-special/promo-vps-leb-special-768"
         }
       ],
-      "baseSpecsText": "Promo VPS LEB Special 768\nPID: 123\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/leb-special/promo-vps-leb-special-768"
+      "baseSpecsText": "Promo VPS LEB Special 768 MB\n768 MB RAM\n1x vCore CPU\n10 GB SSD\n1000 GB Bandwidth\n1 Gbp/s connection\n1 IPv4\n\nBilling Cycles\nAnnually: $10.18 USD"
     },
     {
       "id": "124",
@@ -3589,8 +3637,8 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "10 Available",
-      "availableCount": 10,
+      "stock": "9 Available",
+      "availableCount": 9,
       "inStock": true,
       "specs": {
         "cpuCores": 1,

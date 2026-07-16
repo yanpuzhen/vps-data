@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-16T03:52:05.030Z",
+  "generatedAt": "2026-07-16T09:10:29.339Z",
   "source": {
     "name": "RackNerd WHMCS",
     "origin": "https://my.racknerd.com",
@@ -78,10 +78,10 @@
     "extraPids": [],
     "stats": {
       "categoryProducts": 73,
-      "pidTargets": 954,
+      "pidTargets": 956,
       "pidParsed": 103,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 825,
+      "pidOutOfStockOnly": 827,
       "pidUnparsed": 26,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -89,10 +89,10 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
-      "pidScanValid": 954,
-      "pidScanInvalid": 9046,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
+      "pidScanValid": 956,
+      "pidScanInvalid": 9044,
       "pidScanErrors": 0
     }
   },
@@ -30321,6 +30321,64 @@
         }
       ],
       "baseSpecsText": "RackNerd PID 960\nPID: 960\nStatus: Out of Stock\nSource: https://my.racknerd.com/index.php?rp=/store/special-promos/custom-ryzen-vps-ticket-yc85005"
+    },
+    {
+      "id": "961",
+      "title": "RackNerd PID 961",
+      "category": "Special Promos",
+      "family": "Promo VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/special-promos/custom-vps-ttvq51524-spec-1",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/special-promos/custom-vps-ttvq51524-spec-1"
+        }
+      ],
+      "baseSpecsText": "RackNerd PID 961\nPID: 961\nStatus: Out of Stock\nSource: https://my.racknerd.com/index.php?rp=/store/special-promos/custom-vps-ttvq51524-spec-1"
+    },
+    {
+      "id": "962",
+      "title": "RackNerd PID 962",
+      "category": "Special Promos",
+      "family": "Promo VPS",
+      "location": "Unknown",
+      "stock": "Out of Stock",
+      "availableCount": 0,
+      "inStock": false,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
+      },
+      "billingOptions": [],
+      "sourceUrl": "https://my.racknerd.com/index.php?rp=/store/special-promos/custom-vps-ttvq51524-spec-2",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://my.racknerd.com/index.php?rp=/store/special-promos/custom-vps-ttvq51524-spec-2"
+        }
+      ],
+      "baseSpecsText": "RackNerd PID 962\nPID: 962\nStatus: Out of Stock\nSource: https://my.racknerd.com/index.php?rp=/store/special-promos/custom-vps-ttvq51524-spec-2"
     }
   ]
 }

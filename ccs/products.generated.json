@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-16T03:53:03.045Z",
+  "generatedAt": "2026-07-16T09:15:06.134Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -28,10 +28,10 @@
     "extraPids": [],
     "stats": {
       "categoryProducts": 9,
-      "pidTargets": 190,
+      "pidTargets": 189,
       "pidParsed": 0,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 176,
+      "pidOutOfStockOnly": 175,
       "pidUnparsed": 14,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -39,10 +39,10 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
-      "pidScanValid": 190,
-      "pidScanInvalid": 9810,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
+      "pidScanValid": 189,
+      "pidScanInvalid": 9811,
       "pidScanErrors": 0
     }
   },
@@ -5578,35 +5578,6 @@
         }
       ],
       "baseSpecsText": "CCS PID 196\nPID: 196\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-4gb-ram-vps-special"
-    },
-    {
-      "id": "197",
-      "title": "CCS PID 197",
-      "category": "Hidden VPS",
-      "family": "KVM VPS",
-      "location": "Unknown",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
-      "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
-      },
-      "billingOptions": [],
-      "sourceUrl": "https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-8gb-ram-vps-special",
-      "sources": [
-        {
-          "type": "pid",
-          "url": "https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-8gb-ram-vps-special"
-        }
-      ],
-      "baseSpecsText": "CCS PID 197\nPID: 197\nStatus: Out of Stock\nSource: https://cloud.colocrossing.com/index.php?rp=/store/specials/dublin-8gb-ram-vps-special"
     },
     {
       "id": "198",

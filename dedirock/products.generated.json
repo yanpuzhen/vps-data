@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-18T13:47:47.725Z",
+  "generatedAt": "2026-07-18T19:30:31.013Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -49,9 +49,9 @@
     "stats": {
       "categoryProducts": 20,
       "pidTargets": 131,
-      "pidParsed": 71,
+      "pidParsed": 72,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 58,
+      "pidOutOfStockOnly": 57,
       "pidUnparsed": 2,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
@@ -2044,8 +2044,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "33 Available",
-      "availableCount": 33,
+      "stock": "52 Available",
+      "availableCount": 52,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2085,8 +2085,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "30 Available",
-      "availableCount": 30,
+      "stock": "25 Available",
+      "availableCount": 25,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -3635,8 +3635,8 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "1 Available",
-      "availableCount": 1,
+      "stock": "15 Available",
+      "availableCount": 15,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -4481,20 +4481,28 @@
       "category": "Hidden Promo Storage",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "Out of Stock",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
       "specs": {
-        "cpuCores": 0,
-        "cpuLabel": "N/A",
-        "ramGb": 0,
-        "storageGb": 0,
-        "storageType": "N/A",
-        "bandwidthGb": 0,
-        "portMbps": 0,
-        "ipv4": 0
+        "cpuCores": 1,
+        "cpuLabel": "1x vCPU Core",
+        "ramGb": 1,
+        "storageGb": 256,
+        "storageType": "Space",
+        "bandwidthGb": 1000,
+        "portMbps": 1000,
+        "ipv4": 1
       },
-      "billingOptions": [],
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 12.88,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-storage-new-york/promo-storage-ny-core",
       "sources": [
         {
@@ -4502,7 +4510,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-storage-new-york/promo-storage-ny-core"
         }
       ],
-      "baseSpecsText": "Promo Storage NY Core\nPID: 242\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/promo-storage-new-york/promo-storage-ny-core"
+      "baseSpecsText": "Promo Storage NY Core\n1x vCPU Core\n256 GB Storage\n1.0 GB RAM\n1000 GB Monthly Bandwidth\n1 Gbps Network Port\nFull Root Admin Access\n1 Dedicated IPv4 Address\nKVM / Virtualizor\n\nBilling Cycles\nAnnually: $12.88 USD"
     },
     {
       "id": "243",

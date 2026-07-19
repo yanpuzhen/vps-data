@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-18T20:05:54.555Z",
+  "generatedAt": "2026-07-19T04:15:19.937Z",
   "source": {
     "name": "ColoCrossing Cloud WHMCS",
     "origin": "https://cloud.colocrossing.com",
@@ -33,22 +33,20 @@
       "pidInvalid": 0,
       "pidOutOfStockOnly": 176,
       "pidUnparsed": 14,
-      "pidScrapeErrors": 1,
+      "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 190,
       "pidScanInvalid": 9810,
       "pidScanErrors": 0
     }
   },
-  "warnings": [
-    "PID 8 failed while scraping https://cloud.colocrossing.com/cart.php?a=view: The operation was aborted due to timeout"
-  ],
+  "warnings": [],
   "products": [
     {
       "id": "3",

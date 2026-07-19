@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-19T04:06:14.467Z",
+  "generatedAt": "2026-07-19T08:33:31.335Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -59,8 +59,8 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 0,
-      "pidScanRequests": 10000,
+      "pidScanCacheHits": 10000,
+      "pidScanRequests": 0,
       "pidScanValid": 131,
       "pidScanInvalid": 9869,
       "pidScanErrors": 0
@@ -2044,8 +2044,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "47 Available",
-      "availableCount": 47,
+      "stock": "43 Available",
+      "availableCount": 43,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2085,8 +2085,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "42 Available",
-      "availableCount": 42,
+      "stock": "34 Available",
+      "availableCount": 34,
       "inStock": true,
       "specs": {
         "cpuCores": 1,

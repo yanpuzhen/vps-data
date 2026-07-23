@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-23T14:30:47.309Z",
+  "generatedAt": "2026-07-23T19:44:51.864Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -51,8 +51,8 @@
       "pidTargets": 134,
       "pidParsed": 73,
       "pidInvalid": 0,
-      "pidOutOfStockOnly": 58,
-      "pidUnparsed": 3,
+      "pidOutOfStockOnly": 53,
+      "pidUnparsed": 8,
       "pidScrapeErrors": 0,
       "pidScanEnabled": 1,
       "pidScanMin": 1,
@@ -2044,9 +2044,9 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "0 Available",
-      "availableCount": 0,
-      "inStock": false,
+      "stock": "35 Available",
+      "availableCount": 35,
+      "inStock": true,
       "specs": {
         "cpuCores": 1,
         "cpuLabel": "1x vCore CPU",
@@ -2077,7 +2077,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/promo-vps-saver-la-bf"
         }
       ],
-      "baseSpecsText": "Promo VPS Saver LA BF\n0 Available\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\nStarting from\n$9.88 USD\nAnnually"
+      "baseSpecsText": "Promo VPS Saver LA BF\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $9.88 USD"
     },
     {
       "id": "94",
@@ -2085,8 +2085,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "38 Available",
-      "availableCount": 38,
+      "stock": "34 Available",
+      "availableCount": 34,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -3345,8 +3345,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -3366,7 +3366,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/let-7-kvm-super-sale-la"
         }
       ],
-      "baseSpecsText": "LET 7 KVM Super Sale LA\nPID: 182\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/let-7-kvm-super-sale-la"
+      "baseSpecsText": "LET 7 KVM Super Sale LA\nPID: 182\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/let-7-kvm-super-sale-la"
     },
     {
       "id": "183",
@@ -3374,8 +3374,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -3395,7 +3395,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vp/let-7-kvm-super-sale-ny"
         }
       ],
-      "baseSpecsText": "LET 7 KVM Super Sale NY\nPID: 183\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/promo-vp/let-7-kvm-super-sale-ny"
+      "baseSpecsText": "LET 7 KVM Super Sale NY\nPID: 183\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/promo-vp/let-7-kvm-super-sale-ny"
     },
     {
       "id": "186",
@@ -3548,8 +3548,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -3569,7 +3569,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/let-7-kvm-super-sale-la-monthly"
         }
       ],
-      "baseSpecsText": "LET 7 KVM Super Sale LA Monthly\nPID: 192\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/let-7-kvm-super-sale-la-monthly"
+      "baseSpecsText": "LET 7 KVM Super Sale LA Monthly\nPID: 192\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/let-7-kvm-super-sale-la-monthly"
     },
     {
       "id": "193",
@@ -3635,8 +3635,8 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "19 Available",
-      "availableCount": 19,
+      "stock": "18 Available",
+      "availableCount": 18,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -4419,32 +4419,24 @@
     },
     {
       "id": "231",
-      "title": "$7 KVM Super Sale LA",
+      "title": "7 KVM Super Sale LA",
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "Available",
+      "stock": "Unparsed",
       "availableCount": null,
-      "inStock": true,
+      "inStock": false,
       "specs": {
-        "cpuCores": 1,
-        "cpuLabel": "1x vCore CPU",
-        "ramGb": 2,
-        "storageGb": 30,
-        "storageType": "SSD",
-        "bandwidthGb": 2048,
-        "portMbps": 1000,
-        "ipv4": 1
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 0,
+        "storageType": "N/A",
+        "bandwidthGb": 0,
+        "portMbps": 0,
+        "ipv4": 0
       },
-      "billingOptions": [
-        {
-          "cycle": "annually",
-          "label": "Annually",
-          "amount": 7,
-          "currency": "USD",
-          "selected": true
-        }
-      ],
+      "billingOptions": [],
       "sourceUrl": "https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/7-kvm-super-sale-la",
       "sources": [
         {
@@ -4452,7 +4444,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/7-kvm-super-sale-la"
         }
       ],
-      "baseSpecsText": "$7 KVM Super Sale LA\n2 GB RAM\n1x vCore CPU\n30 GB SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4\n\nBilling Cycles\nAnnually: $7 USD"
+      "baseSpecsText": "7 KVM Super Sale LA\nPID: 231\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/promo-vps-los-angeles/7-kvm-super-sale-la"
     },
     {
       "id": "232",
@@ -4460,8 +4452,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "Out of Stock",
-      "availableCount": 0,
+      "stock": "Unparsed",
+      "availableCount": null,
       "inStock": false,
       "specs": {
         "cpuCores": 0,
@@ -4481,7 +4473,7 @@
           "url": "https://billing.dedirock.com/index.php/store/promo-vp/7-kvm-super-sale-ny"
         }
       ],
-      "baseSpecsText": "7 KVM Super Sale NY\nPID: 232\nStatus: Out of Stock\nSource: https://billing.dedirock.com/index.php/store/promo-vp/7-kvm-super-sale-ny"
+      "baseSpecsText": "7 KVM Super Sale NY\nPID: 232\nStatus: Unparsed\nSource: https://billing.dedirock.com/index.php/store/promo-vp/7-kvm-super-sale-ny"
     },
     {
       "id": "242",

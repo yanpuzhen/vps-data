@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-24T03:43:02.044Z",
+  "generatedAt": "2026-07-24T08:52:52.890Z",
   "source": {
     "name": "DediRock WHMCS",
     "origin": "https://billing.dedirock.com",
@@ -48,8 +48,8 @@
     "extraPids": [],
     "stats": {
       "categoryProducts": 20,
-      "pidTargets": 134,
-      "pidParsed": 73,
+      "pidTargets": 140,
+      "pidParsed": 79,
       "pidInvalid": 0,
       "pidOutOfStockOnly": 53,
       "pidUnparsed": 8,
@@ -59,10 +59,10 @@
       "pidScanMax": 10000,
       "pidScanConcurrency": 32,
       "pidScrapeConcurrency": 12,
-      "pidScanCacheHits": 10000,
-      "pidScanRequests": 0,
-      "pidScanValid": 134,
-      "pidScanInvalid": 9866,
+      "pidScanCacheHits": 0,
+      "pidScanRequests": 10000,
+      "pidScanValid": 140,
+      "pidScanInvalid": 9860,
       "pidScanErrors": 0
     }
   },
@@ -2044,8 +2044,8 @@
       "category": "PROMO VPS LA",
       "family": "Promo VPS",
       "location": "Los Angeles",
-      "stock": "35 Available",
-      "availableCount": 35,
+      "stock": "23 Available",
+      "availableCount": 23,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -2085,8 +2085,8 @@
       "category": "PROMO VPS NY",
       "family": "Promo VPS",
       "location": "New York",
-      "stock": "33 Available",
-      "availableCount": 33,
+      "stock": "28 Available",
+      "availableCount": 28,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -3676,8 +3676,8 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "15 Available",
-      "availableCount": 15,
+      "stock": "14 Available",
+      "availableCount": 14,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -3717,8 +3717,8 @@
       "category": "PROMO Storage NY BF LET 2025",
       "family": "Promo Storage VPS",
       "location": "New York",
-      "stock": "26 Available",
-      "availableCount": 26,
+      "stock": "25 Available",
+      "availableCount": 25,
       "inStock": true,
       "specs": {
         "cpuCores": 1,
@@ -4939,6 +4939,228 @@
         }
       ],
       "baseSpecsText": "Promo AMD Ryzen Dedicated NY Power\nAMD Ryzen 9 7950X3D\n16 Cores / 32 Threads\n128 GB DDR5 RAM\n4 TB NVMe Storage\n1 Gbps Network Port\n1 Dedicated IPv4 Address\n\nBilling Cycles\nMonthly: $249 USD"
+    },
+    {
+      "id": "257",
+      "title": "AMD Ryzen Dedicated NY Core",
+      "category": "Dedicated Server",
+      "family": "Dedicated Server",
+      "location": "New York",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 1024,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 79,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/the-ryzen-experience/amd-ryzen-dedicated-ny-core",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/the-ryzen-experience/amd-ryzen-dedicated-ny-core"
+        }
+      ],
+      "baseSpecsText": "AMD Ryzen Dedicated NY Core\nAMD Ryzen 9 5950X\n16 Cores / 32 Threads\n32 GB DDR4 RAM\n1 TB NVMe Storage\n1 Gbps Network Port\n1 Dedicated IPv4 Address\n\nBilling Cycles\nMonthly: $79 USD"
+    },
+    {
+      "id": "258",
+      "title": "AMD Ryzen Dedicated NY Plus",
+      "category": "Dedicated Server",
+      "family": "Dedicated Server",
+      "location": "New York",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 2048,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 149,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/the-ryzen-experience/amd-ryzen-dedicated-ny-plus",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/the-ryzen-experience/amd-ryzen-dedicated-ny-plus"
+        }
+      ],
+      "baseSpecsText": "AMD Ryzen Dedicated NY Plus\nAMD Ryzen 9 7950X\n16 Cores / 32 Threads\n64 GB DDR5 RAM\n2 TB NVMe Storage\n1 Gbps Network Port\n1 Dedicated IPv4 Address\n\nBilling Cycles\nMonthly: $149 USD"
+    },
+    {
+      "id": "259",
+      "title": "AMD Ryzen Dedicated NY Power",
+      "category": "Dedicated Server",
+      "family": "Dedicated Server",
+      "location": "New York",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 0,
+        "cpuLabel": "N/A",
+        "ramGb": 0,
+        "storageGb": 4096,
+        "storageType": "NVMe",
+        "bandwidthGb": 0,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "monthly",
+          "label": "Monthly",
+          "amount": 249,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/the-ryzen-experience/amd-ryzen-dedicated-ny-power",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/the-ryzen-experience/amd-ryzen-dedicated-ny-power"
+        }
+      ],
+      "baseSpecsText": "AMD Ryzen Dedicated NY Power\nAMD Ryzen 9 7950X3D\n16 Cores / 32 Threads\n128 GB DDR5 RAM\n4 TB NVMe Storage\n1 Gbps Network Port\n1 Dedicated IPv4 Address\n\nBilling Cycles\nMonthly: $249 USD"
+    },
+    {
+      "id": "260",
+      "title": "i9 VPS NY Core",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "New York",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
+        "ramGb": 0,
+        "storageGb": 30,
+        "storageType": "NVMe",
+        "bandwidthGb": 2048,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 34.99,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/the-i9-dream/i9-vps-ny-core",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/the-i9-dream/i9-vps-ny-core"
+        }
+      ],
+      "baseSpecsText": "i9 VPS NY Core\n2 GB DDR5 RAM\n1x vCore CPU\n30 GB NVMe SSD\n2 TB Bandwidth\n1 Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nAnnually: $34.99 USD"
+    },
+    {
+      "id": "261",
+      "title": "i9 VPS NY Plus",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "New York",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 1,
+        "cpuLabel": "1x vCore CPU",
+        "ramGb": 0,
+        "storageGb": 40,
+        "storageType": "NVMe",
+        "bandwidthGb": 4096,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 44.99,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/the-i9-dream/i9-vps-ny-plus",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/the-i9-dream/i9-vps-ny-plus"
+        }
+      ],
+      "baseSpecsText": "i9 VPS NY Plus\n3 GB DDR5 RAM\n1x vCore CPU\n40 GB NVMe SSD\n4 TB Bandwidth\n1 Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nAnnually: $44.99 USD"
+    },
+    {
+      "id": "262",
+      "title": "i9 VPS NY Power",
+      "category": "Hidden VPS",
+      "family": "KVM VPS",
+      "location": "New York",
+      "stock": "Available",
+      "availableCount": null,
+      "inStock": true,
+      "specs": {
+        "cpuCores": 2,
+        "cpuLabel": "2x vCore CPU",
+        "ramGb": 0,
+        "storageGb": 60,
+        "storageType": "NVMe",
+        "bandwidthGb": 6144,
+        "portMbps": 1000,
+        "ipv4": 1
+      },
+      "billingOptions": [
+        {
+          "cycle": "annually",
+          "label": "Annually",
+          "amount": 54.99,
+          "currency": "USD",
+          "selected": true
+        }
+      ],
+      "sourceUrl": "https://billing.dedirock.com/index.php/store/the-i9-dream/i9-vps-ny-power",
+      "sources": [
+        {
+          "type": "pid",
+          "url": "https://billing.dedirock.com/index.php/store/the-i9-dream/i9-vps-ny-power"
+        }
+      ],
+      "baseSpecsText": "i9 VPS NY Power\n4 GB DDR5 RAM\n2x vCore CPU\n60 GB NVMe SSD\n6 TB Bandwidth\n1 Gbps Network Port\n1 IPv4 Address\n\nBilling Cycles\nAnnually: $54.99 USD"
     }
   ]
 }
